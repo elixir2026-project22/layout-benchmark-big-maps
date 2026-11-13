@@ -18,10 +18,9 @@ readable. This repository splits the problem:
    the top-level groups. `layout/PROTOCOL.md` states the five rules of that placement.
 
 Both stages are shown as galleries of rendered SVG, committed here: 52 pictures for the grouping stage
-and 288 (8 options x 9 groupings x 4 models) for the layout stage. They are online at
-**<https://elixir2026-project22.github.io/layout-benchmark-big-maps/>** ([grouping](https://elixir2026-project22.github.io/layout-benchmark-big-maps/grouping/index.html),
-[layout](https://elixir2026-project22.github.io/layout-benchmark-big-maps/layout/index.html)); see
-[Website](#website).
+and 288 (8 options x 9 groupings x 4 models) for the layout stage. They are also built as a static site,
+to be served at `https://elixir2026-project22.github.io/layout-benchmark-big-maps/`; see
+[Website](#website) for how it is published and whether it is switched on yet.
 
 > Status: the grouping comparison is finished and reported in [`doc/REPORT.md`](doc/REPORT.md); the layout
 > stage is complete for the four big models and has no combined score yet - the gallery reports canvas
@@ -225,14 +224,13 @@ tree but packs into 9.8 MiB, which is what a clone downloads.
 
 ## Website
 
-Both galleries are published as a static site, so they can be looked at without cloning:
+Both galleries are built as a static site, so that they can be looked at without cloning. The site is
+served from the `gh-pages` branch once that branch is pushed and GitHub Pages is switched on for it
+(`PUSH.md` has both steps); until then these addresses do not resolve.
 
-**<https://elixir2026-project22.github.io/layout-benchmark-big-maps/>**
-
-| page | what it is |
-|---|---|
-| [`/grouping/`](https://elixir2026-project22.github.io/layout-benchmark-big-maps/grouping/index.html) | the grouping gallery, 52 pictures |
-| [`/layout/`](https://elixir2026-project22.github.io/layout-benchmark-big-maps/layout/index.html) | the layout gallery, 288 pictures |
+    https://elixir2026-project22.github.io/layout-benchmark-big-maps/
+    /grouping/index.html      the grouping gallery, 52 pictures
+    /layout/index.html        the layout gallery, 288 pictures
 
 The site is the two galleries copied unchanged behind one landing page - nothing is re-rendered, so it
 always shows exactly what the repository holds. It is published the way
