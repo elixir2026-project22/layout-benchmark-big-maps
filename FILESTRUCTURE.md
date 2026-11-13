@@ -24,6 +24,10 @@ how it was written and how the documented commands read. `src/` holds only the i
   * `layout/` - the joining stage: `options.py` (the eight layout options), `placement.py` (the recursive
     placement), `render_layout.py`, `build_gallery.py`, its `README.md` and `PROTOCOL.md`, and the gallery
     in `examples/`.
+  * `scripts/build_site.py` - assembles the GitHub Pages site (`site/`, gitignored) from the two
+    committed galleries: the landing page, `.nojekyll`, `grouping/` and `layout/`. Nothing is
+    re-rendered, so the site always shows what the repository holds. Published on the orphan
+    `gh-pages` branch; see the README's *Website* section and `PUSH.md`.
   * `src/big_maps/` - the `big-maps` command line (`prepare`, `options`, `models`), installed by
     `pip install -e .`; also runnable as `python -m big_maps`.
   * `tests/` - the package's own tests: `conftest.py` builds a four-species SBML model so the layout

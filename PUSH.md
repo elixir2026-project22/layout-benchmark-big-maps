@@ -1,5 +1,53 @@
 # Pushing this repository to GitHub
 
+> **State:** `main` is pushed (`origin/main`). What remains is the website: push the `gh-pages`
+> branch and switch GitHub Pages on. Jump to [The website](#the-website).
+
+## The website
+
+The site lives on an orphan `gh-pages` branch - `.nojekyll`, a landing `index.html`, and one folder
+per gallery - which is how
+[layout-benchmark](https://elixir2026-project22.github.io/layout-benchmark/) publishes its report.
+The branch already exists locally, built by `scripts/build_site.py` from the committed galleries
+(346 files, about 100 MB; it packs far smaller, as the SVGs compress about ninefold).
+
+```bash
+git push -u origin gh-pages
+```
+
+Then, in **Settings → Pages**: *Source* = *Deploy from a branch*, branch `gh-pages`, folder
+`/ (root)`. The first build takes a minute or two, after which the galleries are at
+
+    https://elixir2026-project22.github.io/layout-benchmark-big-maps/
+    https://elixir2026-project22.github.io/layout-benchmark-big-maps/grouping/index.html
+    https://elixir2026-project22.github.io/layout-benchmark-big-maps/layout/index.html
+
+To refresh the site after rebuilding a gallery, rebuild it into the worktree and push again:
+
+```bash
+python scripts/build_site.py -o ../_gh-pages
+git -C ../_gh-pages add -A
+git -C ../_gh-pages commit -m "Site: galleries at $(git rev-parse --short main)"
+git -C ../_gh-pages push
+```
+
+`git worktree remove ../_gh-pages` drops the worktree; the branch stays. If the worktree is gone,
+recreate it with `git worktree add ../_gh-pages gh-pages`.
+
+## The topic
+
+```bash
+gh repo edit elixir2026-project22/layout-benchmark-big-maps --add-topic biohackeu26
+```
+
+or the gear next to *About* on the repository's main page.
+
+---
+
+## Reference: the original push
+
+
+
 This checkout has one commit and **no remote**. Nothing has been pushed: the session that assembled it had
 no GitHub credential, so it could neither create the repository nor push.
 

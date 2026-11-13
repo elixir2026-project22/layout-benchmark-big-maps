@@ -161,3 +161,8 @@ layout/out/
 layout/_test/
 scoring/groupings/
 scoring/heldout_round1/
+
+# the GitHub Pages site, assembled from the committed galleries by
+# scripts/build_site.py and published on the gh-pages branch (see README, "Website").
+# Already covered by the /site rule above; named here so it is not a surprise.
+/site/

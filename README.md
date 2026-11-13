@@ -18,7 +18,10 @@ readable. This repository splits the problem:
    the top-level groups. `layout/PROTOCOL.md` states the five rules of that placement.
 
 Both stages are shown as galleries of rendered SVG, committed here: 52 pictures for the grouping stage
-and 288 (8 options x 9 groupings x 4 models) for the layout stage.
+and 288 (8 options x 9 groupings x 4 models) for the layout stage. They are online at
+**<https://elixir2026-project22.github.io/layout-benchmark-big-maps/>** ([grouping](https://elixir2026-project22.github.io/layout-benchmark-big-maps/grouping/index.html),
+[layout](https://elixir2026-project22.github.io/layout-benchmark-big-maps/layout/index.html)); see
+[Website](#website).
 
 > Status: the grouping comparison is finished and reported in [`doc/REPORT.md`](doc/REPORT.md); the layout
 > stage is complete for the four big models and has no combined score yet - the gallery reports canvas
@@ -219,6 +222,41 @@ Both galleries were built with 0 failures. The SVGs are the bulk of the reposito
 is 87.3 MB over 288 files (largest 0.83 MB, `skm_pss` accounts for 55.0 MB) and `examples/svg/` is 12.6 MB
 over 52 files. They compress about 9-fold: the whole repository is 103.6 MB over 547 files in the working
 tree but packs into 9.8 MiB, which is what a clone downloads.
+
+## Website
+
+Both galleries are published as a static site, so they can be looked at without cloning:
+
+**<https://elixir2026-project22.github.io/layout-benchmark-big-maps/>**
+
+| page | what it is |
+|---|---|
+| [`/grouping/`](https://elixir2026-project22.github.io/layout-benchmark-big-maps/grouping/index.html) | the grouping gallery, 52 pictures |
+| [`/layout/`](https://elixir2026-project22.github.io/layout-benchmark-big-maps/layout/index.html) | the layout gallery, 288 pictures |
+
+The site is the two galleries copied unchanged behind one landing page - nothing is re-rendered, so it
+always shows exactly what the repository holds. It is published the way
+[layout-benchmark](https://elixir2026-project22.github.io/layout-benchmark/) publishes its report: an
+orphan `gh-pages` branch with `.nojekyll` at the root, which GitHub Pages serves as it is.
+
+```bash
+# assemble the site from the committed galleries (writes site/, which is gitignored)
+python scripts/build_site.py
+
+# publish it: build it inside a worktree on the gh-pages branch, commit, push
+git worktree add --orphan -b gh-pages ../_gh-pages      # first time only
+python scripts/build_site.py -o ../_gh-pages
+git -C ../_gh-pages add -A
+git -C ../_gh-pages commit -m "Site: galleries at $(git rev-parse --short main)"
+git -C ../_gh-pages push -u origin gh-pages
+```
+
+Afterwards the worktree is reusable: `python scripts/build_site.py -o ../_gh-pages`, commit, push.
+Drop it with `git worktree remove ../_gh-pages`; the branch stays.
+
+In the repository's **Settings → Pages**, set *Source* to *Deploy from a branch*, branch `gh-pages`,
+folder `/ (root)`. The site is about 100 MB over 346 files, well inside the 1 GB Pages limit; the
+`skm_pss` pictures are the large ones, and every gallery page loads its thumbnails lazily.
 
 ## Not in this repository
 
