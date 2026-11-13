@@ -1,0 +1,787 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4054" height="2947" viewBox="0 0 4054 2947" font-family="Helvetica, Arial, sans-serif">
+<title>igraph-mds — topology_walktrap — e_coli_core</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="10" y="18" font-size="14" font-weight="bold" fill="#222">igraph-mds — topology_walktrap — e_coli_core</text>
+<rect x="10" y="26" width="12" height="10" fill="#d8d8d8" stroke="#666" stroke-width="0.5"/><text x="27" y="35" font-size="10" fill="#333">extracellular space</text>
+<rect x="240" y="26" width="12" height="10" fill="#e5dfca" stroke="#666" stroke-width="0.5"/><text x="257" y="35" font-size="10" fill="#333">cytosol</text>
+<rect x="470" y="26" width="12" height="10" fill="#4e79a7" stroke="#666" stroke-width="0.5"/><text x="487" y="35" font-size="10" fill="#333">biochemical reaction</text>
+<rect x="700" y="26" width="12" height="10" fill="#f28e2b" stroke="#666" stroke-width="0.5"/><text x="717" y="35" font-size="10" fill="#333">translocation reaction</text>
+<rect x="10" y="42" width="12" height="10" fill="#59a14f" stroke="#666" stroke-width="0.5"/><text x="27" y="51" font-size="10" fill="#333">exchange reaction</text>
+<rect x="240" y="42" width="12" height="10" fill="#e15759" stroke="#666" stroke-width="0.5"/><text x="257" y="51" font-size="10" fill="#333">biomass production</text>
+<g transform="translate(0,62)">
+<rect x="1187.6" y="1081.5" width="894.4" height="846.7" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="1193.6" y="1096.5" font-size="12" fill="#111" font-weight="bold">Nicotinamide adenine dinucleotide phosphate<title>Nicotinamide adenine dinucleotide phosphate [topology]</title></text>
+<rect x="2542.6" y="668.7" width="799.2" height="773.3" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="2548.6" y="683.7" font-size="12" fill="#111" font-weight="bold">Coenzyme A<title>Coenzyme A [topology]</title></text>
+<rect x="71.1" y="1359.0" width="504.9" height="416.3" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="77.1" y="1374.0" font-size="12" fill="#111" font-weight="bold">Glyceraldehyde 3-phosphate<title>Glyceraldehyde 3-phosphate [topology]</title></text>
+<rect x="1267.1" y="325.7" width="712.3" height="738.8" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="1273.1" y="340.7" font-size="12" fill="#111" font-weight="bold">Phosphoenolpyruvate<title>Phosphoenolpyruvate [topology]</title></text>
+<rect x="3476.2" y="1780.1" width="565.3" height="320.2" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="3482.2" y="1795.1" font-size="12" fill="#111" font-weight="bold">Ubiquinone-8<title>Ubiquinone-8 [topology]</title></text>
+<rect x="3236.9" y="12.0" width="590.9" height="323.6" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="3242.9" y="27.0" font-size="12" fill="#111" font-weight="bold">Acetaldehyde<title>Acetaldehyde [topology]</title></text>
+<rect x="12.0" y="982.7" width="623.2" height="359.3" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="18.0" y="997.7" font-size="12" fill="#111" font-weight="bold">3-Phospho-D-glyceroyl phosphate<title>3-Phospho-D-glyceroyl phosphate [topology]</title></text>
+<rect x="2261.2" y="2092.3" width="510.4" height="214.6" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="2267.2" y="2107.3" font-size="12" fill="#111" font-weight="bold">EC 4.2.1.3<title>EC 4.2.1.3 [topology]</title></text>
+<rect x="3358.8" y="632.3" width="379.2" height="263.4" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="3364.8" y="647.3" font-size="12" fill="#111" font-weight="bold">Acetate<title>Acetate [topology]</title></text>
+<rect x="3581.2" y="2316.8" width="378.4" height="264.0" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="3587.2" y="2331.8" font-size="12" fill="#111" font-weight="bold">Succinate<title>Succinate [topology]</title></text>
+<rect x="3405.2" y="375.5" width="254.4" height="231.9" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="3411.2" y="390.5" font-size="12" fill="#111" font-weight="bold">Formate<title>Formate [topology]</title></text>
+<rect x="12.0" y="2596.8" width="429.9" height="276.3" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="18.0" y="2611.8" font-size="12" fill="#111" font-weight="bold">D-Lactate<title>D-Lactate [topology]</title></text>
+<line x1="146.2" y1="1696.1" x2="220.6" y2="1605.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="256.0" y1="1661.5" x2="220.6" y2="1605.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="220.6" y1="1605.9" x2="146.2" y2="1646.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="220.6" y1="1605.9" x2="154.1" y2="1494.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="220.6" y1="1605.9" x2="146.2" y2="1746.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3089.5" y1="1142.2" x2="3103.5" y2="1208.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2977.5" y1="1413.0" x2="3103.5" y2="1208.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3103.5" y1="1208.2" x2="2997.0" y2="1153.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3103.5" y1="1208.2" x2="3526.7" y2="424.5" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="1853.2" y1="455.2" x2="1954.9" y2="370.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1954.9" y1="370.2" x2="256.0" y2="1661.5" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="330.6" y1="1162.1" x2="397.5" y2="1150.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="417.8" y1="1031.7" x2="397.5" y2="1150.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="397.5" y1="1150.6" x2="464.4" y2="1182.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="397.5" y1="1150.6" x2="417.8" y2="1082.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1696.1" y1="1616.5" x2="1669.3" y2="1663.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1820.2" y1="1310.1" x2="1669.3" y2="1663.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1669.3" y1="1663.3" x2="1581.2" y2="1445.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1669.3" y1="1663.3" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3602.4" y1="154.5" x2="2995.5" y2="1107.5" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="3089.5" y1="1142.2" x2="2995.5" y2="1107.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2976.8" y1="1203.7" x2="2995.5" y2="1107.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2995.5" y1="1107.5" x2="2997.0" y2="1153.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2995.5" y1="1107.5" x2="2870.6" y2="1036.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2995.5" y1="1107.5" x2="2976.8" y2="1254.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1559.5" y1="1669.5" x2="1627.3" y2="1631.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1668.3" y1="1716.7" x2="1627.3" y2="1631.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1627.3" y1="1631.6" x2="1675.2" y2="1424.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1627.3" y1="1631.6" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="196.2" y1="1185.0" x2="263.1" y2="1173.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="263.1" y1="1173.5" x2="330.6" y2="1162.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1668.3" y1="1716.7" x2="1693.7" y2="1762.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1716.0" y1="1858.1" x2="1693.7" y2="1762.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1693.7" y1="1762.2" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1693.7" y1="1762.2" x2="1789.8" y2="1562.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3468.8" y1="195.3" x2="3535.7" y2="187.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3551.8" y1="255.6" x2="3535.7" y2="187.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3535.7" y1="187.2" x2="3602.4" y2="154.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3535.7" y1="187.2" x2="3468.8" y2="144.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3535.7" y1="187.2" x2="3551.8" y2="306.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3736.6" y1="89.2" x2="3669.1" y2="121.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3669.1" y1="121.9" x2="3602.4" y2="154.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3544.4" y1="782.3" x2="3476.9" y2="790.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3408.8" y1="740.6" x2="3476.9" y2="790.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3476.9" y1="790.6" x2="3408.8" y2="791.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3476.9" y1="790.6" x2="3408.8" y2="842.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1462.5" y1="1328.1" x2="1659.2" y2="523.3" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="1663.2" y1="610.2" x2="1659.2" y2="523.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1664.7" y1="477.6" x2="1659.2" y2="523.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1659.2" y1="523.3" x2="1664.5" y2="893.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1659.2" y1="523.3" x2="1666.5" y2="793.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1659.2" y1="523.3" x2="1663.2" y2="743.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2311.2" y1="2209.6" x2="2379.6" y2="2209.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2379.6" y1="2209.6" x2="2451.9" y2="2141.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2379.6" y1="2209.6" x2="2451.9" y2="2277.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2451.9" y1="2141.3" x2="2516.4" y2="2209.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2451.9" y1="2277.9" x2="2516.4" y2="2209.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2516.4" y1="2209.6" x2="2584.8" y2="2209.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1788.8" y1="1461.0" x2="1802.6" y2="1699.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1820.2" y1="1310.1" x2="1802.6" y2="1699.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1802.6" y1="1699.3" x2="1790.2" y2="1511.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1802.6" y1="1699.3" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1802.6" y1="1699.3" x2="1789.8" y2="1562.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1671.3" y1="944.1" x2="1669.0" y2="655.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1666.5" y1="793.6" x2="1669.0" y2="655.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1669.0" y1="655.8" x2="1670.8" y2="843.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1669.0" y1="655.8" x2="1462.5" y2="1328.1" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="1669.0" y1="655.8" x2="1664.7" y2="477.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3658.2" y1="824.0" x2="3611.0" y2="778.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3635.9" y1="732.3" x2="3611.0" y2="778.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3611.0" y1="778.1" x2="3544.4" y2="782.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3611.0" y1="778.1" x2="3635.9" y2="681.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1671.3" y1="944.1" x2="1667.3" y2="697.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1663.2" y1="610.2" x2="1667.3" y2="697.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1666.4" y1="427.4" x2="1667.3" y2="697.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1667.3" y1="697.0" x2="1671.6" y2="994.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1667.3" y1="697.0" x2="1664.5" y2="893.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1667.3" y1="697.0" x2="1664.7" y2="477.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1667.3" y1="697.0" x2="1663.2" y2="743.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1671.6" y1="994.3" x2="1677.0" y2="1040.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1671.3" y1="944.1" x2="1677.0" y2="1040.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1677.0" y1="1040.0" x2="1670.8" y2="843.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1675.2" y1="1424.1" x2="3145.5" y2="1206.5" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="3089.5" y1="1142.2" x2="3145.5" y2="1206.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2976.8" y1="1203.7" x2="3145.5" y2="1206.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3145.5" y1="1206.5" x2="1462.5" y2="1328.1" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="3145.5" y1="1206.5" x2="2976.8" y2="1254.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3145.5" y1="1206.5" x2="3254.5" y2="1251.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1790.2" y1="1511.2" x2="1776.9" y2="1740.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1668.3" y1="1716.7" x2="1776.9" y2="1740.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1789.8" y1="1562.2" x2="1776.9" y2="1740.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1776.9" y1="1740.3" x2="1788.8" y2="1461.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1776.9" y1="1740.3" x2="1820.2" y2="1310.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1776.9" y1="1740.3" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2997.0" y1="1153.4" x2="3157.0" y2="1154.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3291.8" y1="1099.8" x2="3157.0" y2="1154.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3157.0" y1="1154.1" x2="3408.8" y2="791.6" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="3157.0" y1="1154.1" x2="3089.5" y2="1142.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1670.8" y1="843.7" x2="1666.4" y2="564.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1664.5" y1="893.9" x2="1666.4" y2="564.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1664.7" y1="477.6" x2="1666.4" y2="564.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1666.4" y1="564.5" x2="1671.3" y2="944.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1666.4" y1="564.5" x2="1666.4" y2="427.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="330.6" y1="1162.1" x2="1690.4" y2="1469.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="2997.0" y1="1153.4" x2="1690.4" y2="1469.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="1788.8" y1="1461.0" x2="1690.4" y2="1469.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="298.0" y1="1611.2" x2="1690.4" y2="1469.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="256.0" y1="1661.5" x2="1690.4" y2="1469.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="311.0" y1="1468.8" x2="1690.4" y2="1469.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="1853.2" y1="455.2" x2="1690.4" y2="1469.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="1809.5" y1="1410.8" x2="1690.4" y2="1469.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1789.8" y1="1612.4" x2="1690.4" y2="1469.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1820.2" y1="1310.1" x2="1690.4" y2="1469.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1696.1" y1="1516.3" x2="1690.4" y2="1469.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1675.6" y1="1323.7" x2="1690.4" y2="1469.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1666.5" y1="793.6" x2="1690.4" y2="1469.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="1664.7" y1="477.6" x2="1690.4" y2="1469.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="1589.2" y1="1496.0" x2="1690.4" y2="1469.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="456.5" y1="1439.2" x2="1690.4" y2="1469.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="1690.4" y1="1469.8" x2="1790.2" y2="1511.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1690.4" y1="1469.8" x2="1675.2" y2="1424.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1690.4" y1="1469.8" x2="3089.5" y2="1142.2" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="1690.4" y1="1469.8" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1690.4" y1="1469.8" x2="1696.5" y2="1566.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1690.4" y1="1469.8" x2="1674.6" y2="1373.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1690.4" y1="1469.8" x2="1789.8" y2="1562.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1668.3" y1="1716.7" x2="1586.0" y2="1623.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1556.6" y1="1720.5" x2="1586.0" y2="1623.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1586.0" y1="1623.9" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1586.0" y1="1623.9" x2="1589.2" y2="1496.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1295.5" y1="1193.3" x2="1379.0" y2="1260.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1379.0" y1="1260.7" x2="1462.5" y2="1328.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="526.0" y1="1621.9" x2="457.7" y2="1613.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="457.7" y1="1613.7" x2="391.0" y2="1594.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2997.0" y1="1153.4" x2="2988.6" y2="1015.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2963.6" y1="1061.8" x2="2988.6" y2="1015.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1666.5" y1="793.6" x2="2988.6" y2="1015.3" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="2988.6" y1="1015.3" x2="2311.2" y2="2209.6" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="2988.6" y1="1015.3" x2="3089.5" y2="1142.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2988.6" y1="1015.3" x2="2870.6" y2="1036.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="456.5" y1="1439.2" x2="534.9" y2="1432.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="534.9" y1="1432.4" x2="526.0" y2="1621.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3858.2" y1="2513.7" x2="3791.4" y2="2475.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3682.7" y1="2513.7" x2="3791.4" y2="2475.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3791.4" y1="2475.2" x2="3770.4" y2="2365.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3791.4" y1="2475.2" x2="3770.4" y2="2416.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3676.6" y1="1834.0" x2="3724.1" y2="1941.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3801.7" y1="1944.2" x2="3724.1" y2="1941.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3636.7" y1="1937.8" x2="3724.1" y2="1941.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3724.1" y1="1941.1" x2="3741.7" y2="1995.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3724.1" y1="1941.1" x2="3676.6" y2="1885.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3724.1" y1="1941.1" x2="3636.6" y2="1988.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="326.3" y1="2844.1" x2="282.6" y2="2743.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="350.0" y1="2692.5" x2="282.6" y2="2743.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="282.6" y1="2743.8" x2="205.5" y2="2708.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="282.6" y1="2743.8" x2="205.5" y2="2759.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="196.2" y1="1185.0" x2="129.4" y2="1196.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="129.4" y1="1196.5" x2="62.0" y2="1207.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="129.4" y1="1196.5" x2="1664.7" y2="477.6" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="3858.2" y1="2513.7" x2="3749.4" y2="2475.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3770.4" y1="2416.8" x2="3749.4" y2="2475.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3749.4" y1="2475.2" x2="3770.4" y2="2365.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3749.4" y1="2475.2" x2="3682.7" y2="2513.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3328.1" y1="129.2" x2="3401.9" y2="153.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3334.4" y1="180.2" x2="3401.9" y2="153.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3401.9" y1="153.9" x2="3468.8" y2="195.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3401.9" y1="153.9" x2="3468.8" y2="144.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3636.6" y1="1988.1" x2="3606.1" y2="2075.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3770.4" y1="2416.8" x2="3606.1" y2="2075.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="3606.1" y1="2075.8" x2="2726.2" y2="974.5" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="3606.1" y1="2075.8" x2="3636.7" y2="1937.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3280.5" y1="1201.0" x2="3198.4" y2="1147.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3089.5" y1="1142.2" x2="3198.4" y2="1147.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3770.4" y1="2416.8" x2="3198.4" y2="1147.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="3198.4" y1="1147.8" x2="3280.5" y2="1150.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3198.4" y1="1147.8" x2="3291.8" y2="1099.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3198.4" y1="1147.8" x2="3254.5" y2="1251.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="311.0" y1="1468.8" x2="254.6" y2="1522.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="344.5" y1="1518.9" x2="254.6" y2="1522.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="254.6" y1="1522.6" x2="298.0" y2="1611.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="254.6" y1="1522.6" x2="256.0" y2="1661.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1668.3" y1="1716.7" x2="1586.4" y2="1582.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1696.5" y1="1566.4" x2="1586.4" y2="1582.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1674.6" y1="1373.9" x2="1586.4" y2="1582.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1586.4" y1="1582.7" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1586.4" y1="1582.7" x2="1696.1" y2="1516.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1586.4" y1="1582.7" x2="1675.6" y2="1323.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="456.5" y1="1439.2" x2="389.0" y2="1463.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="391.0" y1="1594.2" x2="389.0" y2="1463.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="389.0" y1="1463.9" x2="311.0" y2="1468.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="389.0" y1="1463.9" x2="344.5" y2="1518.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="298.0" y1="1611.2" x2="306.3" y2="1564.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="391.0" y1="1594.2" x2="306.3" y2="1564.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="306.3" y1="1564.7" x2="256.0" y2="1661.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="306.3" y1="1564.7" x2="311.0" y2="1468.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="195.5" y1="1408.1" x2="301.1" y2="1403.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="301.1" y1="1403.5" x2="311.0" y2="1468.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3658.2" y1="824.0" x2="3713.4" y2="871.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3736.6" y1="89.2" x2="3803.3" y2="56.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1559.5" y1="1669.5" x2="1569.3" y2="1766.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1295.5" y1="1193.3" x2="1212.1" y2="1126.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3328.1" y1="129.2" x2="3261.4" y2="123.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3592.6" y1="536.3" x2="3635.1" y2="582.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1415.5" y1="455.1" x2="1291.6" y2="396.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2770.4" y1="819.3" x2="2727.5" y2="713.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1846.1" y1="404.2" x2="1912.9" y2="370.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1844.4" y1="1786.2" x2="1866.1" y2="1831.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1733.0" y1="1807.8" x2="1746.7" y2="1903.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3858.2" y1="2513.7" x2="3935.1" y2="2556.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1950.2" y1="1462.8" x2="2016.9" y2="1464.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="350.0" y1="2692.5" x2="417.4" y2="2641.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2658.2" y1="1198.6" x2="2567.1" y2="1247.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1983.4" y1="1374.0" x2="2057.5" y2="1334.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3943.8" y1="1949.8" x2="4017.0" y2="1948.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1716.0" y1="1858.1" x2="1704.7" y2="1903.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1556.6" y1="1720.5" x2="1527.3" y2="1766.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3682.7" y1="2513.7" x2="3605.7" y2="2556.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="154.1" y1="1494.7" x2="230.0" y2="1475.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="230.0" y1="1475.3" x2="195.5" y2="1408.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="230.0" y1="1475.3" x2="311.0" y2="1468.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="154.1" y1="1494.7" x2="218.1" y2="1564.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="121.1" y1="1595.0" x2="218.1" y2="1564.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="218.1" y1="1564.6" x2="256.0" y2="1661.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="218.1" y1="1564.6" x2="121.1" y2="1544.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3592.6" y1="536.3" x2="3525.1" y2="518.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3455.2" y1="553.6" x2="3525.1" y2="518.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3525.1" y1="518.2" x2="3526.7" y2="424.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3525.1" y1="518.2" x2="3455.2" y2="502.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3592.6" y1="536.3" x2="3627.5" y2="448.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3627.5" y1="448.1" x2="3526.7" y2="424.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2726.2" y1="974.5" x2="3606.1" y2="2034.6" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="3636.7" y1="1937.8" x2="3606.1" y2="2034.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3606.1" y1="2034.6" x2="3636.6" y2="1988.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3606.1" y1="2034.6" x2="3770.4" y2="2416.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="1415.5" y1="455.1" x2="1539.5" y2="514.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1664.7" y1="477.6" x2="1539.5" y2="514.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1539.5" y1="514.1" x2="256.0" y2="1661.5" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="1539.5" y1="514.1" x2="1666.4" y2="427.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2726.2" y1="974.5" x2="2797.5" y2="1108.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2963.6" y1="1061.8" x2="2797.5" y2="1108.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2797.5" y1="1108.0" x2="2849.7" y2="1232.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2770.4" y1="819.3" x2="2813.4" y2="925.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2661.0" y1="1043.2" x2="2813.4" y2="925.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2813.4" y1="925.5" x2="2726.2" y2="974.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2813.4" y1="925.5" x2="2870.6" y2="1036.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1853.2" y1="455.2" x2="1585.6" y2="1541.6" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="1674.6" y1="1373.9" x2="1585.6" y2="1541.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1585.6" y1="1541.6" x2="1696.1" y2="1616.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1585.6" y1="1541.6" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1585.6" y1="1541.6" x2="1675.6" y2="1323.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="311.0" y1="1468.8" x2="497.9" y2="1228.5" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="585.1" y1="1262.0" x2="497.9" y2="1228.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="585.1" y1="1211.0" x2="497.9" y2="1228.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="497.9" y1="1228.5" x2="464.4" y2="1182.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="497.9" y1="1228.5" x2="585.2" y2="1160.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="497.9" y1="1228.5" x2="585.1" y2="1313.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1846.1" y1="404.2" x2="1776.0" y2="489.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1664.7" y1="477.6" x2="1776.0" y2="489.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1776.0" y1="489.2" x2="1853.2" y2="455.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1776.0" y1="489.2" x2="1666.4" y2="427.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1788.8" y1="1461.0" x2="1807.6" y2="1658.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1789.8" y1="1612.4" x2="1807.6" y2="1658.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1835.3" y1="1360.4" x2="1807.6" y2="1658.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1807.6" y1="1658.1" x2="1790.2" y2="1511.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1807.6" y1="1658.1" x2="1809.5" y2="1410.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1807.6" y1="1658.1" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1807.6" y1="1658.1" x2="1789.8" y2="1562.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1788.8" y1="1461.0" x2="1818.8" y2="1740.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1844.4" y1="1786.2" x2="1818.8" y2="1740.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1820.2" y1="1310.1" x2="1818.8" y2="1740.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1818.8" y1="1740.5" x2="1790.2" y2="1511.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1818.8" y1="1740.5" x2="1809.5" y2="1410.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1818.8" y1="1740.5" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1818.8" y1="1740.5" x2="1789.8" y2="1562.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1789.8" y1="1612.4" x2="1742.0" y2="1415.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1820.2" y1="1310.1" x2="1742.0" y2="1415.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1674.6" y1="1373.9" x2="1742.0" y2="1415.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1742.0" y1="1415.0" x2="1675.2" y2="1424.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1742.0" y1="1415.0" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1742.0" y1="1415.0" x2="1675.6" y2="1323.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1742.0" y1="1415.0" x2="1835.3" y2="1360.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1809.5" y1="1410.8" x2="1927.0" y2="1509.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1820.2" y1="1310.1" x2="1927.0" y2="1509.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1927.0" y1="1509.3" x2="1789.8" y2="1612.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1927.0" y1="1509.3" x2="1835.3" y2="1360.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1675.2" y1="1424.1" x2="1627.8" y2="1568.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1809.5" y1="1410.8" x2="1627.8" y2="1568.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1736.1" y1="1666.6" x2="1627.8" y2="1568.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1675.6" y1="1323.7" x2="1627.8" y2="1568.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1627.8" y1="1568.5" x2="1789.8" y2="1612.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1627.8" y1="1568.5" x2="1674.6" y2="1373.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1733.0" y1="1807.8" x2="1735.7" y2="1712.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1668.3" y1="1716.7" x2="1735.7" y2="1712.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1735.7" y1="1712.5" x2="1789.8" y2="1612.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1735.7" y1="1712.5" x2="1736.1" y2="1666.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1581.2" y1="1445.8" x2="1607.4" y2="1328.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1674.6" y1="1373.9" x2="1607.4" y2="1328.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1607.4" y1="1328.9" x2="1462.5" y2="1328.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1607.4" y1="1328.9" x2="1675.6" y2="1323.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1607.4" y1="1328.9" x2="526.0" y2="1621.9" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="1950.2" y1="1462.8" x2="1882.7" y2="1499.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1882.7" y1="1499.9" x2="1820.2" y2="1310.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2584.8" y1="2209.6" x2="1602.0" y2="1376.9" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="1674.6" y1="1373.9" x2="1602.0" y2="1376.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1602.0" y1="1376.9" x2="1675.2" y2="1424.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1602.0" y1="1376.9" x2="1462.5" y2="1328.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1602.0" y1="1376.9" x2="1675.6" y2="1323.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2584.8" y1="2209.6" x2="2653.2" y2="2209.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2653.2" y1="2209.6" x2="2721.6" y2="2209.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2653.2" y1="2209.6" x2="3770.4" y2="2416.8" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="205.5" y1="2759.0" x2="136.5" y2="2726.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="62.0" y1="2778.7" x2="136.5" y2="2726.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="136.5" y1="2726.5" x2="205.5" y2="2708.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="136.5" y1="2726.5" x2="62.0" y2="2676.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="136.5" y1="2726.5" x2="62.0" y2="2727.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2997.0" y1="1153.4" x2="2953.5" y2="1107.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2721.6" y1="2209.6" x2="2953.5" y2="1107.5" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="2963.6" y1="1061.8" x2="2953.5" y2="1107.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2953.5" y1="1107.5" x2="3089.5" y2="1142.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2953.5" y1="1107.5" x2="2870.6" y2="1036.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2953.5" y1="1107.5" x2="2849.7" y2="1232.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2661.0" y1="1043.2" x2="2749.4" y2="1149.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2658.2" y1="1198.6" x2="2749.4" y2="1149.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2749.4" y1="1149.5" x2="2870.6" y2="1036.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2749.4" y1="1149.5" x2="2849.7" y2="1232.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2849.7" y1="1232.2" x2="2839.3" y2="1147.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2976.8" y1="1203.7" x2="2839.3" y2="1147.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2839.3" y1="1147.5" x2="2870.6" y2="1036.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2839.3" y1="1147.5" x2="2976.8" y2="1254.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2839.3" y1="1147.5" x2="1666.5" y2="793.6" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="2849.7" y1="1232.2" x2="2848.3" y2="1358.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2976.8" y1="1203.7" x2="2848.3" y2="1358.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2848.3" y1="1358.8" x2="1462.5" y2="1328.1" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="2848.3" y1="1358.8" x2="2976.8" y2="1254.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2848.3" y1="1358.8" x2="2977.5" y2="1413.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2849.7" y1="1232.2" x2="1560.0" y2="1378.7" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="1674.6" y1="1373.9" x2="1560.0" y2="1378.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1560.0" y1="1378.7" x2="1462.5" y2="1328.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1560.0" y1="1378.7" x2="1675.6" y2="1323.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1560.0" y1="1378.7" x2="1589.2" y2="1496.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3676.6" y1="1834.0" x2="3593.7" y2="1892.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3531.2" y1="1829.1" x2="3593.7" y2="1892.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3636.6" y1="1988.1" x2="3593.7" y2="1892.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3593.7" y1="1892.3" x2="3676.6" y2="1885.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3593.7" y1="1892.3" x2="3526.2" y2="1880.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3593.7" y1="1892.3" x2="3636.7" y2="1937.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1696.1" y1="1516.3" x2="1671.2" y2="1278.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1675.6" y1="1323.7" x2="1671.2" y2="1278.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1671.2" y1="1278.0" x2="1696.5" y2="1566.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1671.2" y1="1278.0" x2="1674.6" y2="1373.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1983.4" y1="1374.0" x2="1909.4" y2="1413.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1909.4" y1="1413.4" x2="1835.3" y2="1360.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3943.8" y1="1949.8" x2="3870.6" y2="1950.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3870.6" y1="1950.8" x2="3801.7" y2="1944.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3089.5" y1="1142.2" x2="3112.9" y2="1259.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2976.8" y1="1203.7" x2="3112.9" y2="1259.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2977.5" y1="1413.0" x2="3112.9" y2="1259.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="3112.9" y1="1259.8" x2="2997.0" y2="1153.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="3112.9" y1="1259.8" x2="1462.5" y2="1328.1" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="3112.9" y1="1259.8" x2="2976.8" y2="1254.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<rect x="433.4" y="1172.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>3-Phospho-D-glyceroyl phosphate (M_13dpg_c) simple chemical</title></rect>
+<text x="464.4" y="1185.0" font-size="8.5" text-anchor="middle" fill="#111">3-Phospho-…</text>
+<rect x="165.2" y="1175.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>D-Glycerate 2-phosphate (M_2pg_c) simple chemical</title></rect>
+<text x="196.2" y="1188.0" font-size="8.5" text-anchor="middle" fill="#111">D-Glycerat…</text>
+<rect x="299.6" y="1152.1" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>3-Phospho-D-glycerate (M_3pg_c) simple chemical</title></rect>
+<text x="330.6" y="1165.1" font-size="8.5" text-anchor="middle" fill="#111">3-Phospho-…</text>
+<rect x="1550.2" y="1435.8" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>6-Phospho-D-gluconate (M_6pgc_c) simple chemical</title></rect>
+<text x="1581.2" y="1448.8" font-size="8.5" text-anchor="middle" fill="#111">6-Phospho-…</text>
+<rect x="1665.1" y="1606.5" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>6-phospho-D-glucono-1,5-lactone (M_6pgl_c) simple chemical</title></rect>
+<text x="1696.1" y="1619.5" font-size="8.5" text-anchor="middle" fill="#111">6-phospho-…</text>
+<rect x="3513.4" y="772.3" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Acetate (M_ac_c) simple chemical</title></rect>
+<text x="3544.4" y="785.3" font-size="8.5" text-anchor="middle" fill="#111">Acetate</text>
+<rect x="3627.2" y="814.0" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>Acetate (M_ac_e) simple chemical</title></rect>
+<text x="3658.2" y="827.0" font-size="8.5" text-anchor="middle" fill="#111">Acetate</text>
+<rect x="3571.4" y="144.5" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Acetaldehyde (M_acald_c) simple chemical</title></rect>
+<text x="3602.4" y="157.5" font-size="8.5" text-anchor="middle" fill="#111">Acetaldehy…</text>
+<rect x="3705.6" y="79.2" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>Acetaldehyde (M_acald_e) simple chemical</title></rect>
+<text x="3736.6" y="92.2" font-size="8.5" text-anchor="middle" fill="#111">Acetaldehy…</text>
+<rect x="2966.0" y="1143.4" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Acetyl-CoA (M_accoa_c) simple chemical</title></rect>
+<text x="2997.0" y="1156.4" font-size="8.5" text-anchor="middle" fill="#111">Acetyl-CoA</text>
+<rect x="2420.9" y="2131.3" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Cis-Aconitate (M_acon_C_c) simple chemical</title></rect>
+<text x="2451.9" y="2144.3" font-size="8.5" text-anchor="middle" fill="#111">Cis-Aconit…</text>
+<rect x="3377.8" y="781.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Acetyl phosphate (M_actp_c) simple chemical</title></rect>
+<text x="3408.8" y="794.6" font-size="8.5" text-anchor="middle" fill="#111">Acetyl pho…</text>
+<rect x="1759.2" y="1501.2" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ADP C10H12N5O10P2 (M_adp_c) simple chemical</title></rect>
+<text x="1790.2" y="1514.2" font-size="8.5" text-anchor="middle" fill="#111">ADP C10H12…</text>
+<rect x="3249.5" y="1140.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ADP C10H12N5O10P2 (M_adp_c) simple chemical</title></rect>
+<rect x="3251.5" y="1154.0" width="58.0" height="5.2" fill="#555"/>
+<text x="3280.5" y="1153.0" font-size="8.5" text-anchor="middle" fill="#111">ADP C10H12…</text>
+<rect x="115.2" y="1636.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ADP C10H12N5O10P2 (M_adp_c) simple chemical</title></rect>
+<rect x="117.2" y="1650.0" width="58.0" height="5.2" fill="#555"/>
+<text x="146.2" y="1649.0" font-size="8.5" text-anchor="middle" fill="#111">ADP C10H12…</text>
+<rect x="1639.8" y="833.7" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ADP C10H12N5O10P2 (M_adp_c) simple chemical</title></rect>
+<rect x="1641.8" y="847.7" width="58.0" height="5.2" fill="#555"/>
+<text x="1670.8" y="846.7" font-size="8.5" text-anchor="middle" fill="#111">ADP C10H12…</text>
+<rect x="386.8" y="1072.7" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ADP C10H12N5O10P2 (M_adp_c) simple chemical</title></rect>
+<rect x="388.8" y="1086.7" width="58.0" height="5.2" fill="#555"/>
+<text x="417.8" y="1085.7" font-size="8.5" text-anchor="middle" fill="#111">ADP C10H12…</text>
+<rect x="3377.8" y="832.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ADP C10H12N5O10P2 (M_adp_c) simple chemical</title></rect>
+<rect x="3379.8" y="846.6" width="58.0" height="5.2" fill="#555"/>
+<text x="3408.8" y="845.6" font-size="8.5" text-anchor="middle" fill="#111">ADP C10H12…</text>
+<rect x="1644.2" y="1414.1" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>2-Oxoglutarate (M_akg_c) simple chemical</title></rect>
+<text x="1675.2" y="1427.1" font-size="8.5" text-anchor="middle" fill="#111">2-Oxogluta…</text>
+<rect x="1528.5" y="1659.5" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>2-Oxoglutarate (M_akg_e) simple chemical</title></rect>
+<text x="1559.5" y="1672.5" font-size="8.5" text-anchor="middle" fill="#111">2-Oxogluta…</text>
+<rect x="1640.6" y="984.3" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>AMP C10H12N5O7P (M_amp_c) simple chemical</title></rect>
+<text x="1671.6" y="997.3" font-size="8.5" text-anchor="middle" fill="#111">AMP C10H12…</text>
+<rect x="1757.8" y="1451.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ATP C10H12N5O13P3 (M_atp_c) simple chemical</title></rect>
+<text x="1788.8" y="1464.0" font-size="8.5" text-anchor="middle" fill="#111">ATP C10H12…</text>
+<rect x="3249.5" y="1191.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ATP C10H12N5O13P3 (M_atp_c) simple chemical</title></rect>
+<rect x="3251.5" y="1205.0" width="58.0" height="5.2" fill="#555"/>
+<text x="3280.5" y="1204.0" font-size="8.5" text-anchor="middle" fill="#111">ATP C10H12…</text>
+<rect x="115.2" y="1686.1" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ATP C10H12N5O13P3 (M_atp_c) simple chemical</title></rect>
+<rect x="117.2" y="1700.1" width="58.0" height="5.2" fill="#555"/>
+<text x="146.2" y="1699.1" font-size="8.5" text-anchor="middle" fill="#111">ATP C10H12…</text>
+<rect x="1640.3" y="934.1" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ATP C10H12N5O13P3 (M_atp_c) simple chemical</title></rect>
+<rect x="1642.3" y="948.1" width="58.0" height="5.2" fill="#555"/>
+<text x="1671.3" y="947.1" font-size="8.5" text-anchor="middle" fill="#111">ATP C10H12…</text>
+<rect x="386.8" y="1021.7" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ATP C10H12N5O13P3 (M_atp_c) simple chemical</title></rect>
+<rect x="388.8" y="1035.7" width="58.0" height="5.2" fill="#555"/>
+<text x="417.8" y="1034.7" font-size="8.5" text-anchor="middle" fill="#111">ATP C10H12…</text>
+<rect x="3377.8" y="730.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ATP C10H12N5O13P3 (M_atp_c) simple chemical</title></rect>
+<rect x="3379.8" y="744.6" width="58.0" height="5.2" fill="#555"/>
+<text x="3408.8" y="743.6" font-size="8.5" text-anchor="middle" fill="#111">ATP C10H12…</text>
+<rect x="2280.2" y="2199.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Citrate (M_cit_c) simple chemical</title></rect>
+<text x="2311.2" y="2212.6" font-size="8.5" text-anchor="middle" fill="#111">Citrate</text>
+<rect x="1431.5" y="1318.1" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>CO2 CO2 (M_co2_c) simple chemical</title></rect>
+<text x="1462.5" y="1331.1" font-size="8.5" text-anchor="middle" fill="#111">CO2 CO2</text>
+<rect x="1264.5" y="1183.3" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>CO2 CO2 (M_co2_e) simple chemical</title></rect>
+<text x="1295.5" y="1196.3" font-size="8.5" text-anchor="middle" fill="#111">CO2 CO2</text>
+<rect x="3058.5" y="1132.2" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Coenzyme A (M_coa_c) simple chemical</title></rect>
+<text x="3089.5" y="1145.2" font-size="8.5" text-anchor="middle" fill="#111">Coenzyme A</text>
+<rect x="164.5" y="1398.1" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Dihydroxyacetone phosphate (M_dhap_c) simple chemical</title></rect>
+<text x="195.5" y="1411.1" font-size="8.5" text-anchor="middle" fill="#111">Dihydroxya…</text>
+<rect x="267.0" y="1601.2" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>D-Erythrose 4-phosphate (M_e4p_c) simple chemical</title></rect>
+<text x="298.0" y="1614.2" font-size="8.5" text-anchor="middle" fill="#111">D-Erythros…</text>
+<rect x="3437.8" y="185.3" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Ethanol (M_etoh_c) simple chemical</title></rect>
+<text x="3468.8" y="198.3" font-size="8.5" text-anchor="middle" fill="#111">Ethanol</text>
+<rect x="3297.1" y="119.2" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>Ethanol (M_etoh_e) simple chemical</title></rect>
+<text x="3328.1" y="132.2" font-size="8.5" text-anchor="middle" fill="#111">Ethanol</text>
+<rect x="225.0" y="1651.5" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>D-Fructose 6-phosphate (M_f6p_c) simple chemical</title></rect>
+<text x="256.0" y="1664.5" font-size="8.5" text-anchor="middle" fill="#111">D-Fructose…</text>
+<rect x="123.1" y="1484.7" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>D-Fructose 1,6-bisphosphate (M_fdp_c) simple chemical</title></rect>
+<text x="154.1" y="1497.7" font-size="8.5" text-anchor="middle" fill="#111">D-Fructose…</text>
+<rect x="3495.7" y="414.5" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Formate (M_for_c) simple chemical</title></rect>
+<text x="3526.7" y="427.5" font-size="8.5" text-anchor="middle" fill="#111">Formate</text>
+<rect x="3561.6" y="526.3" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>Formate (M_for_e) simple chemical</title></rect>
+<text x="3592.6" y="539.3" font-size="8.5" text-anchor="middle" fill="#111">Formate</text>
+<rect x="1384.5" y="445.1" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>D-Fructose (M_fru_e) simple chemical</title></rect>
+<text x="1415.5" y="458.1" font-size="8.5" text-anchor="middle" fill="#111">D-Fructose</text>
+<rect x="2695.2" y="964.5" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Fumarate (M_fum_c) simple chemical</title></rect>
+<text x="2726.2" y="977.5" font-size="8.5" text-anchor="middle" fill="#111">Fumarate</text>
+<rect x="2739.4" y="809.3" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>Fumarate (M_fum_e) simple chemical</title></rect>
+<text x="2770.4" y="822.3" font-size="8.5" text-anchor="middle" fill="#111">Fumarate</text>
+<rect x="280.0" y="1458.8" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Glyceraldehyde 3-phosphate (M_g3p_c) simple chemical</title></rect>
+<text x="311.0" y="1471.8" font-size="8.5" text-anchor="middle" fill="#111">Glyceralde…</text>
+<rect x="1822.2" y="445.2" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>D-Glucose 6-phosphate (M_g6p_c) simple chemical</title></rect>
+<text x="1853.2" y="458.2" font-size="8.5" text-anchor="middle" fill="#111">D-Glucose …</text>
+<rect x="1815.1" y="394.2" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>D-Glucose (M_glc__D_e) simple chemical</title></rect>
+<text x="1846.1" y="407.2" font-size="8.5" text-anchor="middle" fill="#111">D-Glucose</text>
+<rect x="1778.5" y="1400.8" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>L-Glutamine (M_gln__L_c) simple chemical</title></rect>
+<text x="1809.5" y="1413.8" font-size="8.5" text-anchor="middle" fill="#111">L-Glutamine</text>
+<rect x="1813.4" y="1776.2" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>L-Glutamine (M_gln__L_e) simple chemical</title></rect>
+<text x="1844.4" y="1789.2" font-size="8.5" text-anchor="middle" fill="#111">L-Glutamine</text>
+<rect x="1758.8" y="1602.4" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>L-Glutamate (M_glu__L_c) simple chemical</title></rect>
+<text x="1789.8" y="1615.4" font-size="8.5" text-anchor="middle" fill="#111">L-Glutamate</text>
+<rect x="1702.0" y="1797.8" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>L-Glutamate (M_glu__L_e) simple chemical</title></rect>
+<text x="1733.0" y="1810.8" font-size="8.5" text-anchor="middle" fill="#111">L-Glutamate</text>
+<rect x="2690.6" y="2199.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Glyoxylate (M_glx_c) simple chemical</title></rect>
+<text x="2721.6" y="2212.6" font-size="8.5" text-anchor="middle" fill="#111">Glyoxylate</text>
+<rect x="1789.2" y="1300.1" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H2O H2O (M_h2o_c) simple chemical</title></rect>
+<text x="1820.2" y="1313.1" font-size="8.5" text-anchor="middle" fill="#111">H2O H2O</text>
+<rect x="2932.6" y="1051.8" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H2O H2O (M_h2o_c) simple chemical</title></rect>
+<rect x="2934.6" y="1065.8" width="58.0" height="5.2" fill="#555"/>
+<text x="2963.6" y="1064.8" font-size="8.5" text-anchor="middle" fill="#111">H2O H2O</text>
+<rect x="90.1" y="1585.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H2O H2O (M_h2o_c) simple chemical</title></rect>
+<rect x="92.1" y="1599.0" width="58.0" height="5.2" fill="#555"/>
+<text x="121.1" y="1598.0" font-size="8.5" text-anchor="middle" fill="#111">H2O H2O</text>
+<rect x="1632.2" y="600.2" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H2O H2O (M_h2o_c) simple chemical</title></rect>
+<rect x="1634.2" y="614.2" width="58.0" height="5.2" fill="#555"/>
+<text x="1663.2" y="613.2" font-size="8.5" text-anchor="middle" fill="#111">H2O H2O</text>
+<rect x="3710.7" y="1985.2" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H2O H2O (M_h2o_c) simple chemical</title></rect>
+<rect x="3712.7" y="1999.2" width="58.0" height="5.2" fill="#555"/>
+<text x="3741.7" y="1998.2" font-size="8.5" text-anchor="middle" fill="#111">H2O H2O</text>
+<rect x="31.0" y="1197.9" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H2O H2O (M_h2o_c) simple chemical</title></rect>
+<rect x="33.0" y="1211.9" width="58.0" height="5.2" fill="#555"/>
+<text x="62.0" y="1210.9" font-size="8.5" text-anchor="middle" fill="#111">H2O H2O</text>
+<rect x="2420.9" y="2267.9" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H2O H2O (M_h2o_c) simple chemical</title></rect>
+<rect x="2422.9" y="2281.9" width="58.0" height="5.2" fill="#555"/>
+<text x="2451.9" y="2280.9" font-size="8.5" text-anchor="middle" fill="#111">H2O H2O</text>
+<rect x="1919.2" y="1452.8" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>H2O H2O (M_h2o_e) simple chemical</title></rect>
+<text x="1950.2" y="1465.8" font-size="8.5" text-anchor="middle" fill="#111">H2O H2O</text>
+<rect x="1705.1" y="1656.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ (M_h_c) simple chemical</title></rect>
+<text x="1736.1" y="1669.6" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="2839.6" y="1026.4" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ (M_h_c) simple chemical</title></rect>
+<rect x="2841.6" y="1040.4" width="58.0" height="5.2" fill="#555"/>
+<text x="2870.6" y="1039.4" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="115.2" y="1736.3" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ (M_h_c) simple chemical</title></rect>
+<rect x="117.2" y="1750.3" width="58.0" height="5.2" fill="#555"/>
+<text x="146.2" y="1749.3" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="1633.5" y="883.9" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ (M_h_c) simple chemical</title></rect>
+<rect x="1635.5" y="897.9" width="58.0" height="5.2" fill="#555"/>
+<text x="1664.5" y="896.9" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="3645.6" y="1824.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ (M_h_c) simple chemical</title></rect>
+<rect x="3647.6" y="1838.0" width="58.0" height="5.2" fill="#555"/>
+<text x="3676.6" y="1837.0" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="3437.8" y="134.3" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ (M_h_c) simple chemical</title></rect>
+<rect x="3439.8" y="148.3" width="58.0" height="5.2" fill="#555"/>
+<text x="3468.8" y="147.3" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="554.2" y="1150.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ (M_h_c) simple chemical</title></rect>
+<rect x="556.2" y="1164.0" width="58.0" height="5.2" fill="#555"/>
+<text x="585.2" y="1163.0" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="3604.9" y="671.3" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ (M_h_c) simple chemical</title></rect>
+<rect x="3606.9" y="685.3" width="58.0" height="5.2" fill="#555"/>
+<text x="3635.9" y="684.3" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="3739.4" y="2355.8" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ (M_h_c) simple chemical</title></rect>
+<rect x="3741.4" y="2369.8" width="58.0" height="5.2" fill="#555"/>
+<text x="3770.4" y="2368.8" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="3424.2" y="492.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ (M_h_c) simple chemical</title></rect>
+<rect x="3426.2" y="506.6" width="58.0" height="5.2" fill="#555"/>
+<text x="3455.2" y="505.6" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="174.5" y="2698.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ (M_h_c) simple chemical</title></rect>
+<rect x="176.5" y="2712.0" width="58.0" height="5.2" fill="#555"/>
+<text x="205.5" y="2711.0" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="1637.3" y="1706.7" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>H+ (M_h_e) simple chemical</title></rect>
+<text x="1668.3" y="1719.7" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="2630.0" y="1033.2" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>H+ (M_h_e) simple chemical</title></rect>
+<rect x="2632.0" y="1047.2" width="58.0" height="5.2" fill="#555"/>
+<text x="2661.0" y="1046.2" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="3645.6" y="1875.0" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>H+ (M_h_e) simple chemical</title></rect>
+<rect x="3647.6" y="1889.0" width="58.0" height="5.2" fill="#555"/>
+<text x="3676.6" y="1888.0" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="3303.4" y="170.2" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>H+ (M_h_e) simple chemical</title></rect>
+<rect x="3305.4" y="184.2" width="58.0" height="5.2" fill="#555"/>
+<text x="3334.4" y="183.2" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="3604.9" y="722.3" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>H+ (M_h_e) simple chemical</title></rect>
+<rect x="3606.9" y="736.3" width="58.0" height="5.2" fill="#555"/>
+<text x="3635.9" y="735.3" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="3827.2" y="2503.7" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>H+ (M_h_e) simple chemical</title></rect>
+<rect x="3829.2" y="2517.7" width="58.0" height="5.2" fill="#555"/>
+<text x="3858.2" y="2516.7" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="3424.2" y="543.6" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>H+ (M_h_e) simple chemical</title></rect>
+<rect x="3426.2" y="557.6" width="58.0" height="5.2" fill="#555"/>
+<text x="3455.2" y="556.6" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="295.3" y="2834.1" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>H+ (M_h_e) simple chemical</title></rect>
+<rect x="297.3" y="2848.1" width="58.0" height="5.2" fill="#555"/>
+<text x="326.3" y="2847.1" font-size="8.5" text-anchor="middle" fill="#111">H+</text>
+<rect x="2553.8" y="2199.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Isocitrate (M_icit_c) simple chemical</title></rect>
+<text x="2584.8" y="2212.6" font-size="8.5" text-anchor="middle" fill="#111">Isocitrate</text>
+<rect x="174.5" y="2749.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>D-Lactate (M_lac__D_c) simple chemical</title></rect>
+<text x="205.5" y="2762.0" font-size="8.5" text-anchor="middle" fill="#111">D-Lactate</text>
+<rect x="319.0" y="2682.5" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>D-Lactate (M_lac__D_e) simple chemical</title></rect>
+<text x="350.0" y="2695.5" font-size="8.5" text-anchor="middle" fill="#111">D-Lactate</text>
+<rect x="2818.7" y="1222.2" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>L-Malate (M_mal__L_c) simple chemical</title></rect>
+<text x="2849.7" y="1235.2" font-size="8.5" text-anchor="middle" fill="#111">L-Malate</text>
+<rect x="2627.2" y="1188.6" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>L-Malate (M_mal__L_e) simple chemical</title></rect>
+<text x="2658.2" y="1201.6" font-size="8.5" text-anchor="middle" fill="#111">L-Malate</text>
+<rect x="2945.8" y="1193.7" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide (M_nad_c) simple chemical</title></rect>
+<text x="2976.8" y="1206.7" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="1665.1" y="1506.3" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide (M_nad_c) simple chemical</title></rect>
+<rect x="1667.1" y="1520.3" width="58.0" height="5.2" fill="#555"/>
+<text x="1696.1" y="1519.3" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="3495.2" y="1870.1" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide (M_nad_c) simple chemical</title></rect>
+<rect x="3497.2" y="1884.1" width="58.0" height="5.2" fill="#555"/>
+<text x="3526.2" y="1883.1" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="3520.8" y="245.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide (M_nad_c) simple chemical</title></rect>
+<rect x="3522.8" y="259.6" width="58.0" height="5.2" fill="#555"/>
+<text x="3551.8" y="258.6" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="554.1" y="1252.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide (M_nad_c) simple chemical</title></rect>
+<rect x="556.1" y="1266.0" width="58.0" height="5.2" fill="#555"/>
+<text x="585.1" y="1265.0" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="31.0" y="2768.7" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide (M_nad_c) simple chemical</title></rect>
+<rect x="33.0" y="2782.7" width="58.0" height="5.2" fill="#555"/>
+<text x="62.0" y="2781.7" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="2945.8" y="1244.7" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide - reduced (M_nadh_c) simple chemical</title></rect>
+<text x="2976.8" y="1257.7" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="1665.5" y="1556.4" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide - reduced (M_nadh_c) simple chemical</title></rect>
+<rect x="1667.5" y="1570.4" width="58.0" height="5.2" fill="#555"/>
+<text x="1696.5" y="1569.4" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="3500.2" y="1819.1" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide - reduced (M_nadh_c) simple chemical</title></rect>
+<rect x="3502.2" y="1833.1" width="58.0" height="5.2" fill="#555"/>
+<text x="3531.2" y="1832.1" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="3520.8" y="296.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide - reduced (M_nadh_c) simple chemical</title></rect>
+<rect x="3522.8" y="310.6" width="58.0" height="5.2" fill="#555"/>
+<text x="3551.8" y="309.6" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="554.1" y="1303.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide - reduced (M_nadh_c) simple chemical</title></rect>
+<rect x="556.1" y="1317.0" width="58.0" height="5.2" fill="#555"/>
+<text x="585.1" y="1316.0" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="31.0" y="2666.7" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide - reduced (M_nadh_c) simple chemical</title></rect>
+<rect x="33.0" y="2680.7" width="58.0" height="5.2" fill="#555"/>
+<text x="62.0" y="2679.7" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="1643.6" y="1363.9" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide phosphate (M_nadp_c) simple chemical</title></rect>
+<text x="1674.6" y="1376.9" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="1644.6" y="1313.7" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Nicotinamide adenine dinucleotide phosphate - reduced (M_nadph_c) simple chemical</title></rect>
+<text x="1675.6" y="1326.7" font-size="8.5" text-anchor="middle" fill="#111">Nicotinami…</text>
+<rect x="1804.3" y="1350.4" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Ammonium (M_nh4_c) simple chemical</title></rect>
+<text x="1835.3" y="1363.4" font-size="8.5" text-anchor="middle" fill="#111">Ammonium</text>
+<rect x="1952.4" y="1364.0" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>Ammonium (M_nh4_e) simple chemical</title></rect>
+<text x="1983.4" y="1377.0" font-size="8.5" text-anchor="middle" fill="#111">Ammonium</text>
+<rect x="3770.7" y="1934.2" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>O2 O2 (M_o2_c) simple chemical</title></rect>
+<text x="3801.7" y="1947.2" font-size="8.5" text-anchor="middle" fill="#111">O2 O2</text>
+<rect x="3912.8" y="1939.8" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>O2 O2 (M_o2_e) simple chemical</title></rect>
+<text x="3943.8" y="1952.8" font-size="8.5" text-anchor="middle" fill="#111">O2 O2</text>
+<rect x="1635.5" y="783.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Oxaloacetate (M_oaa_c) simple chemical</title></rect>
+<text x="1666.5" y="796.6" font-size="8.5" text-anchor="middle" fill="#111">Oxaloaceta…</text>
+<rect x="1633.7" y="467.6" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Phosphoenolpyruvate (M_pep_c) simple chemical</title></rect>
+<text x="1664.7" y="480.6" font-size="8.5" text-anchor="middle" fill="#111">Phosphoeno…</text>
+<rect x="1758.8" y="1552.2" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Phosphate (M_pi_c) simple chemical</title></rect>
+<text x="1789.8" y="1565.2" font-size="8.5" text-anchor="middle" fill="#111">Phosphate</text>
+<rect x="3260.8" y="1089.8" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Phosphate (M_pi_c) simple chemical</title></rect>
+<rect x="3262.8" y="1103.8" width="58.0" height="5.2" fill="#555"/>
+<text x="3291.8" y="1102.8" font-size="8.5" text-anchor="middle" fill="#111">Phosphate</text>
+<rect x="90.1" y="1534.9" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Phosphate (M_pi_c) simple chemical</title></rect>
+<rect x="92.1" y="1548.9" width="58.0" height="5.2" fill="#555"/>
+<text x="121.1" y="1547.9" font-size="8.5" text-anchor="middle" fill="#111">Phosphate</text>
+<rect x="1632.2" y="733.5" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Phosphate (M_pi_c) simple chemical</title></rect>
+<rect x="1634.2" y="747.5" width="58.0" height="5.2" fill="#555"/>
+<text x="1663.2" y="746.5" font-size="8.5" text-anchor="middle" fill="#111">Phosphate</text>
+<rect x="554.1" y="1201.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Phosphate (M_pi_c) simple chemical</title></rect>
+<rect x="556.1" y="1215.0" width="58.0" height="5.2" fill="#555"/>
+<text x="585.1" y="1214.0" font-size="8.5" text-anchor="middle" fill="#111">Phosphate</text>
+<rect x="1685.0" y="1848.1" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>Phosphate (M_pi_e) simple chemical</title></rect>
+<text x="1716.0" y="1861.1" font-size="8.5" text-anchor="middle" fill="#111">Phosphate</text>
+<rect x="1635.4" y="417.4" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Pyruvate (M_pyr_c) simple chemical</title></rect>
+<text x="1666.4" y="430.4" font-size="8.5" text-anchor="middle" fill="#111">Pyruvate</text>
+<rect x="1558.2" y="1486.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Pyruvate (M_pyr_c) simple chemical</title></rect>
+<rect x="1560.2" y="1500.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1589.2" y="1499.0" font-size="8.5" text-anchor="middle" fill="#111">Pyruvate</text>
+<rect x="2946.5" y="1403.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Pyruvate (M_pyr_c) simple chemical</title></rect>
+<rect x="2948.5" y="1417.0" width="58.0" height="5.2" fill="#555"/>
+<text x="2977.5" y="1416.0" font-size="8.5" text-anchor="middle" fill="#111">Pyruvate</text>
+<rect x="31.0" y="2717.7" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Pyruvate (M_pyr_c) simple chemical</title></rect>
+<rect x="33.0" y="2731.7" width="58.0" height="5.2" fill="#555"/>
+<text x="62.0" y="2730.7" font-size="8.5" text-anchor="middle" fill="#111">Pyruvate</text>
+<rect x="1525.6" y="1710.5" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>Pyruvate (M_pyr_e) simple chemical</title></rect>
+<text x="1556.6" y="1723.5" font-size="8.5" text-anchor="middle" fill="#111">Pyruvate</text>
+<rect x="3605.6" y="1978.1" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Ubiquinone-8 (M_q8_c) simple chemical</title></rect>
+<text x="3636.6" y="1991.1" font-size="8.5" text-anchor="middle" fill="#111">Ubiquinone…</text>
+<rect x="3605.7" y="1927.8" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Ubiquinol-8 (M_q8h2_c) simple chemical</title></rect>
+<text x="3636.7" y="1940.8" font-size="8.5" text-anchor="middle" fill="#111">Ubiquinol-8</text>
+<rect x="425.5" y="1429.2" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Alpha-D-Ribose 5-phosphate (M_r5p_c) simple chemical</title></rect>
+<text x="456.5" y="1442.2" font-size="8.5" text-anchor="middle" fill="#111">Alpha-D-Ri…</text>
+<rect x="495.0" y="1611.9" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>D-Ribulose 5-phosphate (M_ru5p__D_c) simple chemical</title></rect>
+<text x="526.0" y="1624.9" font-size="8.5" text-anchor="middle" fill="#111">D-Ribulose…</text>
+<rect x="313.5" y="1508.9" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Sedoheptulose 7-phosphate (M_s7p_c) simple chemical</title></rect>
+<text x="344.5" y="1521.9" font-size="8.5" text-anchor="middle" fill="#111">Sedoheptul…</text>
+<rect x="3739.4" y="2406.8" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Succinate (M_succ_c) simple chemical</title></rect>
+<text x="3770.4" y="2419.8" font-size="8.5" text-anchor="middle" fill="#111">Succinate</text>
+<rect x="3651.7" y="2503.7" width="62.0" height="20.0" rx="10.0" fill="#e0e0e0" stroke="#222" stroke-width="0.8"><title>Succinate (M_succ_e) simple chemical</title></rect>
+<text x="3682.7" y="2516.7" font-size="8.5" text-anchor="middle" fill="#111">Succinate</text>
+<rect x="3223.5" y="1241.3" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Succinyl-CoA (M_succoa_c) simple chemical</title></rect>
+<text x="3254.5" y="1254.3" font-size="8.5" text-anchor="middle" fill="#111">Succinyl-C…</text>
+<rect x="360.0" y="1584.2" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>D-Xylulose 5-phosphate (M_xu5p__D_c) simple chemical</title></rect>
+<text x="391.0" y="1597.2" font-size="8.5" text-anchor="middle" fill="#111">D-Xylulose…</text>
+<rect x="2990.0" y="1102.0" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Acetaldehyde dehydrogenase (acetylating) (R_ACALD) biochemical reaction</title></rect>
+<rect x="3663.6" y="116.4" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Acetaldehyde reversible transport (R_ACALDt) translocation reaction</title></rect>
+<rect x="3471.4" y="785.1" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Acetate kinase (R_ACKr) biochemical reaction</title></rect>
+<rect x="2374.1" y="2204.1" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Aconitase (half-reaction A, Citrate hydro-lyase) (R_ACONTa) biochemical reaction</title></rect>
+<rect x="2510.9" y="2204.1" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Aconitase (half-reaction B, Isocitrate hydro-lyase) (R_ACONTb) biochemical reaction</title></rect>
+<rect x="3605.5" y="772.6" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Acetate reversible transport via proton symport (R_ACt2r) translocation reaction</title></rect>
+<rect x="1671.5" y="1034.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Adenylate kinase (R_ADK1) biochemical reaction</title></rect>
+<rect x="3140.0" y="1201.0" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>2-Oxogluterate dehydrogenase (R_AKGDH) biochemical reaction</title></rect>
+<rect x="1621.8" y="1626.1" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>2 oxoglutarate reversible transport via symport (R_AKGt2r) translocation reaction</title></rect>
+<rect x="3530.2" y="181.7" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Alcohol dehydrogenase (ethanol) (R_ALCD2x) biochemical reaction</title></rect>
+<rect x="1797.1" y="1693.8" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>ATP maintenance requirement (R_ATPM) biochemical reaction</title></rect>
+<rect x="1771.4" y="1734.8" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>ATP synthase (four protons for one ATP) (R_ATPS4r) translocation reaction</title></rect>
+<rect x="1684.9" y="1464.3" width="11.0" height="11.0" fill="#e15759" stroke="#222" stroke-width="0.8"><title>Biomass Objective Function with GAM (R_BIOMASS_Ecoli_core_w_GAM) biomass production</title></rect>
+<rect x="1373.5" y="1255.2" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>CO2 transporter via diffusion (R_CO2t) translocation reaction</title></rect>
+<rect x="2983.1" y="1009.8" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Citrate synthase (R_CS) biochemical reaction</title></rect>
+<rect x="3718.6" y="1935.6" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Cytochrome oxidase bd (ubiquinol-8: 2 protons) (R_CYTBD) translocation reaction</title></rect>
+<rect x="277.1" y="2738.3" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>D lactate transport via proton symport (R_D_LACt2) translocation reaction</title></rect>
+<rect x="123.9" y="1191.0" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Enolase (R_ENO) biochemical reaction</title></rect>
+<rect x="3396.4" y="148.4" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Ethanol reversible transport via proton symport (R_ETOHt2r) translocation reaction</title></rect>
+<rect x="3707.9" y="865.6" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>Acetate exchange (R_EX_ac_e) exchange reaction</title></rect>
+<rect x="3797.8" y="51.0" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>Acetaldehyde exchange (R_EX_acald_e) exchange reaction</title></rect>
+<rect x="1563.8" y="1761.2" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>2-Oxoglutarate exchange (R_EX_akg_e) exchange reaction</title></rect>
+<rect x="1206.6" y="1120.5" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>CO2 exchange (R_EX_co2_e) exchange reaction</title></rect>
+<rect x="3255.9" y="118.0" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>Ethanol exchange (R_EX_etoh_e) exchange reaction</title></rect>
+<rect x="3629.6" y="577.4" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>Formate exchange (R_EX_for_e) exchange reaction</title></rect>
+<rect x="1286.1" y="390.7" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>D-Fructose exchange (R_EX_fru_e) exchange reaction</title></rect>
+<rect x="2722.0" y="707.7" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>Fumarate exchange (R_EX_fum_e) exchange reaction</title></rect>
+<rect x="1907.4" y="364.7" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>D-Glucose exchange (R_EX_glc__D_e) exchange reaction</title></rect>
+<rect x="1860.6" y="1826.4" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>L-Glutamine exchange (R_EX_gln__L_e) exchange reaction</title></rect>
+<rect x="1741.2" y="1898.2" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>L-Glutamate exchange (R_EX_glu__L_e) exchange reaction</title></rect>
+<rect x="2011.4" y="1459.3" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>H2O exchange (R_EX_h2o_e) exchange reaction</title></rect>
+<rect x="3929.6" y="2550.8" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>H+ exchange (R_EX_h_e) exchange reaction</title></rect>
+<rect x="411.9" y="2635.8" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>D-lactate exchange (R_EX_lac__D_e) exchange reaction</title></rect>
+<rect x="2561.6" y="1242.1" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>L-Malate exchange (R_EX_mal__L_e) exchange reaction</title></rect>
+<rect x="2052.0" y="1329.2" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>Ammonia exchange (R_EX_nh4_e) exchange reaction</title></rect>
+<rect x="4011.5" y="1943.2" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>O2 exchange (R_EX_o2_e) exchange reaction</title></rect>
+<rect x="1699.2" y="1898.2" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>Phosphate exchange (R_EX_pi_e) exchange reaction</title></rect>
+<rect x="1521.8" y="1761.2" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>Pyruvate exchange (R_EX_pyr_e) exchange reaction</title></rect>
+<rect x="3600.2" y="2550.8" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>Succinate exchange (R_EX_succ_e) exchange reaction</title></rect>
+<rect x="224.5" y="1469.8" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Fructose-bisphosphate aldolase (R_FBA) biochemical reaction</title></rect>
+<rect x="212.6" y="1559.1" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Fructose-bisphosphatase (R_FBP) biochemical reaction</title></rect>
+<rect x="3622.0" y="442.6" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Formate transport via diffusion (R_FORt) translocation reaction</title></rect>
+<rect x="3519.6" y="512.7" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Formate transport in via proton symport (R_FORt2) translocation reaction</title></rect>
+<rect x="3600.6" y="2029.1" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Fumarate reductase (R_FRD7) biochemical reaction</title></rect>
+<rect x="1534.0" y="508.6" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Fructose transport via PEP:Pyr PTS (f6p generating) (R_FRUpts2) translocation reaction</title></rect>
+<rect x="2792.0" y="1102.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Fumarase (R_FUM) biochemical reaction</title></rect>
+<rect x="2807.9" y="920.0" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Fumarate transport via proton symport (2 H) (R_FUMt2_2) translocation reaction</title></rect>
+<rect x="1580.1" y="1536.1" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Glucose 6-phosphate dehydrogenase (R_G6PDH2r) biochemical reaction</title></rect>
+<rect x="492.4" y="1223.0" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Glyceraldehyde-3-phosphate dehydrogenase (R_GAPD) biochemical reaction</title></rect>
+<rect x="1770.5" y="483.7" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>D-glucose transport via PEP:Pyr PTS (R_GLCpts) translocation reaction</title></rect>
+<rect x="1802.1" y="1652.6" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Glutamine synthetase (R_GLNS) biochemical reaction</title></rect>
+<rect x="1813.3" y="1735.0" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>L-glutamine transport via ABC system (R_GLNabc) translocation reaction</title></rect>
+<rect x="1736.5" y="1409.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Glutamate dehydrogenase (NADP) (R_GLUDy) biochemical reaction</title></rect>
+<rect x="1921.5" y="1503.8" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Glutaminase (R_GLUN) biochemical reaction</title></rect>
+<rect x="1622.3" y="1563.0" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Glutamate synthase (NADPH) (R_GLUSy) biochemical reaction</title></rect>
+<rect x="1730.2" y="1707.0" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>L glutamate transport via proton symport  reversible (R_GLUt2r) translocation reaction</title></rect>
+<rect x="1601.9" y="1323.4" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Phosphogluconate dehydrogenase (R_GND) biochemical reaction</title></rect>
+<rect x="1877.2" y="1494.4" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>H2O transport via diffusion (R_H2Ot) translocation reaction</title></rect>
+<rect x="1596.5" y="1371.4" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Isocitrate dehydrogenase (NADP) (R_ICDHyr) biochemical reaction</title></rect>
+<rect x="2647.7" y="2204.1" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Isocitrate lyase (R_ICL) biochemical reaction</title></rect>
+<rect x="131.0" y="2721.0" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>D-lactate dehydrogenase (R_LDH_D) biochemical reaction</title></rect>
+<rect x="2948.0" y="1102.0" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Malate synthase (R_MALS) biochemical reaction</title></rect>
+<rect x="2743.9" y="1144.0" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Malate transport via proton symport (2 H) (R_MALt2_2) translocation reaction</title></rect>
+<rect x="2833.8" y="1142.0" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Malate dehydrogenase (R_MDH) biochemical reaction</title></rect>
+<rect x="2842.8" y="1353.3" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Malic enzyme (NAD) (R_ME1) biochemical reaction</title></rect>
+<rect x="1554.5" y="1373.2" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Malic enzyme (NADP) (R_ME2) biochemical reaction</title></rect>
+<rect x="3588.2" y="1886.8" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>NADH dehydrogenase (ubiquinone-8 &amp; 3 protons) (R_NADH16) translocation reaction</title></rect>
+<rect x="1665.7" y="1272.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>NAD transhydrogenase (R_NADTRHD) biochemical reaction</title></rect>
+<rect x="1903.9" y="1407.9" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Ammonia reversible transport (R_NH4t) translocation reaction</title></rect>
+<rect x="3865.1" y="1945.3" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>O2 transport  diffusion  (R_O2t) translocation reaction</title></rect>
+<rect x="3107.4" y="1254.3" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Pyruvate dehydrogenase (R_PDH) biochemical reaction</title></rect>
+<rect x="215.1" y="1600.4" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Phosphofructokinase (R_PFK) biochemical reaction</title></rect>
+<rect x="3098.0" y="1202.7" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Pyruvate formate lyase (R_PFL) biochemical reaction</title></rect>
+<rect x="1949.4" y="364.7" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Glucose-6-phosphate isomerase (R_PGI) biochemical reaction</title></rect>
+<rect x="392.0" y="1145.1" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Phosphoglycerate kinase (R_PGK) biochemical reaction</title></rect>
+<rect x="1663.8" y="1657.8" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>6-phosphogluconolactonase (R_PGL) biochemical reaction</title></rect>
+<rect x="257.6" y="1168.0" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Phosphoglycerate mutase (R_PGM) biochemical reaction</title></rect>
+<rect x="1688.2" y="1756.7" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Phosphate reversible transport via symport (R_PIt2r) translocation reaction</title></rect>
+<rect x="1653.7" y="517.8" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Phosphoenolpyruvate carboxylase (R_PPC) biochemical reaction</title></rect>
+<rect x="1663.5" y="650.3" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Phosphoenolpyruvate carboxykinase (R_PPCK) biochemical reaction</title></rect>
+<rect x="1661.8" y="691.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Phosphoenolpyruvate synthase (R_PPS) biochemical reaction</title></rect>
+<rect x="3151.5" y="1148.6" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Phosphotransacetylase (R_PTAr) biochemical reaction</title></rect>
+<rect x="1660.9" y="559.0" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Pyruvate kinase (R_PYK) biochemical reaction</title></rect>
+<rect x="1580.5" y="1618.4" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Pyruvate transport in via proton symport (R_PYRt2) translocation reaction</title></rect>
+<rect x="452.2" y="1608.2" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Ribulose 5-phosphate 3-epimerase (R_RPE) biochemical reaction</title></rect>
+<rect x="529.4" y="1426.9" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Ribose-5-phosphate isomerase (R_RPI) biochemical reaction</title></rect>
+<rect x="3785.9" y="2469.7" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Succinate transport via proton symport (2 H) (R_SUCCt2_2) translocation reaction</title></rect>
+<rect x="3743.9" y="2469.7" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>Succinate transport out via proton antiport (R_SUCCt3) translocation reaction</title></rect>
+<rect x="3600.6" y="2070.3" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Succinate dehydrogenase (irreversible) (R_SUCDi) biochemical reaction</title></rect>
+<rect x="3192.9" y="1142.3" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Succinyl-CoA synthetase (ADP-forming) (R_SUCOAS) biochemical reaction</title></rect>
+<rect x="249.1" y="1517.1" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Transaldolase (R_TALA) biochemical reaction</title></rect>
+<rect x="1580.9" y="1577.2" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>NAD(P) transhydrogenase (R_THD2) translocation reaction</title></rect>
+<rect x="383.5" y="1458.4" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Transketolase (R_TKT1) biochemical reaction</title></rect>
+<rect x="300.8" y="1559.2" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Transketolase (R_TKT2) biochemical reaction</title></rect>
+<rect x="295.6" y="1398.0" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>Triose-phosphate isomerase (R_TPI) biochemical reaction</title></rect>
+</g>
+</svg>

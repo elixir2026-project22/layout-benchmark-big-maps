@@ -1,0 +1,1202 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2154" height="2391" viewBox="0 0 2154 2391" font-family="Helvetica, Arial, sans-serif">
+<title>hybrid — skm_sa</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="10" y="18" font-size="14" font-weight="bold" fill="#222">hybrid — skm_sa</text>
+<rect x="10" y="26" width="12" height="10" fill="#e5dfca" stroke="#666" stroke-width="0.5"/><text x="27" y="35" font-size="10" fill="#333">cytoplasm</text>
+<rect x="240" y="26" width="12" height="10" fill="#c8dac8" stroke="#666" stroke-width="0.5"/><text x="257" y="35" font-size="10" fill="#333">chloroplast</text>
+<rect x="470" y="26" width="12" height="10" fill="#d8cddf" stroke="#666" stroke-width="0.5"/><text x="487" y="35" font-size="10" fill="#333">endoplasmic reticulum</text>
+<rect x="700" y="26" width="12" height="10" fill="#cad3e1" stroke="#666" stroke-width="0.5"/><text x="717" y="35" font-size="10" fill="#333">nucleus</text>
+<rect x="10" y="42" width="12" height="10" fill="#c7d9d9" stroke="#666" stroke-width="0.5"/><text x="27" y="51" font-size="10" fill="#333">peroxisome</text>
+<rect x="240" y="42" width="12" height="10" fill="#d1d1df" stroke="#666" stroke-width="0.5"/><text x="257" y="51" font-size="10" fill="#333">vacuole</text>
+<rect x="470" y="42" width="12" height="10" fill="#4e79a7" stroke="#666" stroke-width="0.5"/><text x="487" y="51" font-size="10" fill="#333">biochemical reaction</text>
+<rect x="700" y="42" width="12" height="10" fill="#f28e2b" stroke="#666" stroke-width="0.5"/><text x="717" y="51" font-size="10" fill="#333">non-covalent binding</text>
+<rect x="10" y="58" width="12" height="10" fill="#59a14f" stroke="#666" stroke-width="0.5"/><text x="27" y="67" font-size="10" fill="#333">degradation</text>
+<rect x="240" y="58" width="12" height="10" fill="#e15759" stroke="#666" stroke-width="0.5"/><text x="257" y="67" font-size="10" fill="#333">dissociation</text>
+<rect x="470" y="58" width="12" height="10" fill="#b07aa1" stroke="#666" stroke-width="0.5"/><text x="487" y="67" font-size="10" fill="#333">genetic production</text>
+<rect x="700" y="58" width="12" height="10" fill="#76b7b2" stroke="#666" stroke-width="0.5"/><text x="717" y="67" font-size="10" fill="#333">activation</text>
+<rect x="10" y="74" width="12" height="10" fill="#edc948" stroke="#666" stroke-width="0.5"/><text x="27" y="83" font-size="10" fill="#333">active transport</text>
+<rect x="240" y="74" width="12" height="10" fill="#9c755f" stroke="#666" stroke-width="0.5"/><text x="257" y="83" font-size="10" fill="#333">passive transport</text>
+<rect x="470" y="74" width="12" height="10" fill="#ff9da7" stroke="#666" stroke-width="0.5"/><text x="487" y="83" font-size="10" fill="#333">inactivation</text>
+<g transform="translate(0,94)">
+<rect x="12.0" y="12.0" width="1010.0" height="1100.0" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="18.0" y="27.0" font-size="12" fill="#111" font-weight="bold">External stimuli response<title>External stimuli response [function]</title></text>
+<rect x="518.0" y="44.0" width="492.0" height="500.0" rx="3" fill="#f7f7f7" stroke="#333" stroke-width="1.0"/>
+<text x="524.0" y="57.0" font-size="10" fill="#111" font-weight="bold">CAT<title>CAT [topology]</title></text>
+<rect x="530.0" y="124.0" width="468.0" height="408.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="536.0" y="137.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="542.0" y="408.0" width="172.0" height="112.0" rx="16" fill="#def2f2" stroke="#859191" stroke-width="1.8"/>
+<text x="548.0" y="421.0" font-size="10" font-style="italic" fill="#444">peroxisome<title>peroxisome [localisation]</title></text>
+<rect x="24.0" y="44.0" width="480.0" height="555.0" rx="3" fill="#f7f7f7" stroke="#333" stroke-width="1.0"/>
+<text x="30.0" y="57.0" font-size="10" fill="#111" font-weight="bold">pathogen: defense mechanisms: systemic acquired resistance (SAR)<title>pathogen: defense mechanisms: systemic acquired resistance (SAR) [function]</title></text>
+<rect x="36.0" y="76.0" width="456.0" height="511.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="42.0" y="89.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="308.0" y="360.0" width="172.0" height="78.0" rx="16" fill="#dff3df" stroke="#859185" stroke-width="1.8"/>
+<text x="314.0" y="373.0" font-size="10" font-style="italic" fill="#444">chloroplast<title>chloroplast [localisation]</title></text>
+<rect x="48.0" y="360.0" width="246.0" height="215.0" rx="16" fill="#e1ebfb" stroke="#878d96" stroke-width="1.8"/>
+<text x="54.0" y="373.0" font-size="10" font-style="italic" fill="#444">nucleus<title>nucleus [localisation]</title></text>
+<rect x="60.0" y="392.0" width="222.0" height="62.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="66.0" y="405.0" font-size="10" fill="#666">boundary<title>boundary [band]</title></text>
+<rect x="24.0" y="613.0" width="344.0" height="487.0" rx="3" fill="#f7f7f7" stroke="#333" stroke-width="1.0"/>
+<text x="30.0" y="626.0" font-size="10" fill="#111" font-weight="bold">pathogen: effector-triggered immunity (ETI) machinery: TNL…<title>pathogen: effector-triggered immunity (ETI) machinery: TNL-mediated effector-triggered immunity: EDS1-PAD4/SAG101 signalling heterodimers [function]</title></text>
+<rect x="36.0" y="645.0" width="320.0" height="443.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="42.0" y="658.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="48.0" y="827.0" width="246.0" height="249.0" rx="16" fill="#e1ebfb" stroke="#878d96" stroke-width="1.8"/>
+<text x="54.0" y="840.0" font-size="10" font-style="italic" fill="#444">nucleus<title>nucleus [localisation]</title></text>
+<rect x="60.0" y="859.0" width="222.0" height="62.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="66.0" y="872.0" font-size="10" fill="#666">boundary<title>boundary [band]</title></text>
+<rect x="1036.0" y="12.0" width="702.0" height="760.0" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="1042.0" y="27.0" font-size="12" fill="#111" font-weight="bold">Phytohormone action<title>Phytohormone action [function]</title></text>
+<rect x="1048.0" y="44.0" width="678.0" height="716.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="1054.0" y="57.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="1394.0" y="76.0" width="320.0" height="214.0" rx="3" fill="#efefef" stroke="#333" stroke-width="1.0"/>
+<text x="1400.0" y="89.0" font-size="10" fill="#111" font-weight="bold">biochemical reaction<title>biochemical reaction [reaction_type]</title></text>
+<rect x="1060.0" y="373.0" width="320.0" height="214.0" rx="3" fill="#efefef" stroke="#333" stroke-width="1.0"/>
+<text x="1066.0" y="386.0" font-size="10" fill="#111" font-weight="bold">non-covalent binding<title>non-covalent binding [reaction_type]</title></text>
+<rect x="1060.0" y="601.0" width="246.0" height="146.0" rx="3" fill="#efefef" stroke="#333" stroke-width="1.0"/>
+<text x="1066.0" y="614.0" font-size="10" fill="#111" font-weight="bold">genetic production<title>genetic production [reaction_type]</title></text>
+<rect x="1394.0" y="373.0" width="246.0" height="146.0" rx="16" fill="#dff3df" stroke="#859185" stroke-width="1.8"/>
+<text x="1400.0" y="386.0" font-size="10" font-style="italic" fill="#444">chloroplast<title>chloroplast [localisation]</title></text>
+<rect x="1432.0" y="601.0" width="98.0" height="78.0" rx="16" fill="#f0e4f8" stroke="#908894" stroke-width="1.8"/>
+<text x="1438.0" y="614.0" font-size="10" font-style="italic" fill="#444">endoplasmic re…<title>endoplasmic reticulum [localisation]</title></text>
+<rect x="1060.0" y="76.0" width="320.0" height="283.0" rx="16" fill="#e1ebfb" stroke="#878d96" stroke-width="1.8"/>
+<text x="1066.0" y="89.0" font-size="10" font-style="italic" fill="#444">nucleus<title>nucleus [localisation]</title></text>
+<rect x="1072.0" y="108.0" width="296.0" height="62.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="1078.0" y="121.0" font-size="10" fill="#666">boundary<title>boundary [band]</title></text>
+<rect x="1320.0" y="601.0" width="98.0" height="147.0" rx="16" fill="#def2f2" stroke="#859191" stroke-width="1.8"/>
+<text x="1326.0" y="614.0" font-size="10" font-style="italic" fill="#444">peroxisome<title>peroxisome [localisation]</title></text>
+<rect x="1332.0" y="633.0" width="74.0" height="62.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="1338.0" y="646.0" font-size="10" fill="#666">boundary<title>boundary [band]</title></text>
+<rect x="12.0" y="1126.0" width="700.0" height="726.0" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="18.0" y="1141.0" font-size="12" fill="#111" font-weight="bold">RNA biosynthesis<title>RNA biosynthesis [function]</title></text>
+<rect x="24.0" y="1158.0" width="368.0" height="682.0" rx="3" fill="#f7f7f7" stroke="#333" stroke-width="1.0"/>
+<text x="30.0" y="1171.0" font-size="10" fill="#111" font-weight="bold">DNA-binding transcriptional regulation: beta-hairpin exposed b…<title>DNA-binding transcriptional regulation: beta-hairpin exposed by alpha/beta-scaffold structure: WRKY transcription factor activity: transcription factor *(WRKY) [function]</title></text>
+<rect x="36.0" y="1190.0" width="344.0" height="638.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="42.0" y="1203.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="48.0" y="1669.0" width="172.0" height="112.0" rx="16" fill="#dff3df" stroke="#859185" stroke-width="1.8"/>
+<text x="54.0" y="1682.0" font-size="10" font-style="italic" fill="#444">chloroplast<title>chloroplast [localisation]</title></text>
+<rect x="48.0" y="1372.0" width="320.0" height="283.0" rx="16" fill="#e1ebfb" stroke="#878d96" stroke-width="1.8"/>
+<text x="54.0" y="1385.0" font-size="10" font-style="italic" fill="#444">nucleus<title>nucleus [localisation]</title></text>
+<rect x="60.0" y="1404.0" width="296.0" height="96.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="66.0" y="1417.0" font-size="10" fill="#666">boundary<title>boundary [localisation]</title></text>
+<rect x="234.0" y="1669.0" width="98.0" height="147.0" rx="16" fill="#e9e9f8" stroke="#8b8b94" stroke-width="1.8"/>
+<text x="240.0" y="1682.0" font-size="10" font-style="italic" fill="#444">vacuole<title>vacuole [localisation]</title></text>
+<rect x="246.0" y="1701.0" width="74.0" height="62.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="252.0" y="1714.0" font-size="10" fill="#666">boundary<title>boundary [band]</title></text>
+<rect x="406.0" y="1158.0" width="294.0" height="613.0" rx="3" fill="#f7f7f7" stroke="#333" stroke-width="1.0"/>
+<text x="412.0" y="1171.0" font-size="10" fill="#111" font-weight="bold">DNA-binding transcriptional regulation<title>DNA-binding transcriptional regulation [function]</title></text>
+<rect x="418.0" y="1190.0" width="270.0" height="569.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="424.0" y="1203.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="430.0" y="1372.0" width="246.0" height="283.0" rx="16" fill="#e1ebfb" stroke="#878d96" stroke-width="1.8"/>
+<text x="436.0" y="1385.0" font-size="10" font-style="italic" fill="#444">nucleus<title>nucleus [localisation]</title></text>
+<rect x="442.0" y="1404.0" width="222.0" height="96.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="448.0" y="1417.0" font-size="10" fill="#666">boundary<title>boundary [localisation]</title></text>
+<rect x="430.0" y="1669.0" width="172.0" height="78.0" rx="16" fill="#def2f2" stroke="#859191" stroke-width="1.8"/>
+<text x="436.0" y="1682.0" font-size="10" font-style="italic" fill="#444">peroxisome<title>peroxisome [localisation]</title></text>
+<rect x="726.0" y="1126.0" width="368.0" height="579.0" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="732.0" y="1141.0" font-size="12" fill="#111" font-weight="bold">Enzyme classification<title>Enzyme classification [function]</title></text>
+<rect x="738.0" y="1158.0" width="344.0" height="535.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="744.0" y="1171.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="750.0" y="1603.0" width="172.0" height="78.0" rx="16" fill="#dff3df" stroke="#859185" stroke-width="1.8"/>
+<text x="756.0" y="1616.0" font-size="10" font-style="italic" fill="#444">chloroplast<title>chloroplast [localisation]</title></text>
+<rect x="750.0" y="1340.0" width="320.0" height="249.0" rx="16" fill="#e1ebfb" stroke="#878d96" stroke-width="1.8"/>
+<text x="756.0" y="1353.0" font-size="10" font-style="italic" fill="#444">nucleus<title>nucleus [localisation]</title></text>
+<rect x="762.0" y="1372.0" width="296.0" height="62.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="768.0" y="1385.0" font-size="10" fill="#666">boundary<title>boundary [band]</title></text>
+<rect x="1416.0" y="1126.0" width="344.0" height="501.0" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="1422.0" y="1141.0" font-size="12" fill="#111" font-weight="bold">EDS5<title>EDS5 [topology]</title></text>
+<rect x="1428.0" y="1206.0" width="320.0" height="409.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="1434.0" y="1219.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="1440.0" y="1388.0" width="246.0" height="215.0" rx="16" fill="#dff3df" stroke="#859185" stroke-width="1.8"/>
+<text x="1446.0" y="1401.0" font-size="10" font-style="italic" fill="#444">chloroplast<title>chloroplast [localisation]</title></text>
+<rect x="1452.0" y="1420.0" width="222.0" height="96.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="1458.0" y="1433.0" font-size="10" fill="#666">boundary<title>boundary [localisation]</title></text>
+<rect x="1108.0" y="1126.0" width="294.0" height="614.0" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="1114.0" y="1141.0" font-size="12" fill="#111" font-weight="bold">Secondary metabolism: phenolics biosynthe…<title>Secondary metabolism: phenolics biosynthesis: p-coumaroyl-CoA biosynthesis [function]</title></text>
+<rect x="1120.0" y="1158.0" width="270.0" height="570.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="1126.0" y="1171.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="1132.0" y="1535.0" width="172.0" height="181.0" rx="16" fill="#dff3df" stroke="#859185" stroke-width="1.8"/>
+<text x="1138.0" y="1548.0" font-size="10" font-style="italic" fill="#444">chloroplast<title>chloroplast [localisation]</title></text>
+<rect x="1144.0" y="1567.0" width="148.0" height="62.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="1150.0" y="1580.0" font-size="10" fill="#666">boundary<title>boundary [band]</title></text>
+<rect x="1132.0" y="1340.0" width="246.0" height="181.0" rx="16" fill="#def2f2" stroke="#859191" stroke-width="1.8"/>
+<text x="1138.0" y="1353.0" font-size="10" font-style="italic" fill="#444">peroxisome<title>peroxisome [localisation]</title></text>
+<rect x="1144.0" y="1372.0" width="222.0" height="62.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="1150.0" y="1385.0" font-size="10" fill="#666">boundary<title>boundary [band]</title></text>
+<rect x="1774.0" y="1126.0" width="368.0" height="385.0" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="1780.0" y="1141.0" font-size="12" fill="#111" font-weight="bold">3H3PP-CoA<title>3H3PP-CoA [topology]</title></text>
+<rect x="1786.0" y="1158.0" width="344.0" height="341.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="1792.0" y="1171.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="1798.0" y="1238.0" width="320.0" height="249.0" rx="16" fill="#def2f2" stroke="#859191" stroke-width="1.8"/>
+<text x="1804.0" y="1251.0" font-size="10" font-style="italic" fill="#444">peroxisome<title>peroxisome [localisation]</title></text>
+<rect x="1810.0" y="1270.0" width="296.0" height="62.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="1816.0" y="1283.0" font-size="10" fill="#666">boundary<title>boundary [band]</title></text>
+<rect x="12.0" y="1866.0" width="270.0" height="419.0" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="18.0" y="1881.0" font-size="12" fill="#111" font-weight="bold">Amino acid metabolism<title>Amino acid metabolism [function]</title></text>
+<rect x="24.0" y="1898.0" width="246.0" height="375.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="30.0" y="1911.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="36.0" y="2080.0" width="172.0" height="181.0" rx="16" fill="#dff3df" stroke="#859185" stroke-width="1.8"/>
+<text x="42.0" y="2093.0" font-size="10" font-style="italic" fill="#444">chloroplast<title>chloroplast [localisation]</title></text>
+<rect x="48.0" y="2112.0" width="148.0" height="96.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="54.0" y="2125.0" font-size="10" fill="#666">boundary<title>boundary [band]</title></text>
+<rect x="296.0" y="1866.0" width="270.0" height="419.0" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="302.0" y="1881.0" font-size="12" fill="#111" font-weight="bold">AAO<title>AAO [topology]</title></text>
+<rect x="308.0" y="1898.0" width="246.0" height="375.0" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="314.0" y="1911.0" font-size="10" font-style="italic" fill="#444">cytoplasm<title>cytoplasm [localisation]</title></text>
+<rect x="320.0" y="2046.0" width="172.0" height="215.0" rx="16" fill="#def2f2" stroke="#859191" stroke-width="1.8"/>
+<text x="326.0" y="2059.0" font-size="10" font-style="italic" fill="#444">peroxisome<title>peroxisome [localisation]</title></text>
+<rect x="332.0" y="2078.0" width="148.0" height="96.0" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="338.0" y="2091.0" font-size="10" fill="#666">boundary<title>boundary [band]</title></text>
+<line x1="2069.0" y1="1356.0" x2="1847.0" y2="1356.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1847.0" y1="1356.0" x2="1995.0" y2="1356.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1921.0" y1="1356.0" x2="1847.0" y2="1356.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1021.0" y1="1458.0" x2="799.0" y2="1458.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="947.0" y1="1458.0" x2="799.0" y2="1458.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="799.0" y1="1458.0" x2="873.0" y2="1458.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1591.0" y1="159.0" x2="1517.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1517.0" y1="125.0" x2="1443.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1517.0" y1="159.0" x2="1517.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1637.0" y1="1506.0" x2="1563.0" y2="1540.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1563.0" y1="1540.0" x2="1637.0" y2="1540.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1489.0" y1="1574.0" x2="1563.0" y2="1540.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1637.0" y1="1506.0" x2="1489.0" y2="1506.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1489.0" y1="1506.0" x2="1489.0" y2="1540.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1563.0" y1="1506.0" x2="1489.0" y2="1506.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="159.0" y1="2232.0" x2="1181.0" y2="1653.0" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="1181.0" y1="1653.0" x2="1255.0" y2="1653.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1181.0" y1="1687.0" x2="1181.0" y2="1653.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1443.0" y1="125.0" x2="1591.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1591.0" y1="125.0" x2="1591.0" y2="159.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1665.0" y1="159.0" x2="1591.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="159.0" y1="1307.0" x2="295.0" y2="1734.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="295.0" y1="1734.0" x2="283.0" y2="1787.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="159.0" y1="1239.0" x2="295.0" y2="1734.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="171.0" y1="945.0" x2="171.0" y2="979.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="245.0" y1="979.0" x2="171.0" y2="979.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="171.0" y1="979.0" x2="245.0" y2="1013.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="947.0" y1="1458.0" x2="873.0" y2="1492.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="873.0" y1="1492.0" x2="947.0" y2="1458.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="799.0" y1="1560.0" x2="873.0" y2="1492.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="947.0" y1="1458.0" x2="947.0" y2="1492.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="947.0" y1="1492.0" x2="947.0" y2="1458.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="861.0" y1="1309.0" x2="947.0" y2="1492.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="947.0" y1="1458.0" x2="811.0" y2="1405.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1009.0" y1="1275.0" x2="811.0" y2="1405.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="811.0" y1="1405.0" x2="787.0" y2="1309.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="85.0" y1="125.0" x2="159.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="159.0" y1="125.0" x2="233.0" y2="159.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="159.0" y1="159.0" x2="159.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="159.0" y1="193.0" x2="381.0" y2="159.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="381.0" y1="159.0" x2="307.0" y2="159.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="85.0" y1="193.0" x2="381.0" y2="159.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="233.0" y1="159.0" x2="233.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="233.0" y1="125.0" x2="85.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="307.0" y1="159.0" x2="233.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="307.0" y1="295.0" x2="109.0" y2="425.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="109.0" y1="425.0" x2="97.0" y2="512.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="85.0" y1="329.0" x2="109.0" y2="425.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="245.0" y1="512.0" x2="109.0" y2="425.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="935.0" y1="1241.0" x2="861.0" y2="1241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="873.0" y1="1526.0" x2="935.0" y2="1241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="799.0" y1="1560.0" x2="1021.0" y2="1526.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="873.0" y1="1560.0" x2="1021.0" y2="1526.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1021.0" y1="1526.0" x2="799.0" y2="1526.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="512.0" x2="97.0" y2="478.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="245.0" y1="478.0" x2="97.0" y2="478.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="97.0" y1="478.0" x2="171.0" y2="478.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1183.0" y1="650.0" x2="1109.0" y2="650.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1109.0" y1="718.0" x2="1183.0" y2="650.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="787.0" y1="1275.0" x2="861.0" y2="1275.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="873.0" y1="1526.0" x2="787.0" y2="1275.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="787.0" y1="1241.0" x2="935.0" y2="1207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="873.0" y1="1526.0" x2="787.0" y2="1241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="85.0" y1="125.0" x2="307.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="307.0" y1="125.0" x2="307.0" y2="295.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="381.0" y1="295.0" x2="307.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1021.0" y1="1492.0" x2="1021.0" y2="1458.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="947.0" y1="1526.0" x2="1021.0" y2="1492.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="307.0" y1="728.0" x2="159.0" y2="728.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="1047.0" x2="307.0" y2="728.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="479.0" y1="1490.0" x2="479.0" y2="1524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="627.0" y1="1490.0" x2="479.0" y2="1490.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="553.0" y1="1490.0" x2="479.0" y2="1490.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="553.0" y1="1524.0" x2="479.0" y2="1490.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="553.0" y1="1558.0" x2="627.0" y2="1524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="553.0" y1="1524.0" x2="627.0" y2="1524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="627.0" y1="1524.0" x2="479.0" y2="1558.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="467.0" y1="1273.0" x2="541.0" y2="1273.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="479.0" y1="1558.0" x2="467.0" y2="1273.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="479.0" y1="1524.0" x2="467.0" y2="1273.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="97.0" y1="1013.0" x2="245.0" y2="979.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="171.0" y1="1013.0" x2="97.0" y2="1013.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1517.0" y1="422.0" x2="1443.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1257.0" y1="330.0" x2="1517.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="171.0" y1="1718.0" x2="97.0" y2="1718.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="319.0" y1="1490.0" x2="171.0" y2="1718.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1591.0" y1="422.0" x2="1443.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1183.0" y1="330.0" x2="1591.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="431.0" y1="409.0" x2="357.0" y2="409.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="171.0" y1="512.0" x2="431.0" y2="409.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="479.0" y1="1718.0" x2="553.0" y2="1718.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="553.0" y1="1524.0" x2="479.0" y2="1718.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1109.0" y1="650.0" x2="1517.0" y2="261.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1517.0" y1="261.0" x2="1665.0" y2="261.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1591.0" y1="261.0" x2="1517.0" y2="261.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="727.0" y1="173.0" x2="801.0" y2="173.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="801.0" y1="173.0" x2="653.0" y2="173.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="579.0" y1="377.0" x2="801.0" y2="173.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1443.0" y1="456.0" x2="1443.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1183.0" y1="296.0" x2="1443.0" y2="456.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="97.0" y1="1752.0" x2="97.0" y2="1718.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="1558.0" x2="97.0" y2="1752.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1517.0" y1="456.0" x2="1443.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1257.0" y1="296.0" x2="1517.0" y2="456.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1591.0" y1="456.0" x2="1443.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1331.0" y1="296.0" x2="1591.0" y2="456.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="85.0" y1="1239.0" x2="159.0" y2="1239.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="1558.0" x2="85.0" y2="1239.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1183.0" y1="684.0" x2="1109.0" y2="684.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1257.0" y1="296.0" x2="1183.0" y2="684.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1257.0" y1="684.0" x2="1109.0" y2="684.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1331.0" y1="296.0" x2="1257.0" y2="684.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="85.0" y1="1273.0" x2="233.0" y2="1239.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="319.0" y1="1558.0" x2="85.0" y2="1273.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="591.0" y1="491.0" x2="665.0" y2="491.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="665.0" y1="491.0" x2="665.0" y2="457.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="579.0" y1="377.0" x2="665.0" y2="491.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1257.0" y1="650.0" x2="1109.0" y2="650.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1109.0" y1="296.0" x2="1257.0" y2="650.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1443.0" y1="125.0" x2="1665.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1665.0" y1="125.0" x2="1517.0" y2="193.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1443.0" y1="193.0" x2="1665.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1109.0" y1="194.0" x2="1183.0" y2="194.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1109.0" y1="228.0" x2="1183.0" y2="194.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1443.0" y1="125.0" x2="1183.0" y2="194.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1109.0" y1="194.0" x2="1257.0" y2="194.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1443.0" y1="125.0" x2="1257.0" y2="194.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1183.0" y1="228.0" x2="1257.0" y2="194.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1443.0" y1="490.0" x2="1443.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="1443.0" y2="490.0" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" stroke-dasharray="3 2"/>
+<line x1="1257.0" y1="262.0" x2="1331.0" y2="262.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1331.0" y1="262.0" x2="1183.0" y2="262.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1331.0" y1="422.0" x2="1331.0" y2="262.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="171.0" y1="1752.0" x2="97.0" y2="1718.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="245.0" y1="1490.0" x2="171.0" y2="1752.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="319.0" y1="1592.0" x2="97.0" y2="1524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="245.0" y1="1490.0" x2="97.0" y2="1524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="97.0" y1="1524.0" x2="245.0" y2="1524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="245.0" y1="1490.0" x2="97.0" y2="1490.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="319.0" y1="1490.0" x2="97.0" y2="1490.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="97.0" y1="1490.0" x2="171.0" y2="1490.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="245.0" y1="1490.0" x2="171.0" y2="1524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="97.0" y1="1558.0" x2="171.0" y2="1524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="171.0" y1="1524.0" x2="319.0" y2="1524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1331.0" y1="422.0" x2="1109.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1257.0" y1="422.0" x2="1109.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1109.0" y1="422.0" x2="1183.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1331.0" y1="422.0" x2="1109.0" y2="456.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1331.0" y1="456.0" x2="1109.0" y2="456.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1109.0" y1="456.0" x2="1257.0" y2="456.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="615.0" y1="1273.0" x2="467.0" y2="1307.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="479.0" y1="1524.0" x2="615.0" y2="1273.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1665.0" y1="227.0" x2="1443.0" y2="227.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1443.0" y1="227.0" x2="1591.0" y2="227.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1443.0" y1="193.0" x2="1443.0" y2="227.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="73.0" y1="1981.0" x2="73.0" y2="1947.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="221.0" y1="1981.0" x2="73.0" y2="1947.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="73.0" y1="1947.0" x2="147.0" y2="1947.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="73.0" y1="1947.0" x2="147.0" y2="1981.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="221.0" y1="1947.0" x2="73.0" y2="1947.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="479.0" y1="1592.0" x2="627.0" y2="1558.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="627.0" y1="1558.0" x2="553.0" y2="1592.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="627.0" y1="1592.0" x2="627.0" y2="1558.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="97.0" y1="1626.0" x2="109.0" y2="1437.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="85.0" y1="1341.0" x2="109.0" y2="1437.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="109.0" y1="1437.0" x2="85.0" y2="1307.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="159.0" y1="1307.0" x2="109.0" y2="1437.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="627.0" y1="1592.0" x2="491.0" y2="1437.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="479.0" y1="1626.0" x2="491.0" y2="1437.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="491.0" y1="1437.0" x2="541.0" y2="1307.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="467.0" y1="1341.0" x2="491.0" y2="1437.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="85.0" y1="1341.0" x2="183.0" y2="1437.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="479.0" y1="1626.0" x2="183.0" y2="1437.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="183.0" y1="1437.0" x2="233.0" y2="1273.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="553.0" y1="1524.0" x2="565.0" y2="1437.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="479.0" y1="1626.0" x2="565.0" y2="1437.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="565.0" y1="1437.0" x2="615.0" y2="1307.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1517.0" y1="490.0" x2="1443.0" y2="422.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1257.0" y1="262.0" x2="1517.0" y2="490.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1257.0" y1="228.0" x2="1331.0" y2="194.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1331.0" y1="194.0" x2="1109.0" y2="194.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1331.0" y1="228.0" x2="1331.0" y2="194.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1551.0" y1="1255.0" x2="1477.0" y2="1255.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1699.0" y1="1255.0" x2="1477.0" y2="1255.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1477.0" y1="1255.0" x2="1625.0" y2="1255.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="233.0" y1="227.0" x2="1477.0" y2="1255.0" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" stroke-dasharray="3 2"/>
+<line x1="1625.0" y1="1255.0" x2="1477.0" y2="1289.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1477.0" y1="1289.0" x2="1699.0" y2="1289.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1477.0" y1="1289.0" x2="1625.0" y2="1357.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1625.0" y1="1289.0" x2="1477.0" y2="1289.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1625.0" y1="1255.0" x2="1551.0" y2="1289.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1551.0" y1="1289.0" x2="1625.0" y2="1357.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1551.0" y1="1289.0" x2="1699.0" y2="1289.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1637.0" y1="1540.0" x2="1501.0" y2="1453.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1501.0" y1="1453.0" x2="1699.0" y2="1255.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1563.0" y1="1574.0" x2="1501.0" y2="1453.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="159.0" y1="728.0" x2="109.0" y2="892.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="109.0" y1="892.0" x2="171.0" y2="945.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="159.0" y1="728.0" x2="233.0" y2="694.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="233.0" y1="694.0" x2="85.0" y2="694.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="233.0" y1="728.0" x2="233.0" y2="694.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="873.0" y1="1652.0" x2="799.0" y2="1652.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="873.0" y1="1526.0" x2="873.0" y2="1652.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1847.0" y1="1458.0" x2="1847.0" y2="1390.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1847.0" y1="1390.0" x2="1921.0" y2="1390.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1921.0" y1="1356.0" x2="1847.0" y2="1390.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1243.0" y1="1207.0" x2="1193.0" y2="1405.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1193.0" y1="1405.0" x2="1181.0" y2="1492.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1329.0" y1="1492.0" x2="1193.0" y2="1405.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1181.0" y1="1492.0" x2="1255.0" y2="1492.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1255.0" y1="1492.0" x2="1329.0" y2="1458.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1169.0" y1="1309.0" x2="1255.0" y2="1492.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1181.0" y1="1492.0" x2="1181.0" y2="1458.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1181.0" y1="1458.0" x2="1329.0" y2="1458.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1255.0" y1="1458.0" x2="1181.0" y2="1458.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1921.0" y1="1390.0" x2="1995.0" y2="1390.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1995.0" y1="1390.0" x2="2069.0" y2="1390.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2069.0" y1="1390.0" x2="1859.0" y2="1303.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1859.0" y1="1303.0" x2="1835.0" y2="1207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1921.0" y1="1458.0" x2="1859.0" y2="1303.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1995.0" y1="1424.0" x2="369.0" y2="2164.0" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="369.0" y1="2164.0" x2="443.0" y2="2164.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="369.0" y1="2198.0" x2="369.0" y2="2164.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="443.0" y1="2164.0" x2="381.0" y2="2111.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="381.0" y1="2111.0" x2="505.0" y2="1947.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="357.0" y1="1981.0" x2="357.0" y2="1947.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="357.0" y1="1947.0" x2="505.0" y2="1947.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="431.0" y1="1947.0" x2="357.0" y2="1947.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="443.0" y1="2198.0" x2="381.0" y2="2145.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="381.0" y1="2145.0" x2="357.0" y2="1981.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="369.0" y1="2232.0" x2="381.0" y2="2145.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1625.0" y1="1323.0" x2="1477.0" y2="1323.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1477.0" y1="1323.0" x2="147.0" y2="2015.0" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="1551.0" y1="1323.0" x2="1477.0" y2="1323.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="85.0" y1="2232.0" x2="85.0" y2="2198.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="85.0" y1="2198.0" x2="159.0" y2="2232.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="159.0" y1="2198.0" x2="85.0" y2="2198.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="147.0" y1="2015.0" x2="73.0" y2="2015.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="73.0" y1="2015.0" x2="73.0" y2="2049.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="221.0" y1="2015.0" x2="73.0" y2="2015.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1243.0" y1="1207.0" x2="1169.0" y2="1207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1169.0" y1="1207.0" x2="1169.0" y2="1241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1317.0" y1="1207.0" x2="1169.0" y2="1207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="799.0" y1="1526.0" x2="799.0" y2="1492.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="799.0" y1="1492.0" x2="873.0" y2="1526.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="873.0" y1="1458.0" x2="799.0" y2="1492.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="431.0" y1="2015.0" x2="431.0" y2="1981.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="431.0" y1="1981.0" x2="357.0" y2="2015.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="431.0" y1="1947.0" x2="431.0" y2="1981.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1009.0" y1="1207.0" x2="787.0" y2="1207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="935.0" y1="1207.0" x2="787.0" y2="1207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="787.0" y1="1207.0" x2="861.0" y2="1207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1169.0" y1="1275.0" x2="1243.0" y2="1241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1243.0" y1="1241.0" x2="1169.0" y2="1275.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1169.0" y1="1241.0" x2="1243.0" y2="1241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1109.0" y1="558.0" x2="1257.0" y2="490.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1109.0" y1="524.0" x2="1257.0" y2="490.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1257.0" y1="490.0" x2="1331.0" y2="490.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1009.0" y1="1241.0" x2="861.0" y2="1241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="1009.0" y2="1241.0" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" stroke-dasharray="3 2"/>
+<line x1="1477.0" y1="1357.0" x2="1699.0" y2="1323.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1539.0" y1="1175.0" x2="1477.0" y2="1357.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1551.0" y1="1357.0" x2="1699.0" y2="1323.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1465.0" y1="1175.0" x2="1551.0" y2="1357.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="381.0" y1="125.0" x2="85.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="381.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="85.0" y1="159.0" x2="85.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="171.0" y1="512.0" x2="85.0" y2="159.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="233.0" y1="193.0" x2="307.0" y2="193.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="381.0" y1="193.0" x2="233.0" y2="193.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="85.0" y1="227.0" x2="159.0" y2="227.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="381.0" y1="193.0" x2="85.0" y2="227.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="307.0" y1="227.0" x2="233.0" y2="227.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="307.0" y2="227.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="381.0" y1="227.0" x2="233.0" y2="227.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="171.0" y1="512.0" x2="381.0" y2="227.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="307.0" y1="694.0" x2="85.0" y2="694.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="307.0" y2="694.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="307.0" y1="762.0" x2="233.0" y2="762.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="307.0" y2="762.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="85.0" y1="728.0" x2="85.0" y2="694.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="171.0" y1="512.0" x2="85.0" y2="728.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="85.0" y1="796.0" x2="233.0" y2="762.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="171.0" y1="512.0" x2="85.0" y2="796.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="875.0" y1="173.0" x2="949.0" y2="173.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="875.0" y2="173.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="579.0" y1="207.0" x2="653.0" y2="207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="579.0" y2="207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="727.0" y1="207.0" x2="801.0" y2="207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="727.0" y2="207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="875.0" y1="207.0" x2="949.0" y2="207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="875.0" y2="207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="579.0" y1="241.0" x2="653.0" y2="241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="579.0" y2="241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="727.0" y1="241.0" x2="801.0" y2="241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="727.0" y2="241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="875.0" y1="241.0" x2="949.0" y2="241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="875.0" y2="241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="579.0" y1="275.0" x2="653.0" y2="275.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="579.0" y2="275.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="727.0" y1="275.0" x2="801.0" y2="275.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="727.0" y2="275.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="935.0" y1="1275.0" x2="1009.0" y2="1275.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="935.0" y2="1275.0" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" stroke-dasharray="3 2"/>
+<line x1="875.0" y1="275.0" x2="949.0" y2="275.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="875.0" y2="275.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="159.0" y1="261.0" x2="85.0" y2="261.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="159.0" y2="261.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="381.0" y1="261.0" x2="307.0" y2="261.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="381.0" y2="261.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="579.0" y1="309.0" x2="653.0" y2="309.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="579.0" y2="309.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="727.0" y1="309.0" x2="801.0" y2="309.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="727.0" y2="309.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="875.0" y1="309.0" x2="949.0" y2="309.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="875.0" y2="309.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="159.0" y1="295.0" x2="233.0" y2="295.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="159.0" y2="295.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="579.0" y1="343.0" x2="653.0" y2="343.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="579.0" y2="343.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="727.0" y1="343.0" x2="801.0" y2="343.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="727.0" y2="343.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="875.0" y1="343.0" x2="949.0" y2="343.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="567.0" y1="93.0" x2="875.0" y2="343.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="233.0" y1="261.0" x2="85.0" y2="261.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="233.0" y2="261.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="85.0" y1="295.0" x2="307.0" y2="261.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="97.0" y1="546.0" x2="85.0" y2="295.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1665.0" y1="261.0" x2="1183.0" y2="524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1331.0" y1="524.0" x2="1183.0" y2="524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1183.0" y1="524.0" x2="1257.0" y2="524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="159.0" y1="1273.0" x2="1665.0" y2="261.0" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="171.0" y1="1626.0" x2="159.0" y2="1273.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="541.0" y1="1239.0" x2="467.0" y2="1239.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="233.0" y1="1307.0" x2="467.0" y2="1239.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="467.0" y1="1239.0" x2="615.0" y2="1239.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="159.0" y1="728.0" x2="85.0" y2="762.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="159.0" y1="796.0" x2="85.0" y2="762.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="85.0" y1="762.0" x2="159.0" y2="762.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="233.0" y1="796.0" x2="85.0" y2="762.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1331.0" y1="422.0" x2="1183.0" y2="456.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1109.0" y1="490.0" x2="1183.0" y2="456.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1183.0" y1="456.0" x2="1183.0" y2="490.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1183.0" y1="558.0" x2="1183.0" y2="456.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="245.0" y1="1592.0" x2="171.0" y2="1558.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="171.0" y1="1558.0" x2="245.0" y2="1558.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="319.0" y1="1558.0" x2="171.0" y2="1558.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="97.0" y1="1592.0" x2="171.0" y2="1592.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="245.0" y1="1558.0" x2="97.0" y2="1592.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="171.0" y1="945.0" x2="97.0" y2="945.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="97.0" y1="979.0" x2="97.0" y2="945.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="97.0" y1="945.0" x2="245.0" y2="945.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="307.0" y1="796.0" x2="97.0" y2="945.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1995.0" y1="1424.0" x2="1847.0" y2="1424.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1847.0" y1="1424.0" x2="2069.0" y2="1424.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1921.0" y1="1424.0" x2="1847.0" y2="1424.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1369.0" y1="719.0" x2="1381.0" y2="666.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1381.0" y1="666.0" x2="1443.0" y2="261.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1443.0" y1="261.0" x2="1517.0" y2="227.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1517.0" y1="227.0" x2="1665.0" y2="193.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1481.0" y1="650.0" x2="1517.0" y2="227.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1665.0" y1="193.0" x2="1443.0" y2="159.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1443.0" y1="159.0" x2="1443.0" y2="125.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1591.0" y1="193.0" x2="1443.0" y2="159.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1169.0" y1="1241.0" x2="1317.0" y2="1241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1317.0" y1="1241.0" x2="1317.0" y2="1275.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1243.0" y1="1275.0" x2="1317.0" y2="1241.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="505.0" y1="1947.0" x2="505.0" y2="1981.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="505.0" y1="1981.0" x2="357.0" y2="1981.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="431.0" y1="1947.0" x2="505.0" y2="1981.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1255.0" y1="1653.0" x2="1193.0" y2="1600.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1193.0" y1="1600.0" x2="1243.0" y2="1207.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="233.0" y1="762.0" x2="183.0" y2="892.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="183.0" y1="892.0" x2="245.0" y2="979.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="541.0" y1="1239.0" x2="491.0" y2="1471.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="491.0" y1="1471.0" x2="553.0" y2="1524.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1489.0" y1="1540.0" x2="1501.0" y2="1487.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1501.0" y1="1487.0" x2="1625.0" y2="1323.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="159.0" y1="2232.0" x2="97.0" y2="2179.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="97.0" y1="2179.0" x2="221.0" y2="1981.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="147.0" y1="2015.0" x2="97.0" y2="2145.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="97.0" y1="2145.0" x2="85.0" y2="2232.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1243.0" y1="1275.0" x2="1267.0" y2="1405.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1267.0" y1="1405.0" x2="1255.0" y2="1458.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1109.0" y1="524.0" x2="1121.0" y2="141.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1121.0" y1="141.0" x2="1183.0" y2="296.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="85.0" y1="1341.0" x2="109.0" y2="1471.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="109.0" y1="1471.0" x2="319.0" y2="1558.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1835.0" y1="1207.0" x2="1933.0" y2="1303.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1933.0" y1="1303.0" x2="1995.0" y2="1424.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="381.0" y1="193.0" x2="183.0" y2="425.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="183.0" y1="425.0" x2="97.0" y2="546.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1699.0" y1="1323.0" x2="1575.0" y2="1453.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1575.0" y1="1453.0" x2="1563.0" y2="1574.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="233.0" y1="1307.0" x2="257.0" y2="1437.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="257.0" y1="1437.0" x2="171.0" y2="1626.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="665.0" y1="457.0" x2="591.0" y2="457.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="591.0" y1="457.0" x2="591.0" y2="491.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="85.0" y1="694.0" x2="159.0" y2="694.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="159.0" y1="694.0" x2="159.0" y2="728.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="653.0" y1="173.0" x2="579.0" y2="173.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="579.0" y1="173.0" x2="727.0" y2="173.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1183.0" y1="262.0" x2="1109.0" y2="262.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1109.0" y1="262.0" x2="1257.0" y2="262.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<rect x="585.5" y="451.5" width="11.0" height="11.0" fill="#76b7b2" stroke="#222" stroke-width="0.8"><title>activation_CAT_pa_per (activation_CAT_pa_per) activation</title></rect>
+<rect x="153.5" y="688.5" width="11.0" height="11.0" fill="#76b7b2" stroke="#222" stroke-width="0.8"><title>activation_EDS1_pa_cyt (activation_EDS1_pa_cyt) activation</title></rect>
+<rect x="573.5" y="167.5" width="11.0" height="11.0" fill="#76b7b2" stroke="#222" stroke-width="0.8"><title>activation_GST_pa_cyt (activation_GST_pa_cyt) activation</title></rect>
+<rect x="1103.5" y="256.5" width="11.0" height="11.0" fill="#76b7b2" stroke="#222" stroke-width="0.8"><title>activation_MYC2_pa_nuc (activation_MYC2_pa_nuc) activation</title></rect>
+<rect x="1841.5" y="1350.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00036 (rx00036) biochemical reaction</title></rect>
+<rect x="793.5" y="1452.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00054 (rx00054) non-covalent binding</title></rect>
+<rect x="1511.5" y="119.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00056 (rx00056) biochemical reaction</title></rect>
+<rect x="1557.5" y="1534.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00069 (rx00069) biochemical reaction</title></rect>
+<rect x="1483.5" y="1500.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00073 (rx00073) biochemical reaction</title></rect>
+<rect x="1175.5" y="1647.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00076 (rx00076) biochemical reaction</title></rect>
+<rect x="1585.5" y="119.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00083 (rx00083) biochemical reaction</title></rect>
+<rect x="289.5" y="1728.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00086 (rx00086) biochemical reaction</title></rect>
+<rect x="165.5" y="973.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00087 (rx00087) non-covalent binding</title></rect>
+<rect x="867.5" y="1486.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00088 (rx00088) biochemical reaction</title></rect>
+<rect x="941.5" y="1486.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00089 (rx00089) biochemical reaction</title></rect>
+<rect x="805.5" y="1399.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00090 (rx00090) non-covalent binding</title></rect>
+<rect x="153.5" y="119.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00094 (rx00094) non-covalent binding</title></rect>
+<rect x="375.5" y="153.5" width="11.0" height="11.0" fill="#76b7b2" stroke="#222" stroke-width="0.8"><title>rx00095 (rx00095) activation</title></rect>
+<rect x="227.5" y="119.5" width="11.0" height="11.0" fill="#e15759" stroke="#222" stroke-width="0.8"><title>rx00096 (rx00096) dissociation</title></rect>
+<rect x="103.5" y="419.5" width="11.0" height="11.0" fill="#edc948" stroke="#222" stroke-width="0.8"><title>rx00097 (rx00097) active transport</title></rect>
+<rect x="929.5" y="1235.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00098 (rx00098) genetic production</title></rect>
+<rect x="1015.5" y="1520.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00099 (rx00099) non-covalent binding</title></rect>
+<rect x="91.5" y="472.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00100 (rx00100) non-covalent binding</title></rect>
+<rect x="1177.5" y="644.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00101 (rx00101) genetic production</title></rect>
+<rect x="781.5" y="1269.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00102 (rx00102) genetic production</title></rect>
+<rect x="781.5" y="1235.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00103 (rx00103) genetic production</title></rect>
+<rect x="301.5" y="119.5" width="11.0" height="11.0" fill="#76b7b2" stroke="#222" stroke-width="0.8"><title>rx00114 (rx00114) activation</title></rect>
+<rect x="1015.5" y="1486.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00127 (rx00127) genetic production</title></rect>
+<rect x="301.5" y="722.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00148 (rx00148) genetic production</title></rect>
+<rect x="473.5" y="1484.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00151 (rx00151) genetic production</title></rect>
+<rect x="621.5" y="1518.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00156 (rx00156) non-covalent binding</title></rect>
+<rect x="461.5" y="1267.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00157 (rx00157) genetic production</title></rect>
+<rect x="91.5" y="1007.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00161 (rx00161) genetic production</title></rect>
+<rect x="1511.5" y="416.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00187 (rx00187) genetic production</title></rect>
+<rect x="165.5" y="1712.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00188 (rx00188) genetic production</title></rect>
+<rect x="1585.5" y="416.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00189 (rx00189) genetic production</title></rect>
+<rect x="425.5" y="403.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00190 (rx00190) genetic production</title></rect>
+<rect x="473.5" y="1712.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00209 (rx00209) genetic production</title></rect>
+<rect x="1511.5" y="255.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00210 (rx00210) biochemical reaction</title></rect>
+<rect x="795.5" y="167.5" width="11.0" height="11.0" fill="#ff9da7" stroke="#222" stroke-width="0.8"><title>rx00234 (rx00234) inactivation</title></rect>
+<rect x="1437.5" y="450.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00240 (rx00240) genetic production</title></rect>
+<rect x="91.5" y="1746.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00254 (rx00254) genetic production</title></rect>
+<rect x="1511.5" y="450.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00255 (rx00255) genetic production</title></rect>
+<rect x="1585.5" y="450.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00256 (rx00256) genetic production</title></rect>
+<rect x="79.5" y="1233.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00257 (rx00257) genetic production</title></rect>
+<rect x="1177.5" y="678.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00258 (rx00258) genetic production</title></rect>
+<rect x="1251.5" y="678.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00259 (rx00259) genetic production</title></rect>
+<rect x="79.5" y="1267.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00309 (rx00309) genetic production</title></rect>
+<rect x="659.5" y="485.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00311 (rx00311) biochemical reaction</title></rect>
+<rect x="1251.5" y="644.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00394 (rx00394) genetic production</title></rect>
+<rect x="1659.5" y="119.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00419 (rx00419) biochemical reaction</title></rect>
+<rect x="1177.5" y="188.5" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>rx00422 (rx00422) degradation</title></rect>
+<rect x="1251.5" y="188.5" width="11.0" height="11.0" fill="#59a14f" stroke="#222" stroke-width="0.8"><title>rx00423 (rx00423) degradation</title></rect>
+<rect x="1437.5" y="484.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00428 (rx00428) genetic production</title></rect>
+<rect x="1325.5" y="256.5" width="11.0" height="11.0" fill="#ff9da7" stroke="#222" stroke-width="0.8"><title>rx00432 (rx00432) inactivation</title></rect>
+<rect x="165.5" y="1746.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00433 (rx00433) genetic production</title></rect>
+<rect x="91.5" y="1518.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00437 (rx00437) non-covalent binding</title></rect>
+<rect x="91.5" y="1484.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00438 (rx00438) non-covalent binding</title></rect>
+<rect x="165.5" y="1518.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00439 (rx00439) non-covalent binding</title></rect>
+<rect x="1103.5" y="416.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00444 (rx00444) non-covalent binding</title></rect>
+<rect x="1103.5" y="450.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00446 (rx00446) non-covalent binding</title></rect>
+<rect x="609.5" y="1267.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00450 (rx00450) genetic production</title></rect>
+<rect x="1437.5" y="221.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00458 (rx00458) biochemical reaction</title></rect>
+<rect x="67.5" y="1941.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00460 (rx00460) biochemical reaction</title></rect>
+<rect x="621.5" y="1552.5" width="11.0" height="11.0" fill="#76b7b2" stroke="#222" stroke-width="0.8"><title>rx00478 (rx00478) activation</title></rect>
+<rect x="103.5" y="1431.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00500 (rx00500) non-covalent binding</title></rect>
+<rect x="485.5" y="1431.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00501 (rx00501) non-covalent binding</title></rect>
+<rect x="177.5" y="1431.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00502 (rx00502) non-covalent binding</title></rect>
+<rect x="559.5" y="1431.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00504 (rx00504) non-covalent binding</title></rect>
+<rect x="1511.5" y="484.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00509 (rx00509) genetic production</title></rect>
+<rect x="1325.5" y="188.5" width="11.0" height="11.0" fill="#76b7b2" stroke="#222" stroke-width="0.8"><title>rx00511 (rx00511) activation</title></rect>
+<rect x="1471.5" y="1249.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00514 (rx00514) biochemical reaction</title></rect>
+<rect x="1471.5" y="1283.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00515 (rx00515) biochemical reaction</title></rect>
+<rect x="1545.5" y="1283.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00516 (rx00516) biochemical reaction</title></rect>
+<rect x="1495.5" y="1447.5" width="11.0" height="11.0" fill="#edc948" stroke="#222" stroke-width="0.8"><title>rx00517 (rx00517) active transport</title></rect>
+<rect x="103.5" y="886.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>rx00523 (rx00523) passive transport</title></rect>
+<rect x="227.5" y="688.5" width="11.0" height="11.0" fill="#ff9da7" stroke="#222" stroke-width="0.8"><title>rx00524 (rx00524) inactivation</title></rect>
+<rect x="867.5" y="1646.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00526 (rx00526) genetic production</title></rect>
+<rect x="1841.5" y="1384.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00530 (rx00530) biochemical reaction</title></rect>
+<rect x="1187.5" y="1399.5" width="11.0" height="11.0" fill="#edc948" stroke="#222" stroke-width="0.8"><title>rx00531 (rx00531) active transport</title></rect>
+<rect x="1249.5" y="1486.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00532 (rx00532) biochemical reaction</title></rect>
+<rect x="1175.5" y="1452.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00533 (rx00533) biochemical reaction</title></rect>
+<rect x="1989.5" y="1384.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00534 (rx00534) biochemical reaction</title></rect>
+<rect x="1853.5" y="1297.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00535 (rx00535) biochemical reaction</title></rect>
+<rect x="363.5" y="2158.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00536 (rx00536) biochemical reaction</title></rect>
+<rect x="375.5" y="2105.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>rx00537 (rx00537) passive transport</title></rect>
+<rect x="351.5" y="1941.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00538 (rx00538) biochemical reaction</title></rect>
+<rect x="375.5" y="2139.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00539 (rx00539) biochemical reaction</title></rect>
+<rect x="1471.5" y="1317.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00540 (rx00540) biochemical reaction</title></rect>
+<rect x="79.5" y="2192.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00541 (rx00541) biochemical reaction</title></rect>
+<rect x="67.5" y="2009.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00542 (rx00542) biochemical reaction</title></rect>
+<rect x="1163.5" y="1201.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00543 (rx00543) biochemical reaction</title></rect>
+<rect x="793.5" y="1486.5" width="11.0" height="11.0" fill="#76b7b2" stroke="#222" stroke-width="0.8"><title>rx00544 (rx00544) activation</title></rect>
+<rect x="425.5" y="1975.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00552 (rx00552) biochemical reaction</title></rect>
+<rect x="781.5" y="1201.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00673 (rx00673) non-covalent binding</title></rect>
+<rect x="1237.5" y="1235.5" width="11.0" height="11.0" fill="#76b7b2" stroke="#222" stroke-width="0.8"><title>rx00695 (rx00695) activation</title></rect>
+<rect x="1251.5" y="484.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00711 (rx00711) non-covalent binding</title></rect>
+<rect x="1003.5" y="1235.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00758 (rx00758) genetic production</title></rect>
+<rect x="1471.5" y="1351.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00760 (rx00760) genetic production</title></rect>
+<rect x="1545.5" y="1351.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00761 (rx00761) genetic production</title></rect>
+<rect x="375.5" y="119.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00762 (rx00762) genetic production</title></rect>
+<rect x="79.5" y="153.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00763 (rx00763) genetic production</title></rect>
+<rect x="227.5" y="187.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00764 (rx00764) genetic production</title></rect>
+<rect x="79.5" y="221.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00766 (rx00766) genetic production</title></rect>
+<rect x="301.5" y="221.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00767 (rx00767) genetic production</title></rect>
+<rect x="375.5" y="221.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00770 (rx00770) genetic production</title></rect>
+<rect x="301.5" y="688.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00771 (rx00771) genetic production</title></rect>
+<rect x="301.5" y="756.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00772 (rx00772) genetic production</title></rect>
+<rect x="79.5" y="722.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00773 (rx00773) genetic production</title></rect>
+<rect x="79.5" y="790.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00774 (rx00774) genetic production</title></rect>
+<rect x="869.5" y="167.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00776 (rx00776) genetic production</title></rect>
+<rect x="573.5" y="201.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00777 (rx00777) genetic production</title></rect>
+<rect x="721.5" y="201.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00778 (rx00778) genetic production</title></rect>
+<rect x="869.5" y="201.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00784 (rx00784) genetic production</title></rect>
+<rect x="573.5" y="235.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00791 (rx00791) genetic production</title></rect>
+<rect x="721.5" y="235.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00792 (rx00792) genetic production</title></rect>
+<rect x="869.5" y="235.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00793 (rx00793) genetic production</title></rect>
+<rect x="573.5" y="269.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00794 (rx00794) genetic production</title></rect>
+<rect x="721.5" y="269.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00795 (rx00795) genetic production</title></rect>
+<rect x="929.5" y="1269.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00796 (rx00796) genetic production</title></rect>
+<rect x="869.5" y="269.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00797 (rx00797) genetic production</title></rect>
+<rect x="153.5" y="255.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00806 (rx00806) genetic production</title></rect>
+<rect x="375.5" y="255.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00807 (rx00807) genetic production</title></rect>
+<rect x="573.5" y="303.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00808 (rx00808) genetic production</title></rect>
+<rect x="721.5" y="303.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00809 (rx00809) genetic production</title></rect>
+<rect x="869.5" y="303.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00810 (rx00810) genetic production</title></rect>
+<rect x="153.5" y="289.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00811 (rx00811) genetic production</title></rect>
+<rect x="573.5" y="337.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00812 (rx00812) genetic production</title></rect>
+<rect x="721.5" y="337.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00813 (rx00813) genetic production</title></rect>
+<rect x="869.5" y="337.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00814 (rx00814) genetic production</title></rect>
+<rect x="227.5" y="255.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00815 (rx00815) genetic production</title></rect>
+<rect x="79.5" y="289.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00816 (rx00816) genetic production</title></rect>
+<rect x="1177.5" y="518.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00884 (rx00884) non-covalent binding</title></rect>
+<rect x="153.5" y="1267.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00941 (rx00941) genetic production</title></rect>
+<rect x="461.5" y="1233.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00942 (rx00942) non-covalent binding</title></rect>
+<rect x="79.5" y="756.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00986 (rx00986) non-covalent binding</title></rect>
+<rect x="1177.5" y="450.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00988 (rx00988) non-covalent binding</title></rect>
+<rect x="165.5" y="1552.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00991 (rx00991) non-covalent binding</title></rect>
+<rect x="91.5" y="1586.5" width="11.0" height="11.0" fill="#b07aa1" stroke="#222" stroke-width="0.8"><title>rx00992 (rx00992) genetic production</title></rect>
+<rect x="91.5" y="939.5" width="11.0" height="11.0" fill="#f28e2b" stroke="#222" stroke-width="0.8"><title>rx00995 (rx00995) non-covalent binding</title></rect>
+<rect x="1841.5" y="1418.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00996 (rx00996) biochemical reaction</title></rect>
+<rect x="1375.5" y="660.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>rx00998 (rx00998) passive transport</title></rect>
+<rect x="1511.5" y="221.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx00999 (rx00999) biochemical reaction</title></rect>
+<rect x="1437.5" y="153.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx01000 (rx01000) biochemical reaction</title></rect>
+<rect x="1311.5" y="1235.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx01007 (rx01007) biochemical reaction</title></rect>
+<rect x="499.5" y="1975.5" width="11.0" height="11.0" fill="#4e79a7" stroke="#222" stroke-width="0.8"><title>rx01009 (rx01009) biochemical reaction</title></rect>
+<rect x="1890.0" y="1380.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>3H3PP-CoA (s_3H3PPCoA_per_m) simple chemical</title></rect>
+<text x="1921.0" y="1393.0" font-size="8.5" text-anchor="middle" fill="#111">3H3PP-CoA</text>
+<rect x="2038.0" y="1380.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>3O3PP-CoA (s_3O3PPCoA_per_m) simple chemical</title></rect>
+<text x="2069.0" y="1393.0" font-size="8.5" text-anchor="middle" fill="#111">3O3PP-CoA</text>
+<rect x="1212.0" y="1265.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>4CL (s_4CL_cyt_pa) protein complex</title></rect>
+<text x="1243.0" y="1278.0" font-size="8.5" text-anchor="middle" fill="#111">4CL</text>
+<rect x="1224.0" y="1448.0" width="62.0" height="20.0" rx="3" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>4CL (s_4CL_per_pa) protein complex</title></rect>
+<text x="1255.0" y="1461.0" font-size="8.5" text-anchor="middle" fill="#111">4CL</text>
+<rect x="400.0" y="1937.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>AAO (s_AAO_cyt_pa) protein complex</title></rect>
+<text x="431.0" y="1950.0" font-size="8.5" text-anchor="middle" fill="#111">AAO</text>
+<rect x="326.0" y="2005.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ABA (s_ABA_cyt_m) simple chemical</title></rect>
+<text x="357.0" y="2018.0" font-size="8.5" text-anchor="middle" fill="#111">ABA</text>
+<rect x="1890.0" y="1414.0" width="62.0" height="20.0" rx="3" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>ADH (s_ADH_per_pa) protein complex</title></rect>
+<text x="1921.0" y="1427.0" font-size="8.5" text-anchor="middle" fill="#111">ADH</text>
+<rect x="622.0" y="197.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ADR1-L1 (s_ADR1L1_cyt_p) protein complex</title></rect>
+<text x="653.0" y="210.0" font-size="8.5" text-anchor="middle" fill="#111">ADR1-L1</text>
+<rect x="770.0" y="197.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ADR1-L2 (s_ADR1L2_cyt_p) protein complex</title></rect>
+<text x="801.0" y="210.0" font-size="8.5" text-anchor="middle" fill="#111">ADR1-L2</text>
+<rect x="918.0" y="163.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ADR1 (s_ADR1_cyt_p) protein complex</title></rect>
+<text x="949.0" y="176.0" font-size="8.5" text-anchor="middle" fill="#111">ADR1</text>
+<rect x="128.0" y="2188.0" width="62.0" height="20.0" rx="3" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>ADT (s_ADT_chl_pa) protein complex</title></rect>
+<text x="159.0" y="2201.0" font-size="8.5" text-anchor="middle" fill="#111">ADT</text>
+<rect x="128.0" y="217.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ALD1 (s_ALD1_cyt_p) protein complex</title></rect>
+<text x="159.0" y="230.0" font-size="8.5" text-anchor="middle" fill="#111">ALD1</text>
+<rect x="1078.0" y="286.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>ARR-B (s_ARRB_nuc_pa) protein complex</title></rect>
+<text x="1109.0" y="299.0" font-size="8.5" text-anchor="middle" fill="#111">ARR-B</text>
+<rect x="400.0" y="2005.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Abscisic aldehyde (s_Abscisicaldehyde_cyt_m) simple chemical</title></rect>
+<text x="431.0" y="2018.0" font-size="8.5" text-anchor="middle" fill="#111">Abscisic a…</text>
+<rect x="1804.0" y="1197.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BA-CoA (s_BACoA_cyt_m) simple chemical</title></rect>
+<text x="1835.0" y="1210.0" font-size="8.5" text-anchor="middle" fill="#111">BA-CoA</text>
+<rect x="1964.0" y="1414.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>BA-CoA (s_BACoA_per_m) simple chemical</title></rect>
+<text x="1995.0" y="1427.0" font-size="8.5" text-anchor="middle" fill="#111">BA-CoA</text>
+<rect x="918.0" y="197.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BAK1 (s_BAK1_cyt_p) protein complex</title></rect>
+<text x="949.0" y="210.0" font-size="8.5" text-anchor="middle" fill="#111">BAK1</text>
+<rect x="770.0" y="333.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BAP1 (s_BAP1_cyt_p) protein complex</title></rect>
+<text x="801.0" y="346.0" font-size="8.5" text-anchor="middle" fill="#111">BAP1</text>
+<rect x="918.0" y="333.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BAP2 (s_BAP2_cyt_p) protein complex</title></rect>
+<text x="949.0" y="346.0" font-size="8.5" text-anchor="middle" fill="#111">BAP2</text>
+<rect x="474.0" y="1937.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BA (s_BA_cyt_m) simple chemical</title></rect>
+<text x="505.0" y="1950.0" font-size="8.5" text-anchor="middle" fill="#111">BA</text>
+<rect x="412.0" y="2154.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>BA (s_BA_per_m) simple chemical</title></rect>
+<text x="443.0" y="2167.0" font-size="8.5" text-anchor="middle" fill="#111">BA</text>
+<rect x="1450.0" y="640.0" width="62.0" height="20.0" rx="3" fill="#dfd4e6" stroke="#222" stroke-width="0.8"><title>BBH (s_BBH_er_pa) protein complex</title></rect>
+<text x="1481.0" y="653.0" font-size="8.5" text-anchor="middle" fill="#111">BBH</text>
+<rect x="1412.0" y="251.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BB (s_BB_cyt_m) simple chemical</title></rect>
+<text x="1443.0" y="264.0" font-size="8.5" text-anchor="middle" fill="#111">BB</text>
+<rect x="1338.0" y="709.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>BB (s_BB_per_m) simple chemical</title></rect>
+<text x="1369.0" y="722.0" font-size="8.5" text-anchor="middle" fill="#111">BB</text>
+<rect x="326.0" y="1971.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BD (s_BD_cyt_m) simple chemical</title></rect>
+<text x="357.0" y="1984.0" font-size="8.5" text-anchor="middle" fill="#111">BD</text>
+<rect x="436.0" y="1297.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BGLU30 (s_BGLU30_cyt_p) protein complex</title></rect>
+<text x="467.0" y="1310.0" font-size="8.5" text-anchor="middle" fill="#111">BGLU30</text>
+<rect x="918.0" y="231.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BIK1 (s_BIK1_cyt_p) protein complex</title></rect>
+<text x="949.0" y="244.0" font-size="8.5" text-anchor="middle" fill="#111">BIK1</text>
+<rect x="622.0" y="333.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BON1 (s_BON1_cyt_p) protein complex</title></rect>
+<text x="653.0" y="346.0" font-size="8.5" text-anchor="middle" fill="#111">BON1</text>
+<rect x="1560.0" y="183.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BSE (s_BSE_cyt_pa) protein complex</title></rect>
+<text x="1591.0" y="196.0" font-size="8.5" text-anchor="middle" fill="#111">BSE</text>
+<rect x="1634.0" y="183.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BS (s_BS_cyt_m) simple chemical</title></rect>
+<text x="1665.0" y="196.0" font-size="8.5" text-anchor="middle" fill="#111">BS</text>
+<rect x="1138.0" y="1299.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>BZO1 (s_BZO1_cyt_pa) protein complex</title></rect>
+<text x="1169.0" y="1312.0" font-size="8.5" text-anchor="middle" fill="#111">BZO1</text>
+<rect x="2038.0" y="1414.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>Benzyl alcohol (s_Benzylalcohol_per_m) simple chemical</title></rect>
+<text x="2069.0" y="1427.0" font-size="8.5" text-anchor="middle" fill="#111">Benzyl alc…</text>
+<rect x="1298.0" y="1448.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>CA-CoA (s_CACoA_per_m) simple chemical</title></rect>
+<text x="1329.0" y="1461.0" font-size="8.5" text-anchor="middle" fill="#111">CA-CoA</text>
+<rect x="1816.0" y="1448.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>CA-CoA (s_CACoA_per_m) simple chemical</title></rect>
+<rect x="1818.0" y="1462.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1847.0" y="1461.0" font-size="8.5" text-anchor="middle" fill="#111">CA-CoA</text>
+<rect x="412.0" y="2188.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>CA-CoA (s_CACoA_per_m) simple chemical</title></rect>
+<rect x="414.0" y="2202.0" width="58.0" height="5.2" fill="#555"/>
+<text x="443.0" y="2201.0" font-size="8.5" text-anchor="middle" fill="#111">CA-CoA</text>
+<rect x="66.0" y="1037.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>CAMTA3 (s_CAMTA3_nuc_pa) protein complex</title></rect>
+<text x="97.0" y="1050.0" font-size="8.5" text-anchor="middle" fill="#111">CAMTA3</text>
+<rect x="634.0" y="447.0" width="62.0" height="20.0" rx="3" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>CAT (s_CAT_per_p) protein complex</title></rect>
+<text x="665.0" y="460.0" font-size="8.5" text-anchor="middle" fill="#111">CAT</text>
+<rect x="560.0" y="481.0" width="62.0" height="20.0" rx="3" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>CAT (s_CAT_per_pa) protein complex</title></rect>
+<text x="591.0" y="494.0" font-size="8.5" text-anchor="middle" fill="#111">CAT</text>
+<rect x="1224.0" y="1643.0" width="62.0" height="20.0" rx="10.0" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>CA (s_CA_chl_m) simple chemical</title></rect>
+<text x="1255.0" y="1656.0" font-size="8.5" text-anchor="middle" fill="#111">CA</text>
+<rect x="1212.0" y="1197.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>CA (s_CA_cyt_m) simple chemical</title></rect>
+<text x="1243.0" y="1210.0" font-size="8.5" text-anchor="middle" fill="#111">CA</text>
+<rect x="1150.0" y="1482.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>CA (s_CA_per_m) simple chemical</title></rect>
+<text x="1181.0" y="1495.0" font-size="8.5" text-anchor="middle" fill="#111">CA</text>
+<rect x="140.0" y="502.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>CBP60G (s_CBP60G_nuc_pa) protein complex</title></rect>
+<text x="171.0" y="515.0" font-size="8.5" text-anchor="middle" fill="#111">CBP60G</text>
+<rect x="140.0" y="1037.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>CBP60G (s_CBP60G_nuc_pa) protein complex</title></rect>
+<rect x="142.0" y="1051.0" width="58.0" height="5.2" fill="#555"/>
+<text x="171.0" y="1050.0" font-size="8.5" text-anchor="middle" fill="#111">CBP60G</text>
+<rect x="1434.0" y="1165.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>CBP60G (s_CBP60G_nuc_pa) protein complex</title></rect>
+<rect x="1436.0" y="1179.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1465.0" y="1178.0" font-size="8.5" text-anchor="middle" fill="#111">CBP60G</text>
+<rect x="510.0" y="1297.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>CDK|NPR1 (s_CDKNPR1_cyt_c) macromolecular complex</title></rect>
+<text x="541.0" y="1310.0" font-size="8.5" text-anchor="middle" fill="#111">CDK|NPR1</text>
+<rect x="584.0" y="1297.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>CDK|TGA (s_CDKTGA_cyt_c) macromolecular complex</title></rect>
+<text x="615.0" y="1310.0" font-size="8.5" text-anchor="middle" fill="#111">CDK|TGA</text>
+<rect x="202.0" y="1263.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>CDK|WRKY6,18 (s_CDKWRKY618_cyt_c) macromolecular complex</title></rect>
+<text x="233.0" y="1276.0" font-size="8.5" text-anchor="middle" fill="#111">CDK|WRKY6,…</text>
+<rect x="448.0" y="1616.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>CDK (s_CDK_nuc_p) protein complex</title></rect>
+<text x="479.0" y="1629.0" font-size="8.5" text-anchor="middle" fill="#111">CDK</text>
+<rect x="918.0" y="265.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>CDPK (s_CDPK_cyt_p) protein complex</title></rect>
+<text x="949.0" y="278.0" font-size="8.5" text-anchor="middle" fill="#111">CDPK</text>
+<rect x="338.0" y="2222.0" width="62.0" height="20.0" rx="3" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>CHY1 (s_CHY1_per_pa) protein complex</title></rect>
+<text x="369.0" y="2235.0" font-size="8.5" text-anchor="middle" fill="#111">CHY1</text>
+<rect x="1532.0" y="1496.0" width="62.0" height="20.0" rx="3" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>CM (s_CM_chl_pa) protein complex</title></rect>
+<text x="1563.0" y="1509.0" font-size="8.5" text-anchor="middle" fill="#111">CM</text>
+<rect x="1298.0" y="1482.0" width="62.0" height="20.0" rx="3" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>CTS (s_CTS_per_pa) protein complex</title></rect>
+<text x="1329.0" y="1495.0" font-size="8.5" text-anchor="middle" fill="#111">CTS</text>
+<rect x="1078.0" y="480.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>CUL3A (s_CUL3A_cyt_pa) protein complex</title></rect>
+<text x="1109.0" y="493.0" font-size="8.5" text-anchor="middle" fill="#111">CUL3A</text>
+<rect x="1286.0" y="1197.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>CYP73A5 (s_CYP73A5_cyt_pa) protein complex</title></rect>
+<text x="1317.0" y="1210.0" font-size="8.5" text-anchor="middle" fill="#111">CYP73A5</text>
+<rect x="1606.0" y="1496.0" width="62.0" height="20.0" rx="10.0" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>Chor (s_Chor_chl_m) simple chemical</title></rect>
+<text x="1637.0" y="1509.0" font-size="8.5" text-anchor="middle" fill="#111">Chor</text>
+<rect x="338.0" y="2188.0" width="62.0" height="20.0" rx="3" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>DHNAT2 (s_DHNAT2_per_pa) protein complex</title></rect>
+<text x="369.0" y="2201.0" font-size="8.5" text-anchor="middle" fill="#111">DHNAT2</text>
+<rect x="116.0" y="1937.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>DOPAL (s_DOPAL_cyt_m) simple chemical</title></rect>
+<text x="147.0" y="1950.0" font-size="8.5" text-anchor="middle" fill="#111">DOPAL</text>
+<rect x="756.0" y="1299.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>EDS1|MPK3|PAD4 (s_EDS1MPK3PAD4_cyt_ca) macromolecular complex</title></rect>
+<text x="787.0" y="1312.0" font-size="8.5" text-anchor="middle" fill="#111">EDS1|MPK3|…</text>
+<rect x="842.0" y="1448.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>EDS1|PAD4|SAG (s_EDS1PAD4SAG_nuc_ca) macromolecular complex</title></rect>
+<text x="873.0" y="1461.0" font-size="8.5" text-anchor="middle" fill="#111">EDS1|PAD4|…</text>
+<rect x="916.0" y="1448.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>EDS1|PAD4 (s_EDS1PAD4_nuc_ca) macromolecular complex</title></rect>
+<text x="947.0" y="1461.0" font-size="8.5" text-anchor="middle" fill="#111">EDS1|PAD4</text>
+<rect x="214.0" y="1003.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>EDS1|PAD4 (s_EDS1PAD4_nuc_ca) macromolecular complex</title></rect>
+<rect x="216.0" y="1017.0" width="58.0" height="5.2" fill="#555"/>
+<text x="245.0" y="1016.0" font-size="8.5" text-anchor="middle" fill="#111">EDS1|PAD4</text>
+<rect x="214.0" y="1548.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>EDS1-WRKY18 (s_EDS1WRKY18_nuc_ca) macromolecular complex</title></rect>
+<text x="245.0" y="1561.0" font-size="8.5" text-anchor="middle" fill="#111">EDS1-WRKY18</text>
+<rect x="54.0" y="684.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>EDS1 (s_EDS1_cyt_p) protein complex</title></rect>
+<text x="85.0" y="697.0" font-size="8.5" text-anchor="middle" fill="#111">EDS1</text>
+<rect x="128.0" y="718.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>EDS1 (s_EDS1_cyt_pa) protein complex</title></rect>
+<text x="159.0" y="731.0" font-size="8.5" text-anchor="middle" fill="#111">EDS1</text>
+<rect x="140.0" y="935.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>EDS1 (s_EDS1_nuc_pa) protein complex</title></rect>
+<text x="171.0" y="948.0" font-size="8.5" text-anchor="middle" fill="#111">EDS1</text>
+<rect x="214.0" y="1582.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>EDS1 (s_EDS1_nuc_pa) protein complex</title></rect>
+<rect x="216.0" y="1596.0" width="58.0" height="5.2" fill="#555"/>
+<text x="245.0" y="1595.0" font-size="8.5" text-anchor="middle" fill="#111">EDS1</text>
+<rect x="1532.0" y="1564.0" width="62.0" height="20.0" rx="3" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>EDS5 (s_EDS5_chl_pa) protein complex</title></rect>
+<text x="1563.0" y="1577.0" font-size="8.5" text-anchor="middle" fill="#111">EDS5</text>
+<rect x="1668.0" y="1313.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>EDS5 (s_EDS5_cyt_pa) protein complex</title></rect>
+<text x="1699.0" y="1326.0" font-size="8.5" text-anchor="middle" fill="#111">EDS5</text>
+<rect x="202.0" y="718.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>EIJP1 (s_EIJP1_cyt_pa) protein complex</title></rect>
+<text x="233.0" y="731.0" font-size="8.5" text-anchor="middle" fill="#111">EIJP1</text>
+<rect x="1560.0" y="251.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>EIN2 (s_EIN2_cyt_pa) protein complex</title></rect>
+<text x="1591.0" y="264.0" font-size="8.5" text-anchor="middle" fill="#111">EIN2</text>
+<rect x="1300.0" y="480.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>EIN3|NPR1 (s_EIN3NPR1_cyt_c) macromolecular complex</title></rect>
+<text x="1331.0" y="493.0" font-size="8.5" text-anchor="middle" fill="#111">EIN3|NPR1</text>
+<rect x="1078.0" y="514.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>EIN3(like) (s_EIN3like_cyt_pa) protein complex</title></rect>
+<text x="1109.0" y="527.0" font-size="8.5" text-anchor="middle" fill="#111">EIN3(like)</text>
+<rect x="1152.0" y="286.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>EIN3(like) (s_EIN3like_nuc_pa) protein complex</title></rect>
+<text x="1183.0" y="299.0" font-size="8.5" text-anchor="middle" fill="#111">EIN3(like)</text>
+<rect x="190.0" y="1937.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ELI5 (s_ELI5_cyt_pa) protein complex</title></rect>
+<text x="221.0" y="1950.0" font-size="8.5" text-anchor="middle" fill="#111">ELI5</text>
+<rect x="1594.0" y="1279.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>EPS1 (s_EPS1_cyt_pa) protein complex</title></rect>
+<text x="1625.0" y="1292.0" font-size="8.5" text-anchor="middle" fill="#111">EPS1</text>
+<rect x="522.0" y="1480.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>ERF1 (s_ERF1_nuc_pa) protein complex</title></rect>
+<text x="553.0" y="1493.0" font-size="8.5" text-anchor="middle" fill="#111">ERF1</text>
+<rect x="276.0" y="183.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>FMO1 (s_FMO1_cyt_p) protein complex</title></rect>
+<text x="307.0" y="196.0" font-size="8.5" text-anchor="middle" fill="#111">FMO1</text>
+<rect x="770.0" y="231.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>GB1 (s_GB1_cyt_p) protein complex</title></rect>
+<text x="801.0" y="244.0" font-size="8.5" text-anchor="middle" fill="#111">GB1</text>
+<rect x="1412.0" y="183.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>GH3 (s_GH3_cyt_pa) protein complex</title></rect>
+<text x="1443.0" y="196.0" font-size="8.5" text-anchor="middle" fill="#111">GH3</text>
+<rect x="596.0" y="1480.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>GRX480 (s_GRX480_nuc_pa) protein complex</title></rect>
+<text x="627.0" y="1493.0" font-size="8.5" text-anchor="middle" fill="#111">GRX480</text>
+<rect x="128.0" y="149.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>GSNO (s_GSNO_cyt_pa) protein complex</title></rect>
+<text x="159.0" y="162.0" font-size="8.5" text-anchor="middle" fill="#111">GSNO</text>
+<rect x="622.0" y="163.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>GST (s_GST_cyt_p) protein complex</title></rect>
+<text x="653.0" y="176.0" font-size="8.5" text-anchor="middle" fill="#111">GST</text>
+<rect x="696.0" y="163.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>GST (s_GST_cyt_pa) protein complex</title></rect>
+<text x="727.0" y="176.0" font-size="8.5" text-anchor="middle" fill="#111">GST</text>
+<rect x="1520.0" y="1245.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Glu (s_Glu_cyt_m) simple chemical</title></rect>
+<text x="1551.0" y="1258.0" font-size="8.5" text-anchor="middle" fill="#111">Glu</text>
+<rect x="1560.0" y="217.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>IAA-Asp (s_IAAAsp_cyt_m) simple chemical</title></rect>
+<text x="1591.0" y="230.0" font-size="8.5" text-anchor="middle" fill="#111">IAA-Asp</text>
+<rect x="1634.0" y="217.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>IAA (s_IAA_cyt_m) simple chemical</title></rect>
+<text x="1665.0" y="230.0" font-size="8.5" text-anchor="middle" fill="#111">IAA</text>
+<rect x="1412.0" y="412.0" width="62.0" height="20.0" rx="3" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>ICS (s_ICS_chl_pa) protein complex</title></rect>
+<text x="1443.0" y="425.0" font-size="8.5" text-anchor="middle" fill="#111">ICS</text>
+<rect x="326.0" y="399.0" width="62.0" height="20.0" rx="3" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>ICS (s_ICS_chl_pa) protein complex</title></rect>
+<rect x="328.0" y="413.0" width="58.0" height="5.2" fill="#555"/>
+<text x="357.0" y="412.0" font-size="8.5" text-anchor="middle" fill="#111">ICS</text>
+<rect x="66.0" y="1708.0" width="62.0" height="20.0" rx="3" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>ICS (s_ICS_chl_pa) protein complex</title></rect>
+<rect x="68.0" y="1722.0" width="58.0" height="5.2" fill="#555"/>
+<text x="97.0" y="1721.0" font-size="8.5" text-anchor="middle" fill="#111">ICS</text>
+<rect x="768.0" y="1642.0" width="62.0" height="20.0" rx="3" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>ICS (s_ICS_chl_pa) protein complex</title></rect>
+<rect x="770.0" y="1656.0" width="58.0" height="5.2" fill="#555"/>
+<text x="799.0" y="1655.0" font-size="8.5" text-anchor="middle" fill="#111">ICS</text>
+<rect x="1458.0" y="1564.0" width="62.0" height="20.0" rx="3" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>ICS (s_ICS_chl_pa) protein complex</title></rect>
+<rect x="1460.0" y="1578.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1489.0" y="1577.0" font-size="8.5" text-anchor="middle" fill="#111">ICS</text>
+<rect x="140.0" y="1582.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>ICS (s_ICS_nuc_pa) protein complex</title></rect>
+<text x="171.0" y="1595.0" font-size="8.5" text-anchor="middle" fill="#111">ICS</text>
+<rect x="1594.0" y="1245.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>IsoChor-9-Glu (s_IsoChor9Glu_cyt_m) simple chemical</title></rect>
+<text x="1625.0" y="1258.0" font-size="8.5" text-anchor="middle" fill="#111">IsoChor-9-…</text>
+<rect x="1606.0" y="1530.0" width="62.0" height="20.0" rx="10.0" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>IsoChor (s_IsoChor_chl_m) simple chemical</title></rect>
+<text x="1637.0" y="1543.0" font-size="8.5" text-anchor="middle" fill="#111">IsoChor</text>
+<rect x="1668.0" y="1245.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>IsoChor (s_IsoChor_cyt_m) simple chemical</title></rect>
+<text x="1699.0" y="1258.0" font-size="8.5" text-anchor="middle" fill="#111">IsoChor</text>
+<rect x="1890.0" y="1448.0" width="62.0" height="20.0" rx="3" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>KAT (s_KAT_per_pa) protein complex</title></rect>
+<text x="1921.0" y="1461.0" font-size="8.5" text-anchor="middle" fill="#111">KAT</text>
+<rect x="42.0" y="1971.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>L-Dopa (s_LDopa_cyt_m) simple chemical</title></rect>
+<text x="73.0" y="1984.0" font-size="8.5" text-anchor="middle" fill="#111">L-Dopa</text>
+<rect x="54.0" y="2222.0" width="62.0" height="20.0" rx="10.0" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>L-arogenate (s_Larogenate_chl_m) simple chemical</title></rect>
+<text x="85.0" y="2235.0" font-size="8.5" text-anchor="middle" fill="#111">L-arogenate</text>
+<rect x="116.0" y="2005.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>L-arogenate (s_Larogenate_cyt_m) simple chemical</title></rect>
+<text x="147.0" y="2018.0" font-size="8.5" text-anchor="middle" fill="#111">L-arogenate</text>
+<rect x="622.0" y="265.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MAPKKK8 (s_MAPKKK8_cyt_p) protein complex</title></rect>
+<text x="653.0" y="278.0" font-size="8.5" text-anchor="middle" fill="#111">MAPKKK8</text>
+<rect x="1486.0" y="149.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MES (s_MES_cyt_pa) protein complex</title></rect>
+<text x="1517.0" y="162.0" font-size="8.5" text-anchor="middle" fill="#111">MES</text>
+<rect x="1890.0" y="1346.0" width="62.0" height="20.0" rx="3" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>MFP (s_MFP_per_pa) protein complex</title></rect>
+<text x="1921.0" y="1359.0" font-size="8.5" text-anchor="middle" fill="#111">MFP</text>
+<rect x="770.0" y="265.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MKK4,5 (s_MKK45_cyt_p) protein complex</title></rect>
+<text x="801.0" y="278.0" font-size="8.5" text-anchor="middle" fill="#111">MKK4,5</text>
+<rect x="202.0" y="285.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MLO2 (s_MLO2_cyt_p) protein complex</title></rect>
+<text x="233.0" y="298.0" font-size="8.5" text-anchor="middle" fill="#111">MLO2</text>
+<rect x="214.0" y="502.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>MOS (s_MOS_nuc_pa) protein complex</title></rect>
+<text x="245.0" y="515.0" font-size="8.5" text-anchor="middle" fill="#111">MOS</text>
+<rect x="978.0" y="1265.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MPK3,6 (s_MPK36_cyt_pa) protein complex</title></rect>
+<text x="1009.0" y="1278.0" font-size="8.5" text-anchor="middle" fill="#111">MPK3,6</text>
+<rect x="830.0" y="1299.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MPK4 (s_MPK4_cyt_pa) protein complex</title></rect>
+<text x="861.0" y="1312.0" font-size="8.5" text-anchor="middle" fill="#111">MPK4</text>
+<rect x="1152.0" y="252.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>MYC2 (s_MYC2_nuc_p) protein complex</title></rect>
+<text x="1183.0" y="265.0" font-size="8.5" text-anchor="middle" fill="#111">MYC2</text>
+<rect x="1226.0" y="252.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>MYC2 (s_MYC2_nuc_pa) protein complex</title></rect>
+<text x="1257.0" y="265.0" font-size="8.5" text-anchor="middle" fill="#111">MYC2</text>
+<rect x="1152.0" y="412.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MYC3|NPR1 (s_MYC3NPR1_cyt_p) protein complex</title></rect>
+<text x="1183.0" y="425.0" font-size="8.5" text-anchor="middle" fill="#111">MYC3|NPR1</text>
+<rect x="1226.0" y="412.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MYC3 (s_MYC3_cyt_pa) protein complex</title></rect>
+<text x="1257.0" y="425.0" font-size="8.5" text-anchor="middle" fill="#111">MYC3</text>
+<rect x="1226.0" y="446.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MYC4|NPR1 (s_MYC4NPR1_cyt_p) protein complex</title></rect>
+<text x="1257.0" y="459.0" font-size="8.5" text-anchor="middle" fill="#111">MYC4|NPR1</text>
+<rect x="1300.0" y="446.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MYC4 (s_MYC4_cyt_pa) protein complex</title></rect>
+<text x="1331.0" y="459.0" font-size="8.5" text-anchor="middle" fill="#111">MYC4</text>
+<rect x="1560.0" y="149.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MeSA (s_MeSA_cyt_m) simple chemical</title></rect>
+<text x="1591.0" y="162.0" font-size="8.5" text-anchor="middle" fill="#111">MeSA</text>
+<rect x="288.0" y="1514.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NAC019|TCP8 (s_NAC019TCP8_nuc_c) macromolecular complex</title></rect>
+<text x="319.0" y="1527.0" font-size="8.5" text-anchor="middle" fill="#111">NAC019|TCP8</text>
+<rect x="66.0" y="1548.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NAC019 (s_NAC019_nuc_pa) protein complex</title></rect>
+<text x="97.0" y="1561.0" font-size="8.5" text-anchor="middle" fill="#111">NAC019</text>
+<rect x="510.0" y="1263.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NAC032 (s_NAC032_cyt_pa) protein complex</title></rect>
+<text x="541.0" y="1276.0" font-size="8.5" text-anchor="middle" fill="#111">NAC032</text>
+<rect x="1226.0" y="286.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NAC055 (s_NAC055_nuc_pa) protein complex</title></rect>
+<text x="1257.0" y="299.0" font-size="8.5" text-anchor="middle" fill="#111">NAC055</text>
+<rect x="1300.0" y="286.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NAC072 (s_NAC072_nuc_pa) protein complex</title></rect>
+<text x="1331.0" y="299.0" font-size="8.5" text-anchor="middle" fill="#111">NAC072</text>
+<rect x="140.0" y="468.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NIMIN|NPR1 (s_NIMINNPR1_nuc_ca) macromolecular complex</title></rect>
+<text x="171.0" y="481.0" font-size="8.5" text-anchor="middle" fill="#111">NIMIN|NPR1</text>
+<rect x="214.0" y="468.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NIMIN (s_NIMIN_nuc_p) protein complex</title></rect>
+<text x="245.0" y="481.0" font-size="8.5" text-anchor="middle" fill="#111">NIMIN</text>
+<rect x="1152.0" y="480.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NPR1|CUL3A (s_NPR1CUL3A_cyt_ca) macromolecular complex</title></rect>
+<text x="1183.0" y="493.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1|CUL3A</text>
+<rect x="128.0" y="752.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NPR1-EDS1 (s_NPR1EDS1_cyt_c) macromolecular complex</title></rect>
+<text x="159.0" y="765.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1-EDS1</text>
+<rect x="202.0" y="149.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NPR1|NPR1 (s_NPR1NPR1_cyt_ca) macromolecular complex</title></rect>
+<text x="233.0" y="162.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1|NPR1</text>
+<rect x="768.0" y="1516.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NPR1|TGA (s_NPR1TGA_nuc_c) macromolecular complex</title></rect>
+<text x="799.0" y="1529.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1|TGA</text>
+<rect x="842.0" y="1516.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NPR1|TGA (s_NPR1TGA_nuc_ca) macromolecular complex</title></rect>
+<text x="873.0" y="1529.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1|TGA</text>
+<rect x="1078.0" y="708.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NPR1|TGA (s_NPR1TGA_nuc_ca) macromolecular complex</title></rect>
+<rect x="1080.0" y="722.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1109.0" y="721.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1|TGA</text>
+<rect x="54.0" y="1297.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NPR1|WRKY18 (s_NPR1WRKY18_cyt_c) macromolecular complex</title></rect>
+<text x="85.0" y="1310.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1|WRKY18</text>
+<rect x="54.0" y="115.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_cyt_p) protein complex</title></rect>
+<text x="85.0" y="128.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="1078.0" y="548.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_cyt_p) protein complex</title></rect>
+<rect x="1080.0" y="562.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1109.0" y="561.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="202.0" y="1229.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_cyt_p) protein complex</title></rect>
+<rect x="204.0" y="1243.0" width="58.0" height="5.2" fill="#555"/>
+<text x="233.0" y="1242.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="1300.0" y="412.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_cyt_pa) protein complex</title></rect>
+<text x="1331.0" y="425.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="276.0" y="285.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_cyt_pa) protein complex</title></rect>
+<rect x="278.0" y="299.0" width="58.0" height="5.2" fill="#555"/>
+<text x="307.0" y="298.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="128.0" y="786.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_cyt_pa) protein complex</title></rect>
+<rect x="130.0" y="800.0" width="58.0" height="5.2" fill="#555"/>
+<text x="159.0" y="799.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="1226.0" y="218.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_nuc_p) protein complex</title></rect>
+<text x="1257.0" y="231.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="66.0" y="502.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_nuc_pa) protein complex</title></rect>
+<text x="97.0" y="515.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="1078.0" y="184.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_nuc_pa) protein complex</title></rect>
+<rect x="1080.0" y="198.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1109.0" y="197.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="66.0" y="1616.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_nuc_pa) protein complex</title></rect>
+<rect x="68.0" y="1630.0" width="58.0" height="5.2" fill="#555"/>
+<text x="97.0" y="1629.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="596.0" y="1582.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_nuc_pa) protein complex</title></rect>
+<rect x="598.0" y="1596.0" width="58.0" height="5.2" fill="#555"/>
+<text x="627.0" y="1595.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="768.0" y="1550.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NPR1 (s_NPR1_nuc_pa) protein complex</title></rect>
+<rect x="770.0" y="1564.0" width="58.0" height="5.2" fill="#555"/>
+<text x="799.0" y="1563.0" font-size="8.5" text-anchor="middle" fill="#111">NPR1</text>
+<rect x="1078.0" y="218.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NPR3 (s_NPR3_nuc_pa) protein complex</title></rect>
+<text x="1109.0" y="231.0" font-size="8.5" text-anchor="middle" fill="#111">NPR3</text>
+<rect x="1152.0" y="218.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NPR4 (s_NPR4_nuc_pa) protein complex</title></rect>
+<text x="1183.0" y="231.0" font-size="8.5" text-anchor="middle" fill="#111">NPR4</text>
+<rect x="214.0" y="935.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NRG1.1-EDS1 (s_NRG11EDS1_nuc_ca) macromolecular complex</title></rect>
+<text x="245.0" y="948.0" font-size="8.5" text-anchor="middle" fill="#111">NRG1.1-EDS1</text>
+<rect x="66.0" y="969.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>NRG1.1 (s_NRG11_nuc_pa) protein complex</title></rect>
+<text x="97.0" y="982.0" font-size="8.5" text-anchor="middle" fill="#111">NRG1.1</text>
+<rect x="770.0" y="299.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NUDT6 (s_NUDT6_cyt_p) protein complex</title></rect>
+<text x="801.0" y="312.0" font-size="8.5" text-anchor="middle" fill="#111">NUDT6</text>
+<rect x="918.0" y="299.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>NUDT7 (s_NUDT7_cyt_p) protein complex</title></rect>
+<text x="949.0" y="312.0" font-size="8.5" text-anchor="middle" fill="#111">NUDT7</text>
+<rect x="1668.0" y="1279.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>N-pyruvoyl-L-Glu (s_NpyruvoylLGlu_cyt_m) simple chemical</title></rect>
+<text x="1699.0" y="1292.0" font-size="8.5" text-anchor="middle" fill="#111">N-pyruvoyl…</text>
+<rect x="1964.0" y="1346.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>OPC4-CoA (s_OPC4CoA_per_m) simple chemical</title></rect>
+<text x="1995.0" y="1359.0" font-size="8.5" text-anchor="middle" fill="#111">OPC4-CoA</text>
+<rect x="2038.0" y="1346.0" width="62.0" height="20.0" rx="10.0" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>OPC6-CoA (s_OPC6CoA_per_m) simple chemical</title></rect>
+<text x="2069.0" y="1359.0" font-size="8.5" text-anchor="middle" fill="#111">OPC6-CoA</text>
+<rect x="522.0" y="1708.0" width="62.0" height="20.0" rx="3" fill="#cee1e1" stroke="#222" stroke-width="0.8"><title>OPR (s_OPR_per_pa) protein complex</title></rect>
+<text x="553.0" y="1721.0" font-size="8.5" text-anchor="middle" fill="#111">OPR</text>
+<rect x="448.0" y="1514.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>ORA59 (s_ORA59_nuc_pa) protein complex</title></rect>
+<text x="479.0" y="1527.0" font-size="8.5" text-anchor="middle" fill="#111">ORA59</text>
+<rect x="116.0" y="1971.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PAA (s_PAA_cyt_m) simple chemical</title></rect>
+<text x="147.0" y="1984.0" font-size="8.5" text-anchor="middle" fill="#111">PAA</text>
+<rect x="202.0" y="752.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PAD4 (s_PAD4_cyt_pa) protein complex</title></rect>
+<text x="233.0" y="765.0" font-size="8.5" text-anchor="middle" fill="#111">PAD4</text>
+<rect x="214.0" y="969.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>PAD4 (s_PAD4_nuc_pa) protein complex</title></rect>
+<text x="245.0" y="982.0" font-size="8.5" text-anchor="middle" fill="#111">PAD4</text>
+<rect x="1150.0" y="1677.0" width="62.0" height="20.0" rx="3" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>PAL (s_PAL_chl_pa) protein complex</title></rect>
+<text x="1181.0" y="1690.0" font-size="8.5" text-anchor="middle" fill="#111">PAL</text>
+<rect x="1520.0" y="1313.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PA (s_PA_cyt_pa) protein complex</title></rect>
+<text x="1551.0" y="1326.0" font-size="8.5" text-anchor="middle" fill="#111">PA</text>
+<rect x="202.0" y="217.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PBS3 (s_PBS3_cyt_pa) protein complex</title></rect>
+<text x="233.0" y="230.0" font-size="8.5" text-anchor="middle" fill="#111">PBS3</text>
+<rect x="1634.0" y="251.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PR1 (s_PR1_cyt_p) protein complex</title></rect>
+<text x="1665.0" y="264.0" font-size="8.5" text-anchor="middle" fill="#111">PR1</text>
+<rect x="1078.0" y="640.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PR1 (s_PR1_cyt_pa) protein complex</title></rect>
+<text x="1109.0" y="653.0" font-size="8.5" text-anchor="middle" fill="#111">PR1</text>
+<rect x="1226.0" y="514.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PR1|cholesterol (s_PR1cholesterol_cyt_c) macromolecular complex</title></rect>
+<text x="1257.0" y="527.0" font-size="8.5" text-anchor="middle" fill="#111">PR1|choles…</text>
+<rect x="830.0" y="1265.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PR2 (s_PR2_cyt_pa) protein complex</title></rect>
+<text x="861.0" y="1278.0" font-size="8.5" text-anchor="middle" fill="#111">PR2</text>
+<rect x="830.0" y="1197.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PR5|VPg (s_PR5VPg_cyt_c) macromolecular complex</title></rect>
+<text x="861.0" y="1210.0" font-size="8.5" text-anchor="middle" fill="#111">PR5|VPg</text>
+<rect x="904.0" y="1197.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PR5 (s_PR5_cyt_pa) protein complex</title></rect>
+<text x="935.0" y="1210.0" font-size="8.5" text-anchor="middle" fill="#111">PR5</text>
+<rect x="54.0" y="251.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PUB13 (s_PUB13_cyt_p) protein complex</title></rect>
+<text x="85.0" y="264.0" font-size="8.5" text-anchor="middle" fill="#111">PUB13</text>
+<rect x="128.0" y="2222.0" width="62.0" height="20.0" rx="10.0" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>Phe (s_Phe_chl_m) simple chemical</title></rect>
+<text x="159.0" y="2235.0" font-size="8.5" text-anchor="middle" fill="#111">Phe</text>
+<rect x="190.0" y="1971.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Phe (s_Phe_cyt_m) simple chemical</title></rect>
+<text x="221.0" y="1984.0" font-size="8.5" text-anchor="middle" fill="#111">Phe</text>
+<rect x="1138.0" y="1265.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Phenolics production (s_Phenolicsproduction_cyt_pr) process</title></rect>
+<text x="1169.0" y="1278.0" font-size="8.5" text-anchor="middle" fill="#111">Phenolics …</text>
+<rect x="1458.0" y="1530.0" width="62.0" height="20.0" rx="10.0" fill="#cfe1cf" stroke="#222" stroke-width="0.8"><title>Prep (s_Prep_chl_m) simple chemical</title></rect>
+<text x="1489.0" y="1543.0" font-size="8.5" text-anchor="middle" fill="#111">Prep</text>
+<rect x="1594.0" y="1313.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Prep (s_Prep_cyt_m) simple chemical</title></rect>
+<text x="1625.0" y="1326.0" font-size="8.5" text-anchor="middle" fill="#111">Prep</text>
+<rect x="54.0" y="183.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ROS (s_ROS_cyt_m) simple chemical</title></rect>
+<text x="85.0" y="196.0" font-size="8.5" text-anchor="middle" fill="#111">ROS</text>
+<rect x="1486.0" y="183.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SA-Asp (s_SAAsp_cyt_m) simple chemical</title></rect>
+<text x="1517.0" y="196.0" font-size="8.5" text-anchor="middle" fill="#111">SA-Asp</text>
+<rect x="128.0" y="1229.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SAGT (s_SAGT_cyt_pa) protein complex</title></rect>
+<text x="159.0" y="1242.0" font-size="8.5" text-anchor="middle" fill="#111">SAGT</text>
+<rect x="1078.0" y="674.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SAGT (s_SAGT_cyt_pa) protein complex</title></rect>
+<rect x="1080.0" y="688.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1109.0" y="687.0" font-size="8.5" text-anchor="middle" fill="#111">SAGT</text>
+<rect x="252.0" y="1777.0" width="62.0" height="20.0" rx="10.0" fill="#d8d8e6" stroke="#222" stroke-width="0.8"><title>SAG (s_SAG_vac_m) simple chemical</title></rect>
+<text x="283.0" y="1790.0" font-size="8.5" text-anchor="middle" fill="#111">SAG</text>
+<rect x="990.0" y="1448.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>SAGs (s_SAGs_nuc_pa) protein complex</title></rect>
+<text x="1021.0" y="1461.0" font-size="8.5" text-anchor="middle" fill="#111">SAGs</text>
+<rect x="1634.0" y="149.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SAMC (s_SAMC_cyt_pa) protein complex</title></rect>
+<text x="1665.0" y="162.0" font-size="8.5" text-anchor="middle" fill="#111">SAMC</text>
+<rect x="214.0" y="1514.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>SARD1|TCP8 (s_SARD1TCP8_nuc_c) macromolecular complex</title></rect>
+<text x="245.0" y="1527.0" font-size="8.5" text-anchor="middle" fill="#111">SARD1|TCP8</text>
+<rect x="350.0" y="183.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SARD1 (s_SARD1_cyt_pa) protein complex</title></rect>
+<text x="381.0" y="196.0" font-size="8.5" text-anchor="middle" fill="#111">SARD1</text>
+<rect x="66.0" y="536.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>SARD1 (s_SARD1_nuc_pa) protein complex</title></rect>
+<text x="97.0" y="549.0" font-size="8.5" text-anchor="middle" fill="#111">SARD1</text>
+<rect x="536.0" y="83.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>SARD1 (s_SARD1_nuc_pa) protein complex</title></rect>
+<rect x="538.0" y="97.0" width="58.0" height="5.2" fill="#555"/>
+<text x="567.0" y="96.0" font-size="8.5" text-anchor="middle" fill="#111">SARD1</text>
+<rect x="214.0" y="1037.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>SARD1 (s_SARD1_nuc_pa) protein complex</title></rect>
+<rect x="216.0" y="1051.0" width="58.0" height="5.2" fill="#555"/>
+<text x="245.0" y="1050.0" font-size="8.5" text-anchor="middle" fill="#111">SARD1</text>
+<rect x="1078.0" y="320.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>SARD1 (s_SARD1_nuc_pa) protein complex</title></rect>
+<rect x="1080.0" y="334.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1109.0" y="333.0" font-size="8.5" text-anchor="middle" fill="#111">SARD1</text>
+<rect x="288.0" y="1582.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>SARD1 (s_SARD1_nuc_pa) protein complex</title></rect>
+<rect x="290.0" y="1596.0" width="58.0" height="5.2" fill="#555"/>
+<text x="319.0" y="1595.0" font-size="8.5" text-anchor="middle" fill="#111">SARD1</text>
+<rect x="916.0" y="1550.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>SARD1 (s_SARD1_nuc_pa) protein complex</title></rect>
+<rect x="918.0" y="1564.0" width="58.0" height="5.2" fill="#555"/>
+<text x="947.0" y="1563.0" font-size="8.5" text-anchor="middle" fill="#111">SARD1</text>
+<rect x="1508.0" y="1165.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>SARD1 (s_SARD1_nuc_pa) protein complex</title></rect>
+<rect x="1510.0" y="1179.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1539.0" y="1178.0" font-size="8.5" text-anchor="middle" fill="#111">SARD1</text>
+<rect x="1412.0" y="115.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SA (s_SA_cyt_m) simple chemical</title></rect>
+<text x="1443.0" y="128.0" font-size="8.5" text-anchor="middle" fill="#111">SA</text>
+<rect x="548.0" y="367.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SA (s_SA_cyt_m) simple chemical</title></rect>
+<rect x="550.0" y="381.0" width="58.0" height="5.2" fill="#555"/>
+<text x="579.0" y="380.0" font-size="8.5" text-anchor="middle" fill="#111">SA</text>
+<rect x="350.0" y="285.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SA (s_SA_cyt_m) simple chemical</title></rect>
+<rect x="352.0" y="299.0" width="58.0" height="5.2" fill="#555"/>
+<text x="381.0" y="298.0" font-size="8.5" text-anchor="middle" fill="#111">SA</text>
+<rect x="202.0" y="786.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SA (s_SA_cyt_m) simple chemical</title></rect>
+<rect x="204.0" y="800.0" width="58.0" height="5.2" fill="#555"/>
+<text x="233.0" y="799.0" font-size="8.5" text-anchor="middle" fill="#111">SA</text>
+<rect x="1152.0" y="548.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SA (s_SA_cyt_m) simple chemical</title></rect>
+<rect x="1154.0" y="562.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1183.0" y="561.0" font-size="8.5" text-anchor="middle" fill="#111">SA</text>
+<rect x="128.0" y="1297.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SA (s_SA_cyt_m) simple chemical</title></rect>
+<rect x="130.0" y="1311.0" width="58.0" height="5.2" fill="#555"/>
+<text x="159.0" y="1310.0" font-size="8.5" text-anchor="middle" fill="#111">SA</text>
+<rect x="436.0" y="1331.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SA (s_SA_cyt_m) simple chemical</title></rect>
+<rect x="438.0" y="1345.0" width="58.0" height="5.2" fill="#555"/>
+<text x="467.0" y="1344.0" font-size="8.5" text-anchor="middle" fill="#111">SA</text>
+<rect x="1594.0" y="1347.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SA (s_SA_cyt_m) simple chemical</title></rect>
+<rect x="1596.0" y="1361.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1625.0" y="1360.0" font-size="8.5" text-anchor="middle" fill="#111">SA</text>
+<rect x="448.0" y="1548.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>SCL14|TGA (s_SCL14TGA_nuc_ca) macromolecular complex</title></rect>
+<text x="479.0" y="1561.0" font-size="8.5" text-anchor="middle" fill="#111">SCL14|TGA</text>
+<rect x="522.0" y="1548.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>SCL14 (s_SCL14_nuc_p) protein complex</title></rect>
+<text x="553.0" y="1561.0" font-size="8.5" text-anchor="middle" fill="#111">SCL14</text>
+<rect x="622.0" y="231.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SERK4 (s_SERK4_cyt_p) protein complex</title></rect>
+<text x="653.0" y="244.0" font-size="8.5" text-anchor="middle" fill="#111">SERK4</text>
+<rect x="54.0" y="319.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>SNRK2 (s_SNRK2_cyt_pa) protein complex</title></rect>
+<text x="85.0" y="332.0" font-size="8.5" text-anchor="middle" fill="#111">SNRK2</text>
+<rect x="1300.0" y="218.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>TCP8,14,15 (s_TCP81415_nuc_pa) protein complex</title></rect>
+<text x="1331.0" y="231.0" font-size="8.5" text-anchor="middle" fill="#111">TCP8,14,15</text>
+<rect x="140.0" y="1480.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>TCP8|WRKY28 (s_TCP8WRKY28_nuc_c) macromolecular complex</title></rect>
+<text x="171.0" y="1493.0" font-size="8.5" text-anchor="middle" fill="#111">TCP8|WRKY28</text>
+<rect x="214.0" y="1480.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>TCP8 (s_TCP8_nuc_pa) protein complex</title></rect>
+<text x="245.0" y="1493.0" font-size="8.5" text-anchor="middle" fill="#111">TCP8</text>
+<rect x="510.0" y="1229.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>TGA (s_TGA_cyt_pa) protein complex</title></rect>
+<text x="541.0" y="1242.0" font-size="8.5" text-anchor="middle" fill="#111">TGA</text>
+<rect x="522.0" y="1514.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>TGA (s_TGA_nuc_pa) protein complex</title></rect>
+<text x="553.0" y="1527.0" font-size="8.5" text-anchor="middle" fill="#111">TGA</text>
+<rect x="842.0" y="1550.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>TGA (s_TGA_nuc_pa) protein complex</title></rect>
+<rect x="844.0" y="1564.0" width="58.0" height="5.2" fill="#555"/>
+<text x="873.0" y="1563.0" font-size="8.5" text-anchor="middle" fill="#111">TGA</text>
+<rect x="276.0" y="786.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>TNL-effector (s_TNLeffector_cyt_pa) protein complex</title></rect>
+<text x="307.0" y="799.0" font-size="8.5" text-anchor="middle" fill="#111">TNL-effect…</text>
+<rect x="128.0" y="183.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>TRX-H (s_TRXH_cyt_p) protein complex</title></rect>
+<text x="159.0" y="196.0" font-size="8.5" text-anchor="middle" fill="#111">TRX-H</text>
+<rect x="276.0" y="149.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>TRX-H (s_TRXH_cyt_pa) protein complex</title></rect>
+<text x="307.0" y="162.0" font-size="8.5" text-anchor="middle" fill="#111">TRX-H</text>
+<rect x="190.0" y="2005.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>TYRAAT1,2 (s_TYRAAT12_cyt_pa) protein complex</title></rect>
+<text x="221.0" y="2018.0" font-size="8.5" text-anchor="middle" fill="#111">TYRAAT1,2</text>
+<rect x="42.0" y="2039.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Tyr (s_Tyr_cyt_m) simple chemical</title></rect>
+<text x="73.0" y="2052.0" font-size="8.5" text-anchor="middle" fill="#111">Tyr</text>
+<rect x="978.0" y="1197.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>VPg (s_VPg_cyt_p) protein complex</title></rect>
+<text x="1009.0" y="1210.0" font-size="8.5" text-anchor="middle" fill="#111">VPg</text>
+<rect x="288.0" y="1480.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>WRKY28 (s_WRKY28_nuc_pa) protein complex</title></rect>
+<text x="319.0" y="1493.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY28</text>
+<rect x="140.0" y="1003.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>WRKY33 (s_WRKY33_nuc_pa) protein complex</title></rect>
+<text x="171.0" y="1016.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY33</text>
+<rect x="276.0" y="251.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>WRKY40 (s_WRKY40_cyt_p) protein complex</title></rect>
+<text x="307.0" y="264.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY40</text>
+<rect x="1152.0" y="320.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>WRKY48 (s_WRKY48_nuc_pa) protein complex</title></rect>
+<text x="1183.0" y="333.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY48</text>
+<rect x="584.0" y="1229.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>WRKY50|TGA2 (s_WRKY50TGA2_cyt_ca) macromolecular complex</title></rect>
+<text x="615.0" y="1242.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY50|TGA2</text>
+<rect x="202.0" y="1297.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>WRKY50 (s_WRKY50_cyt_pa) protein complex</title></rect>
+<text x="233.0" y="1310.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY50</text>
+<rect x="140.0" y="1616.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>WRKY50 (s_WRKY50_nuc_pa) protein complex</title></rect>
+<text x="171.0" y="1629.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY50</text>
+<rect x="916.0" y="1516.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>WRKY57 (s_WRKY57_nuc_pa) protein complex</title></rect>
+<text x="947.0" y="1529.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY57</text>
+<rect x="622.0" y="299.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>WRKY60 (s_WRKY60_cyt_p) protein complex</title></rect>
+<text x="653.0" y="312.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY60</text>
+<rect x="54.0" y="1331.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>WRKY6,18 (s_WRKY618_cyt_pa) protein complex</title></rect>
+<text x="85.0" y="1344.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY6,18</text>
+<rect x="288.0" y="1548.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>WRKY6,18 (s_WRKY618_nuc_pa) protein complex</title></rect>
+<text x="319.0" y="1561.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY6,18</text>
+<rect x="830.0" y="1231.0" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>WRKY70 (s_WRKY70_cyt_pa) protein complex</title></rect>
+<text x="861.0" y="1244.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY70</text>
+<rect x="1226.0" y="320.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>WRKY8 (s_WRKY8_nuc_pa) protein complex</title></rect>
+<text x="1257.0" y="333.0" font-size="8.5" text-anchor="middle" fill="#111">WRKY8</text>
+<rect x="448.0" y="1582.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>bZIP21 (s_bZIP21_nuc_p) protein complex</title></rect>
+<text x="479.0" y="1595.0" font-size="8.5" text-anchor="middle" fill="#111">bZIP21</text>
+<rect x="522.0" y="1582.0" width="62.0" height="20.0" rx="3" fill="#d1dae9" stroke="#222" stroke-width="0.8"><title>bZIP21 (s_bZIP21_nuc_pa) protein complex</title></rect>
+<text x="553.0" y="1595.0" font-size="8.5" text-anchor="middle" fill="#111">bZIP21</text>
+<rect x="1300.0" y="514.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>cholesterol (s_cholesterol_cyt_m) simple chemical</title></rect>
+<text x="1331.0" y="527.0" font-size="8.5" text-anchor="middle" fill="#111">cholesterol</text>
+<rect x="1138.0" y="1231.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>p-Coumaric acid (s_pCoumaricacid_cyt_m) simple chemical</title></rect>
+<text x="1169.0" y="1244.0" font-size="8.5" text-anchor="middle" fill="#111">p-Coumaric…</text>
+<rect x="1286.0" y="1265.0" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>p-Coumaroyl-CoA (s_pCoumaroylCoA_cyt_m) simple chemical</title></rect>
+<text x="1317.0" y="1278.0" font-size="8.5" text-anchor="middle" fill="#111">p-Coumaroy…</text>
+<rect x="1261.5" y="1399.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_4CL_pa_cyt_to_per (transport_4CL_pa_cyt_to_per) passive transport</title></rect>
+<rect x="1927.5" y="1297.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_BACoA_m_cyt_to_per (transport_BACoA_m_cyt_to_per) passive transport</title></rect>
+<rect x="1187.5" y="1594.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_CA_m_chl_to_cyt (transport_CA_m_chl_to_cyt) passive transport</title></rect>
+<rect x="1569.5" y="1447.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_EDS5_pa_cyt_to_chl (transport_EDS5_pa_cyt_to_chl) passive transport</title></rect>
+<rect x="1115.5" y="135.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_EIN3like_pa_cyt_to_nuc (transport_EIN3like_pa_cyt_to_nuc) passive transport</title></rect>
+<rect x="91.5" y="2139.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_Larogenate_m_cyt_to_chl (transport_Larogenate_m_cyt_to_chl) passive transport</title></rect>
+<rect x="177.5" y="886.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_PAD4_pa_cyt_to_nuc (transport_PAD4_pa_cyt_to_nuc) passive transport</title></rect>
+<rect x="91.5" y="2173.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_Phe_m_chl_to_cyt (transport_Phe_m_chl_to_cyt) passive transport</title></rect>
+<rect x="1495.5" y="1481.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_Prep_m_chl_to_cyt (transport_Prep_m_chl_to_cyt) passive transport</title></rect>
+<rect x="177.5" y="419.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_SARD1_pa_cyt_to_nuc (transport_SARD1_pa_cyt_to_nuc) passive transport</title></rect>
+<rect x="485.5" y="1465.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_TGA_pa_cyt_to_nuc (transport_TGA_pa_cyt_to_nuc) passive transport</title></rect>
+<rect x="251.5" y="1431.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_WRKY50_pa_cyt_to_nuc (transport_WRKY50_pa_cyt_to_nuc) passive transport</title></rect>
+<rect x="103.5" y="1465.5" width="11.0" height="11.0" fill="#9c755f" stroke="#222" stroke-width="0.8"><title>transport_WRKY618_pa_cyt_to_nuc (transport_WRKY618_pa_cyt_to_nuc) passive transport</title></rect>
+</g>
+</svg>
