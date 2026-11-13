@@ -1,0 +1,59 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+T_SBO_0000176_other	1		other biochemical reaction	reaction_type	sbo	SBO:0000176	
+T_SBO_0000176_other__c_chl	2	T_SBO_0000176_other	chloroplast	localisation	compartment	c_chl	c_chl
+T_SBO_0000176_other__c_cyt	2	T_SBO_0000176_other	cytoplasm	localisation	compartment	c_cyt	c_cyt
+T_SBO_0000176_other__c_er	2	T_SBO_0000176_other	endoplasmic reticulum	localisation	compartment	c_er	c_er
+T_SBO_0000176_other__c_er__boundary	2	T_SBO_0000176_other	endoplasmic reticulum boundary	localisation	compartment	c_er	c_er@boundary
+T_SBO_0000176_other__c_mit	2	T_SBO_0000176_other	mitochondrion	localisation	compartment	c_mit	c_mit
+T_SBO_0000176_other__c_nuc	2	T_SBO_0000176_other	nucleus	localisation	compartment	c_nuc	c_nuc
+T_SBO_0000176_other__c_per	2	T_SBO_0000176_other	peroxisome	localisation	compartment	c_per	c_per
+T_SBO_0000176_other__c_per__boundary	2	T_SBO_0000176_other	peroxisome boundary	localisation	compartment	c_per	c_per@boundary
+T_SBO_0000176_other__c_vac	2	T_SBO_0000176_other	vacuole	localisation	compartment	c_vac	c_vac
+T_SBO_0000176_other__c_vac__boundary	2	T_SBO_0000176_other	vacuole boundary	localisation	compartment	c_vac	c_vac@boundary
+T_SBO_0000176_other__c_x	2	T_SBO_0000176_other	extracellular	localisation	compartment	c_x	c_x
+T_SBO_0000177	1		non-covalent binding	reaction_type	sbo	SBO:0000177	
+T_SBO_0000177__c_cyt	2	T_SBO_0000177	cytoplasm	localisation	compartment	c_cyt	c_cyt
+T_SBO_0000177__c_cyt__boundary	2	T_SBO_0000177	cytoplasm boundary	localisation	compartment	c_cyt	c_cyt@boundary
+T_SBO_0000177__c_er	2	T_SBO_0000177	endoplasmic reticulum	localisation	compartment	c_er	c_er
+T_SBO_0000177__c_er__boundary	2	T_SBO_0000177	endoplasmic reticulum boundary	localisation	compartment	c_er	c_er@boundary
+T_SBO_0000177__c_nuc	2	T_SBO_0000177	nucleus	localisation	compartment	c_nuc	c_nuc
+T_SBO_0000177__c_nuc__boundary	2	T_SBO_0000177	nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+T_SBO_0000177__c_per__boundary	2	T_SBO_0000177	peroxisome boundary	localisation	compartment	c_per	c_per@boundary
+T_SBO_0000177__c_x	2	T_SBO_0000177	extracellular	localisation	compartment	c_x	c_x
+T_SBO_0000179	1		degradation	reaction_type	sbo	SBO:0000179	
+T_SBO_0000179__c_cyt	2	T_SBO_0000179	cytoplasm	localisation	compartment	c_cyt	c_cyt
+T_SBO_0000179__c_nuc	2	T_SBO_0000179	nucleus	localisation	compartment	c_nuc	c_nuc
+T_SBO_0000182	1		conversion	reaction_type	sbo	SBO:0000182	
+T_SBO_0000182__c_ap	2	T_SBO_0000182	apoplast	localisation	compartment	c_ap	c_ap
+T_SBO_0000182__c_chl	2	T_SBO_0000182	chloroplast	localisation	compartment	c_chl	c_chl
+T_SBO_0000182__c_cyt	2	T_SBO_0000182	cytoplasm	localisation	compartment	c_cyt	c_cyt
+T_SBO_0000182__c_er	2	T_SBO_0000182	endoplasmic reticulum	localisation	compartment	c_er	c_er
+T_SBO_0000182__c_er__boundary	2	T_SBO_0000182	endoplasmic reticulum boundary	localisation	compartment	c_er	c_er@boundary
+T_SBO_0000182__c_ga	2	T_SBO_0000182	golgi apparatus	localisation	compartment	c_ga	c_ga
+T_SBO_0000182__c_nuc	2	T_SBO_0000182	nucleus	localisation	compartment	c_nuc	c_nuc
+T_SBO_0000182__c_per	2	T_SBO_0000182	peroxisome	localisation	compartment	c_per	c_per
+T_SBO_0000182__c_x	2	T_SBO_0000182	extracellular	localisation	compartment	c_x	c_x
+T_SBO_0000589	1		genetic production	reaction_type	sbo	SBO:0000589	
+T_SBO_0000589__c_ap	2	T_SBO_0000589	apoplast	localisation	compartment	c_ap	c_ap
+T_SBO_0000589__c_chl	2	T_SBO_0000589	chloroplast	localisation	compartment	c_chl	c_chl
+T_SBO_0000589__c_cyt	2	T_SBO_0000589	cytoplasm	localisation	compartment	c_cyt	c_cyt
+T_SBO_0000589__c_er	2	T_SBO_0000589	endoplasmic reticulum	localisation	compartment	c_er	c_er
+T_SBO_0000589__c_nuc	2	T_SBO_0000589	nucleus	localisation	compartment	c_nuc	c_nuc
+T_SBO_0000589__c_per	2	T_SBO_0000589	peroxisome	localisation	compartment	c_per	c_per
+T_SBO_0000589__c_vac	2	T_SBO_0000589	vacuole	localisation	compartment	c_vac	c_vac
+T_SBO_0000655	1		transport reaction	reaction_type	sbo	SBO:0000655	
+T_SBO_0000655__c_chl	2	T_SBO_0000655	chloroplast	localisation	compartment	c_chl	c_chl
+T_SBO_0000655__c_chl__boundary	2	T_SBO_0000655	chloroplast boundary	localisation	compartment	c_chl	c_chl@boundary
+T_SBO_0000655__c_cyt	2	T_SBO_0000655	cytoplasm	localisation	compartment	c_cyt	c_cyt
+T_SBO_0000655__c_cyt__boundary	2	T_SBO_0000655	cytoplasm boundary	localisation	compartment	c_cyt	c_cyt@boundary
+T_SBO_0000655__c_er	2	T_SBO_0000655	endoplasmic reticulum	localisation	compartment	c_er	c_er
+T_SBO_0000655__c_er__boundary	2	T_SBO_0000655	endoplasmic reticulum boundary	localisation	compartment	c_er	c_er@boundary
+T_SBO_0000655__c_mit	2	T_SBO_0000655	mitochondrion	localisation	compartment	c_mit	c_mit
+T_SBO_0000655__c_mit__boundary	2	T_SBO_0000655	mitochondrion boundary	localisation	compartment	c_mit	c_mit@boundary
+T_SBO_0000655__c_nuc	2	T_SBO_0000655	nucleus	localisation	compartment	c_nuc	c_nuc
+T_SBO_0000655__c_nuc__boundary	2	T_SBO_0000655	nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+T_SBO_0000655__c_per	2	T_SBO_0000655	peroxisome	localisation	compartment	c_per	c_per
+T_SBO_0000655__c_per__boundary	2	T_SBO_0000655	peroxisome boundary	localisation	compartment	c_per	c_per@boundary
+T_SBO_0000655__c_vac	2	T_SBO_0000655	vacuole	localisation	compartment	c_vac	c_vac
+T_SBO_0000655__c_vac__boundary	2	T_SBO_0000655	vacuole boundary	localisation	compartment	c_vac	c_vac@boundary
+T_SBO_0000655__c_x	2	T_SBO_0000655	extracellular	localisation	compartment	c_x	c_x

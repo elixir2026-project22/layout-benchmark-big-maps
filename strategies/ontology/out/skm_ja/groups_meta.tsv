@@ -1,0 +1,26 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+ec-code:1	1		EC 1 (oxidoreductases)	function	ec	ec-code:1	
+mapman:10.7.1	1		Phytohormone action.jasmonic acid.biosynthesis	function	notes	mapman:10.7.1	
+mapman:10.7.1/c_chl	2	mapman:10.7.1	chloroplast	localisation	compartment	c_chl	c_chl
+mapman:10.7.1/c_cyt	2	mapman:10.7.1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:10.7.1/c_per	2	mapman:10.7.1	peroxisome	localisation	compartment	c_per	c_per
+mapman:10.7.2.1	1		Phytohormone action.jasmonic acid.perception and signal transduction.receptor activities	function	notes	mapman:10.7.2.1	
+mapman:10.7.2.1/mapman:10.7.2.1.1.1	2	mapman:10.7.2.1	receptor complex.component *(COI)	function	notes	mapman:10.7.2.1.1.1	
+mapman:10.7.2.1/mapman:10.7.2.1.1.1/c_cyt	3	mapman:10.7.2.1/mapman:10.7.2.1.1.1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:10.7.2.1/mapman:10.7.2.1.1.1/c_nuc@boundary	3	mapman:10.7.2.1/mapman:10.7.2.1.1.1	nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+mapman:10.7.2.1/mapman:10.7.2.1.2	2	mapman:10.7.2.1	regulatory protein *(MYC2)	function	notes	mapman:10.7.2.1.2	
+mapman:10.7.2.1/mapman:10.7.2.1.3	2	mapman:10.7.2.1	regulatory protein *(JAM1/2)	function	notes	mapman:10.7.2.1.3	
+mapman:10.7.3	1		Phytohormone action.jasmonic acid.conjugation and degradation	function	notes	mapman:10.7.3	
+mapman:10.7.4.1	1		Phytohormone action.jasmonic acid.transport.jasmonic acid transporter *(JAT)	function	notes	mapman:10.7.4.1	
+mapman:14	1		RNA biosynthesis	function	notes	mapman:14	
+mapman:14/mapman:14.5	2	mapman:14	DNA-binding transcriptional regulation	function	notes	mapman:14.5	
+mapman:14/mapman:14.5/c_cyt	3	mapman:14/mapman:14.5	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:14/mapman:14.5/c_nuc	3	mapman:14/mapman:14.5	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:14/mapman:14.5/c_nuc@boundary	3	mapman:14/mapman:14.5	nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+mapman:14/mapman:14.6.8.1	2	mapman:14	transcriptional co-regulation.JAZ-TPR transcriptional repressor complexes.JAZ co-regulator components	function	notes	mapman:14.6.8.1	
+mapman:27.14	1		Multi-process regulation.MAP kinase cascade signalling	function	notes	mapman:27.14	
+mapman:5.1	1		Lipid metabolism.fatty acid metabolism	function	notes	mapman:5.1	
+mapman:5.1/mapman:5.1.9.1.7	2	mapman:5.1	fatty acid degradation.peroxisomal beta-oxidation.3-ketoacyl-CoA thiolase *(KAT1/2/5)	function	notes	mapman:5.1.9.1.7	
+mapman:7.3.2	1		Coenzyme metabolism.S-adenosyl methionine (SAM) cycle.S-adenosyl homocysteine hydrolase *(SAHH)	function	notes	mapman:7.3.2	
+mapman:7.3.2/c_cyt	2	mapman:7.3.2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:7.3.2/c_er	2	mapman:7.3.2	endoplasmic reticulum	localisation	compartment	c_er	c_er

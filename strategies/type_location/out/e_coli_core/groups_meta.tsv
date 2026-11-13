@@ -1,0 +1,23 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+T_EC_1	1		EC 1 Oxidoreductases	reaction_type	ec	ec-code:1	
+T_EC_1__c	2	T_EC_1	cytosol	localisation	compartment	c	c
+T_EC_2	1		EC 2 Transferases	reaction_type	ec	ec-code:2	
+T_EC_2__c	2	T_EC_2	cytosol	localisation	compartment	c	c
+T_EC_3	1		EC 3 Hydrolases	reaction_type	ec	ec-code:3	
+T_EC_3__c	2	T_EC_3	cytosol	localisation	compartment	c	c
+T_EC_4	1		EC 4 Lyases	reaction_type	ec	ec-code:4	
+T_EC_4__c	2	T_EC_4	cytosol	localisation	compartment	c	c
+T_EC_5	1		EC 5 Isomerases	reaction_type	ec	ec-code:5	
+T_EC_5__c	2	T_EC_5	cytosol	localisation	compartment	c	c
+T_EC_6	1		EC 6 Ligases	reaction_type	ec	ec-code:6	
+T_EC_6__c	2	T_EC_6	cytosol	localisation	compartment	c	c
+T_SBO_0000176_other	1		other biochemical reaction	reaction_type	sbo	SBO:0000176	
+T_SBO_0000176_other__c	2	T_SBO_0000176_other	cytosol	localisation	compartment	c	c
+T_SBO_0000185	1		translocation reaction	reaction_type	sbo	SBO:0000185	
+T_SBO_0000185__c	2	T_SBO_0000185	cytosol	localisation	compartment	c	c
+T_SBO_0000185__c__boundary	2	T_SBO_0000185	cytosol boundary	localisation	compartment	c	c@boundary
+T_SBO_0000185__e	2	T_SBO_0000185	extracellular space	localisation	compartment	e	e
+T_SBO_0000627	1		exchange reaction	reaction_type	sbo	SBO:0000627	
+T_SBO_0000627__e	2	T_SBO_0000627	extracellular space	localisation	compartment	e	e
+T_SBO_0000629	1		biomass production	reaction_type	sbo	SBO:0000629	
+T_SBO_0000629__c	2	T_SBO_0000629	cytosol	localisation	compartment	c	c

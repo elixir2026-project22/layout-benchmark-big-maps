@@ -1,0 +1,23 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+M01	1		genetic production	topology	sbo	SBO:0000589	
+M01.01	2	M01	SARD1	topology	member	s_SARD1_nuc_pa	
+M01.01.01	3	M01.01	PUB13	topology	member	s_PUB13_cyt_p	
+M01.01.02	3	M01.01	NPR1|NPR1	topology	member	s_NPR1NPR1_cyt_ca	
+M01.02	2	M01	CBP60G	topology	member	s_CBP60G_nuc_pa	
+M01.03	2	M01	CAMTA3	topology	member	s_CAMTA3_nuc_pa	
+M02	1		NPR1	topology	member	s_NPR1_nuc_pa	
+M02.01	2	M02	EDS1|PAD4	topology	member	s_EDS1PAD4_nuc_ca	
+M02.02	2	M02	EDS1	topology	member	s_EDS1_nuc_pa	
+M02.03	2	M02	NPR1|TGA	topology	member	s_NPR1TGA_nuc_ca	
+M02.04	2	M02	TGA	topology	member	s_TGA_nuc_pa	
+M02.05	2	M02	WRKY6,18	topology	member	s_WRKY618_cyt_pa	
+M03	1		CA-CoA	topology	member	s_CACoA_per_m	
+M04	1		Phe	topology	member	s_Phe_chl_m	
+M05	1		SAGT	topology	member	s_SAGT_cyt_pa	
+M06	1		IsoChor-9-Glu	topology	member	s_IsoChor9Glu_cyt_m	
+M07	1		BB	topology	member	s_BB_cyt_m	
+M08	1		PR1	topology	member	s_PR1_cyt_p	
+M09	1		MYC2	topology	member	s_MYC2_nuc_pa	
+M10	1		ORA59	topology	member	s_ORA59_nuc_pa	
+M11	1		External stimuli response.pathogen.defense mechanisms.systemic acquired resistance (SAR).pipecolic acid metabolism	topology	notes	mapman:26.11.3.1.4	
+M12	1		PR5	topology	member	s_PR5_cyt_pa	

@@ -1,0 +1,114 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+M01	1		VPg	topology	member	s_VPg_cyt_p	
+M01.01	2	M01	OBE1	topology	member	s_OBE1_cyt_p	
+M01.01.01	3	M01.01	PR5	topology	member	s_PR5_cyt_pa	
+M01.01.02	3	M01.01	RBC	topology	member	s_RBC_cyt_pa	
+M01.02	2	M01	CBP60G	topology	member	s_CBP60G_nuc_pa	
+M01.02.01	3	M01.02	CDPK	topology	member	s_CDPK_cyt_p	
+M01.02.02	3	M01.02	CUL3A	topology	member	s_CUL3A_cyt_pa	
+M01.02.03	3	M01.02	EDS1	topology	member	s_EDS1_cyt_p	
+M01.02.04	3	M01.02	Multi-process regulation.nitric oxide signalling.S-nitrosylation.protein-S-nitrosothiol reductase *(TRX5)	topology	notes	mapman:27.16.2.2	
+M01.03	2	M01	EIN2	topology	member	s_EIN2_er_pa	
+M01.04	2	M01	COI1|JA-Ile|SCF	topology	member	s_COI1JAIleSCF_cyt_ca	
+M01.05	2	M01	EDS1|PAD4	topology	member	s_EDS1PAD4_nuc_ca	
+M01.06	2	M01	MYC2	topology	member	s_MYC2_nuc_p	
+M01.07	2	M01	PDF1.2	topology	member	s_PDF12_cyt_pa	
+M01.08	2	M01	External stimuli response.pathogen.effector-triggered immunity (ETI) machinery.TNL-mediated effector-triggered immunity.EDS1-PAD4/SAG101 signalling heterodimers.component *(PAD4)	topology	notes	mapman:26.11.2.1.4.2	
+M01.09	2	M01	EBF	topology	member	s_EBF_nuc_pa	
+M01.10	2	M01	CML	topology	member	s_CML_cyt_pa	
+M01.11	2	M01	PR1	topology	member	s_PR1_cyt_pa	
+M01.12	2	M01	SR1IP1	topology	member	s_SR1IP1_nuc_pa	
+M02	1		JAM	topology	member	s_JAM_cyt_pa	
+M02.01	2	M02	ACS	topology	member	s_ACS_cyt_p	
+M02.02	2	M02	AGO1	topology	member	s_AGO1_cyt_pa	
+M02.03	2	M02	CAMTA3	topology	member	s_CAMTA3_cyt_pa	
+M02.04	2	M02	JAZ	topology	member	s_JAZ_cyt_pa	
+M02.05	2	M02	ERF-VII	topology	member	s_ERFVII_cyt_pa	
+M02.06	2	M02	ROS	topology	member	s_ROS_chl_m	
+M02.07	2	M02	CAT	topology	member	s_CAT_per_pa	
+M02.08	2	M02	DXPS2	topology	member	s_DXPS2_cyt_p	
+M02.09	2	M02	miR168	topology	member	s_miR168_cyt_mi	
+M02.10	2	M02	MVK	topology	member	s_MVK_cyt_pa	
+M02.11	2	M02	External stimuli response.pathogen.defense mechanisms.WRKY33-dependent plant immunity.transcription factor *(WRKY33)	topology	notes	mapman:26.11.3.2.1	
+M02.12	2	M02	CTR|ETR	topology	member	s_CTRETR_er_c	
+M03	1		DELLA	topology	member	s_DELLA_nuc_pa	
+M03.01	2	M03	HSF	topology	member	s_HSF_cyt_pa	
+M03.02	2	M03	MPK3,6	topology	member	s_MPK36_cyt_p	
+M03.03	2	M03	PIF3,4	topology	member	s_PIF34_nuc_pa	
+M03.04	2	M03	Antheraxanthin	topology	member	s_Antheraxanthin_cyt_m	
+M03.05	2	M03	GA	topology	member	s_GA_cyt_m	
+M03.06	2	M03	ELF3	topology	member	s_ELF3_cyt_pa	
+M03.07	2	M03	Phytohormone action.strigolactone	topology	notes	mapman:10.9	
+M03.08	2	M03	LCY1	topology	member	s_LCY1_cyt_pa	
+M03.09	2	M03	WRKY70	topology	member	s_WRKY70_cyt_pa	
+M03.10	2	M03	Phytohormone action.gibberellin.biosynthesis	topology	notes	mapman:10.6.1	
+M03.11	2	M03	ABI5	topology	member	s_ABI5_cyt_p	
+M03.12	2	M03	CO	topology	member	s_CO_cyt_pa	
+M04	1		CA-CoA	topology	member	s_CACoA_per_m	
+M04.01	2	M04	Ca2+	topology	member	s_Ca2_x_m	
+M04.02	2	M04	CBL10	topology	member	s_CBL10_cyt_pa	
+M04.03	2	M04	12,13-EOT	topology	member	s_1213EOT_chl_m	
+M04.04	2	M04	JA	topology	member	s_JA_cyt_m	
+M04.05	2	M04	Phe	topology	member	s_Phe_chl_m	
+M04.06	2	M04	AAO	topology	member	s_AAO_cyt_pa	
+M04.07	2	M04	AtMC4	topology	member	s_AtMC4_cyt_pa	
+M04.08	2	M04	ATAF1	topology	member	s_ATAF1_nuc_pa	
+M04.09	2	M04	BA-CoA	topology	member	s_BACoA_per_m	
+M04.10	2	M04	Secondary metabolism.phenolics biosynthesis.p-coumaroyl-CoA biosynthesis	topology	notes	mapman:8.2.1	
+M04.11	2	M04	8' OH-ABA	topology	member	s_8OHABA_cyt_m	
+M04.12	2	M04	Protein homeostasis.protein quality control.ER Quality Control (ERQC) machinery.calnexin/calreticulin chaperone system.CNX-CRT cycle.POD1-SUN-CRT3 ER luminal chaperone complex.component *(CRT3)	topology	notes	mapman:19.1.1.1.1.3.3	
+M05	1		SNRK2	topology	member	s_SNRK2_cyt_p	
+M05.01	2	M05	iP-ribotide	topology	member	s_iPribotide_cyt_m	
+M05.02	2	M05	SRK2D	topology	member	s_SRK2D_cyt_p	
+M05.03	2	M05	TCP8	topology	member	s_TCP8_nuc_pa	
+M05.04	2	M05	Phytohormone action.cytokinin.perception and signal transduction.histidine-aspartate phosphorelay signal transduction	topology	notes	mapman:10.4.2.1	
+M05.05	2	M05	cZ-ribotide	topology	member	s_cZribotide_cyt_m	
+M05.06	2	M05	IDD14	topology	member	s_IDD14_nuc_p	
+M05.07	2	M05	UDP-Glc	topology	member	s_UDPGlc_cyt_m	
+M05.08	2	M05	EIN3|NPR1	topology	member	s_EIN3NPR1_nuc_ca	
+M05.09	2	M05	SRK2I	topology	member	s_SRK2I_cyt_p	
+M05.10	2	M05	MIZ1	topology	member	s_MIZ1_cyt_p	
+M05.11	2	M05	PYL	topology	member	s_PYL_cyt_p	
+M05.12	2	M05	DZ-ribotide	topology	member	s_DZribotide_cyt_m	
+M06	1		IAA	topology	member	s_IAA_cyt_m	
+M06.01	2	M06	GH3	topology	member	s_GH3_cyt_pa	
+M06.02	2	M06	BAK1	topology	member	s_BAK1_cyt_p	
+M06.03	2	M06	COI1	topology	member	s_COI1_cyt_p	
+M06.04	2	M06	LOX	topology	member	s_LOX_cyt_p	
+M06.05	2	M06	Cell division.cytokinesis.phragmoplast disassembly.NACK-PQR signalling pathway	topology	notes	mapman:12.4.4.1	
+M06.06	2	M06	WRKY57	topology	member	s_WRKY57_nuc_pa	
+M06.07	2	M06	SARD1	topology	member	s_SARD1_cyt_pa	
+M06.08	2	M06	ARF	topology	member	s_ARF_nuc_pa	
+M06.09	2	M06	WRKY53	topology	member	s_WRKY53_nuc_pa	
+M06.10	2	M06	Phytohormone action.brassinosteroid.perception and signal transduction.BIN2-BES1 signalling cascade	topology	notes	mapman:10.3.2.3	
+M06.11	2	M06	12-OH-JA-Ile	topology	member	s_12OHJAIle_cyt_m	
+M06.12	2	M06	Clade-specific metabolism.Brassicaceae.glucosinolate biosynthesis.benzenic and indolic core structure	topology	notes	mapman:30.1.1.6	
+M07	1		ORA59	topology	member	s_ORA59_nuc_pa	
+M07.01	2	M07	NPR1	topology	member	s_NPR1_nuc_pa	
+M07.02	2	M07	AREB/ABF	topology	member	s_AREBABF_nuc_pa	
+M07.03	2	M07	EDS5	topology	member	s_EDS5_cyt_pa	
+M07.04	2	M07	NAC072	topology	member	s_NAC072_nuc_pa	
+M07.05	2	M07	NAC055	topology	member	s_NAC055_nuc_pa	
+M07.06	2	M07	EDS1-WRKY18	topology	member	s_EDS1WRKY18_nuc_ca	
+M07.07	2	M07	WRKY50	topology	member	s_WRKY50_nuc_pa	
+M07.08	2	M07	ERF1	topology	member	s_ERF1_cyt_pa	
+M07.09	2	M07	MeSA	topology	member	s_MeSA_cyt_m	
+M07.10	2	M07	N-pyruvoyl-L-Glu	topology	member	s_NpyruvoylLGlu_cyt_m	
+M07.11	2	M07	RAP2-6	topology	member	s_RAP26_cyt_pa	
+M07.12	2	M07	TGA	topology	member	s_TGA_cyt_pa	
+M08	1		CAX1	topology	member	s_CAX1_cyt_pa	
+M08.01	2	M08	CBL2|Ca2+	topology	member	s_CBL2Ca2_cyt_c	
+M08.02	2	M08	CML12	topology	member	s_CML12_cyt_p	
+M08.03	2	M08	CAX3	topology	member	s_CAX3_cyt_p	
+M08.04	2	M08	CBL1	topology	member	s_CBL1_cyt_pa	
+M08.05	2	M08	CBL9	topology	member	s_CBL9_cyt_pa	
+M08.06	2	M08	AKT1	topology	member	s_AKT1_cyt_pa	
+M08.07	2	M08	CIPK1	topology	member	s_CIPK1_cyt_p	
+M08.08	2	M08	CIPK23	topology	member	s_CIPK23_cyt_pa	
+M08.09	2	M08	CIPK6	topology	member	s_CIPK6_cyt_pa	
+M08.10	2	M08	CIPK16	topology	member	s_CIPK16_cyt_pa	
+M08.11	2	M08	AIP1	topology	member	s_AIP1_cyt_pa	
+M09	1		ITPK1	topology	member	s_ITPK1_cyt_pa	
+M10	1		RANGAP	topology	member	s_RANGAP_cyt_pa	
+M11	1		DREB1B	topology	member	s_DREB1B_cyt_pa	
+M12	1		SUR1	topology	member	s_SUR1_cyt_pa	

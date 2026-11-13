@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "layout-benchmark-big-maps"
+abstract: "Grouping and recursive layout of big pathway maps in SBML: competing grouping strategies scored by one rulebook, and the layout algorithms of layout-benchmark applied at every level of the resulting grouping. From BioHackathon Europe 2026, project 22 (Open Pathway Maps)."
+keywords:
+  - pathway maps
+  - graph layout
+  - grouping
+  - SBML
+  - BioHackathon
+authors:
+  - name: "The contributors to BioHackathon Europe 2026, project 22 (Open Pathway Maps)"
+version: 0.1.0
+date-released: "2026-11-13"
+license: MIT
+repository-code: https://github.com/elixir2026-project22/layout-benchmark-big-maps
+references:
+  - type: software
+    title: "layout-benchmark"
+    repository-code: https://github.com/elixir2026-project22/layout-benchmark
+    notes: "The layout algorithms of the layout stage are one per family of its registry."

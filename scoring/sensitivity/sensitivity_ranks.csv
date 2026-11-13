@@ -1,0 +1,343 @@
+variant,kind,strategy,score,rank
+as published (A.25 B.20 C.20 D.15 E.20),weights,hybrid,0.6219,1
+as published (A.25 B.20 C.20 D.15 E.20),weights,location_type,0.6113,2
+as published (A.25 B.20 C.20 D.15 E.20),weights,topology_infomap,0.5585,3
+as published (A.25 B.20 C.20 D.15 E.20),weights,topology_leiden,0.558,4
+as published (A.25 B.20 C.20 D.15 E.20),weights,ontology,0.5514,5
+as published (A.25 B.20 C.20 D.15 E.20),weights,type_location,0.5324,6
+as published (A.25 B.20 C.20 D.15 E.20),weights,cascade,0.4744,7
+as published (A.25 B.20 C.20 D.15 E.20),weights,topology_walktrap,0.4673,8
+as published (A.25 B.20 C.20 D.15 E.20),weights,baseline,0.307,9
+equal blocks,weights,hybrid,0.6173,1
+equal blocks,weights,location_type,0.6115,2
+equal blocks,weights,topology_infomap,0.5512,3
+equal blocks,weights,topology_leiden,0.5502,4
+equal blocks,weights,ontology,0.55,5
+equal blocks,weights,type_location,0.5343,6
+equal blocks,weights,cascade,0.4718,7
+equal blocks,weights,topology_walktrap,0.4637,8
+equal blocks,weights,baseline,0.3,9
+structure heavy (A.40),weights,hybrid,0.6846,1
+structure heavy (A.40),weights,location_type,0.643,2
+structure heavy (A.40),weights,topology_leiden,0.6291,3
+structure heavy (A.40),weights,topology_infomap,0.6244,4
+structure heavy (A.40),weights,ontology,0.6102,5
+structure heavy (A.40),weights,type_location,0.5716,6
+structure heavy (A.40),weights,cascade,0.5216,7
+structure heavy (A.40),weights,topology_walktrap,0.5191,8
+structure heavy (A.40),weights,baseline,0.3184,9
+graph heavy (B.40),weights,hybrid,0.6352,1
+graph heavy (B.40),weights,topology_leiden,0.6236,2
+graph heavy (B.40),weights,topology_infomap,0.6186,3
+graph heavy (B.40),weights,location_type,0.5626,4
+graph heavy (B.40),weights,ontology,0.5308,5
+graph heavy (B.40),weights,topology_walktrap,0.5244,6
+graph heavy (B.40),weights,type_location,0.503,7
+graph heavy (B.40),weights,cascade,0.484,8
+graph heavy (B.40),weights,baseline,0.3318,9
+localisation heavy (C.40),weights,location_type,0.6394,1
+localisation heavy (C.40),weights,hybrid,0.5557,2
+localisation heavy (C.40),weights,type_location,0.5226,3
+localisation heavy (C.40),weights,ontology,0.487,4
+localisation heavy (C.40),weights,topology_infomap,0.4514,5
+localisation heavy (C.40),weights,topology_leiden,0.4442,6
+localisation heavy (C.40),weights,cascade,0.4163,7
+localisation heavy (C.40),weights,topology_walktrap,0.375,8
+localisation heavy (C.40),weights,baseline,0.2559,9
+naming heavy (D.40),weights,hybrid,0.6624,1
+naming heavy (D.40),weights,location_type,0.6436,2
+naming heavy (D.40),weights,ontology,0.6032,3
+naming heavy (D.40),weights,topology_leiden,0.5904,4
+naming heavy (D.40),weights,topology_infomap,0.5887,5
+naming heavy (D.40),weights,type_location,0.5801,6
+naming heavy (D.40),weights,cascade,0.5085,7
+naming heavy (D.40),weights,topology_walktrap,0.5011,8
+naming heavy (D.40),weights,baseline,0.2847,9
+reference heavy (E.40),weights,location_type,0.553,1
+reference heavy (E.40),weights,hybrid,0.5484,2
+reference heavy (E.40),weights,ontology,0.519,3
+reference heavy (E.40),weights,type_location,0.4931,4
+reference heavy (E.40),weights,topology_infomap,0.4729,5
+reference heavy (E.40),weights,topology_leiden,0.4634,6
+reference heavy (E.40),weights,cascade,0.4201,7
+reference heavy (E.40),weights,topology_walktrap,0.399,8
+reference heavy (E.40),weights,baseline,0.3009,9
+without block A (structure),weights,location_type,0.5554,1
+without block A (structure),weights,hybrid,0.5251,2
+without block A (structure),weights,type_location,0.4768,3
+without block A (structure),weights,ontology,0.4704,4
+without block A (structure),weights,topology_infomap,0.4526,5
+without block A (structure),weights,topology_leiden,0.444,6
+without block A (structure),weights,cascade,0.3988,7
+without block A (structure),weights,topology_walktrap,0.3869,8
+without block A (structure),weights,baseline,0.2832,9
+without block B (graph),weights,location_type,0.6569,1
+without block B (graph),weights,hybrid,0.6029,2
+without block B (graph),weights,ontology,0.5719,3
+without block B (graph),weights,type_location,0.5649,4
+without block B (graph),weights,topology_infomap,0.4902,5
+without block B (graph),weights,topology_leiden,0.4834,6
+without block B (graph),weights,cascade,0.4615,7
+without block B (graph),weights,topology_walktrap,0.4058,8
+without block B (graph),weights,baseline,0.2674,9
+without block C (localisation),weights,hybrid,0.6829,1
+without block C (localisation),weights,topology_leiden,0.6637,2
+without block C (localisation),weights,topology_infomap,0.6579,3
+without block C (localisation),weights,ontology,0.6091,4
+without block C (localisation),weights,location_type,0.5756,5
+without block C (localisation),weights,topology_walktrap,0.5551,6
+without block C (localisation),weights,type_location,0.544,7
+without block C (localisation),weights,cascade,0.5269,8
+without block C (localisation),weights,baseline,0.3361,9
+without block D (naming),weights,hybrid,0.6003,1
+without block D (naming),weights,location_type,0.592,2
+without block D (naming),weights,topology_infomap,0.5444,3
+without block D (naming),weights,topology_leiden,0.5434,4
+without block D (naming),weights,ontology,0.5141,5
+without block D (naming),weights,type_location,0.5024,6
+without block D (naming),weights,cascade,0.4537,7
+without block D (naming),weights,topology_walktrap,0.4505,8
+without block D (naming),weights,baseline,0.3201,9
+without block E (reference),weights,hybrid,0.6935,1
+without block E (reference),weights,location_type,0.6607,2
+without block E (reference),weights,topology_leiden,0.6476,3
+without block E (reference),weights,topology_infomap,0.6399,4
+without block E (reference),weights,ontology,0.5847,5
+without block E (reference),weights,type_location,0.5717,6
+without block E (reference),weights,topology_walktrap,0.5339,7
+without block E (reference),weights,cascade,0.5175,8
+without block E (reference),weights,baseline,0.3068,9
+without M01,rule dropped,hybrid,0.6196,1
+without M01,rule dropped,location_type,0.6136,2
+without M01,rule dropped,topology_infomap,0.5623,3
+without M01,rule dropped,topology_leiden,0.5605,4
+without M01,rule dropped,ontology,0.5559,5
+without M01,rule dropped,type_location,0.5357,6
+without M01,rule dropped,topology_walktrap,0.4806,7
+without M01,rule dropped,cascade,0.4793,8
+without M01,rule dropped,baseline,0.3091,9
+without M02,rule dropped,hybrid,0.6238,1
+without M02,rule dropped,location_type,0.6081,2
+without M02,rule dropped,topology_infomap,0.5553,3
+without M02,rule dropped,topology_leiden,0.5549,4
+without M02,rule dropped,ontology,0.5482,5
+without M02,rule dropped,type_location,0.5349,6
+without M02,rule dropped,cascade,0.471,7
+without M02,rule dropped,topology_walktrap,0.462,8
+without M02,rule dropped,baseline,0.306,9
+without M03,rule dropped,hybrid,0.6196,1
+without M03,rule dropped,location_type,0.6081,2
+without M03,rule dropped,topology_infomap,0.5553,3
+without M03,rule dropped,topology_leiden,0.5549,4
+without M03,rule dropped,ontology,0.5482,5
+without M03,rule dropped,type_location,0.5269,6
+without M03,rule dropped,cascade,0.4752,7
+without M03,rule dropped,topology_walktrap,0.462,8
+without M03,rule dropped,baseline,0.3165,9
+without M04,rule dropped,hybrid,0.6251,1
+without M04,rule dropped,location_type,0.6146,2
+without M04,rule dropped,topology_leiden,0.5629,3
+without M04,rule dropped,topology_infomap,0.5623,4
+without M04,rule dropped,ontology,0.5541,5
+without M04,rule dropped,type_location,0.5331,6
+without M04,rule dropped,cascade,0.4758,7
+without M04,rule dropped,topology_walktrap,0.4687,8
+without M04,rule dropped,baseline,0.2995,9
+without M05,rule dropped,hybrid,0.6205,1
+without M05,rule dropped,location_type,0.6093,2
+without M05,rule dropped,topology_infomap,0.558,3
+without M05,rule dropped,topology_leiden,0.5577,4
+without M05,rule dropped,ontology,0.5494,5
+without M05,rule dropped,type_location,0.529,6
+without M05,rule dropped,cascade,0.4725,7
+without M05,rule dropped,topology_walktrap,0.4661,8
+without M05,rule dropped,baseline,0.307,9
+without M06,rule dropped,hybrid,0.6212,1
+without M06,rule dropped,location_type,0.6104,2
+without M06,rule dropped,topology_infomap,0.5582,3
+without M06,rule dropped,topology_leiden,0.5579,4
+without M06,rule dropped,ontology,0.5511,5
+without M06,rule dropped,type_location,0.5351,6
+without M06,rule dropped,cascade,0.4735,7
+without M06,rule dropped,topology_walktrap,0.4668,8
+without M06,rule dropped,baseline,0.307,9
+without M07,rule dropped,hybrid,0.6228,1
+without M07,rule dropped,location_type,0.6124,2
+without M07,rule dropped,topology_infomap,0.5587,3
+without M07,rule dropped,topology_leiden,0.5581,4
+without M07,rule dropped,ontology,0.5523,5
+without M07,rule dropped,type_location,0.5336,6
+without M07,rule dropped,cascade,0.4747,7
+without M07,rule dropped,topology_walktrap,0.4672,8
+without M07,rule dropped,baseline,0.3055,9
+without M08,rule dropped,hybrid,0.6223,1
+without M08,rule dropped,location_type,0.6106,2
+without M08,rule dropped,topology_infomap,0.5576,3
+without M08,rule dropped,topology_leiden,0.5571,4
+without M08,rule dropped,ontology,0.5522,5
+without M08,rule dropped,type_location,0.5308,6
+without M08,rule dropped,cascade,0.4739,7
+without M08,rule dropped,topology_walktrap,0.4658,8
+without M08,rule dropped,baseline,0.3035,9
+without M09,rule dropped,hybrid,0.6187,1
+without M09,rule dropped,location_type,0.6054,2
+without M09,rule dropped,topology_infomap,0.5581,3
+without M09,rule dropped,topology_leiden,0.557,4
+without M09,rule dropped,ontology,0.5481,5
+without M09,rule dropped,type_location,0.5288,6
+without M09,rule dropped,cascade,0.4674,7
+without M09,rule dropped,topology_walktrap,0.4664,8
+without M09,rule dropped,baseline,0.3109,9
+without M10,rule dropped,hybrid,0.634,1
+without M10,rule dropped,location_type,0.62,2
+without M10,rule dropped,ontology,0.5629,3
+without M10,rule dropped,topology_infomap,0.5578,4
+without M10,rule dropped,topology_leiden,0.5576,5
+without M10,rule dropped,type_location,0.5426,6
+without M10,rule dropped,cascade,0.4873,7
+without M10,rule dropped,topology_walktrap,0.4679,8
+without M10,rule dropped,baseline,0.3051,9
+without M11,rule dropped,hybrid,0.6146,1
+without M11,rule dropped,location_type,0.6051,2
+without M11,rule dropped,topology_infomap,0.5566,3
+without M11,rule dropped,topology_leiden,0.5562,4
+without M11,rule dropped,ontology,0.5437,5
+without M11,rule dropped,type_location,0.526,6
+without M11,rule dropped,cascade,0.4684,7
+without M11,rule dropped,topology_walktrap,0.4659,8
+without M11,rule dropped,baseline,0.3055,9
+without M12,rule dropped,hybrid,0.619,1
+without M12,rule dropped,location_type,0.6071,2
+without M12,rule dropped,topology_infomap,0.5571,3
+without M12,rule dropped,topology_leiden,0.5566,4
+without M12,rule dropped,ontology,0.5479,5
+without M12,rule dropped,type_location,0.5288,6
+without M12,rule dropped,cascade,0.4713,7
+without M12,rule dropped,topology_walktrap,0.466,8
+without M12,rule dropped,baseline,0.3055,9
+without M13,rule dropped,hybrid,0.6166,1
+without M13,rule dropped,location_type,0.6097,2
+without M13,rule dropped,topology_infomap,0.5601,3
+without M13,rule dropped,topology_leiden,0.5598,4
+without M13,rule dropped,ontology,0.546,5
+without M13,rule dropped,type_location,0.5273,6
+without M13,rule dropped,cascade,0.4698,7
+without M13,rule dropped,topology_walktrap,0.4687,8
+without M13,rule dropped,baseline,0.3088,9
+without M14,rule dropped,hybrid,0.6277,1
+without M14,rule dropped,location_type,0.6171,2
+without M14,rule dropped,topology_infomap,0.5609,3
+without M14,rule dropped,topology_leiden,0.5604,4
+without M14,rule dropped,ontology,0.559,5
+without M14,rule dropped,type_location,0.5401,6
+without M14,rule dropped,cascade,0.4812,7
+without M14,rule dropped,topology_walktrap,0.4689,8
+without M14,rule dropped,baseline,0.307,9
+without M15,rule dropped,hybrid,0.6122,1
+without M15,rule dropped,location_type,0.6113,2
+without M15,rule dropped,topology_infomap,0.5619,3
+without M15,rule dropped,topology_leiden,0.5612,4
+without M15,rule dropped,ontology,0.5585,5
+without M15,rule dropped,type_location,0.5164,6
+without M15,rule dropped,cascade,0.4722,7
+without M15,rule dropped,topology_walktrap,0.4706,8
+without M15,rule dropped,baseline,0.3102,9
+without M16,rule dropped,hybrid,0.6282,1
+without M16,rule dropped,location_type,0.6113,2
+without M16,rule dropped,topology_infomap,0.5585,3
+without M16,rule dropped,topology_leiden,0.558,4
+without M16,rule dropped,type_location,0.5501,5
+without M16,rule dropped,ontology,0.5357,6
+without M16,rule dropped,cascade,0.4676,7
+without M16,rule dropped,topology_walktrap,0.4673,8
+without M16,rule dropped,baseline,0.307,9
+without M17,rule dropped,hybrid,0.6235,1
+without M17,rule dropped,location_type,0.6113,2
+without M17,rule dropped,topology_infomap,0.5609,3
+without M17,rule dropped,topology_leiden,0.5603,4
+without M17,rule dropped,ontology,0.5551,5
+without M17,rule dropped,type_location,0.5204,6
+without M17,rule dropped,cascade,0.4836,7
+without M17,rule dropped,topology_walktrap,0.4697,8
+without M17,rule dropped,baseline,0.3098,9
+without M18,rule dropped,hybrid,0.6184,1
+without M18,rule dropped,location_type,0.6113,2
+without M18,rule dropped,topology_infomap,0.5602,3
+without M18,rule dropped,topology_leiden,0.5596,4
+without M18,rule dropped,ontology,0.5559,5
+without M18,rule dropped,type_location,0.5364,6
+without M18,rule dropped,cascade,0.4749,7
+without M18,rule dropped,topology_walktrap,0.469,8
+without M18,rule dropped,baseline,0.3089,9
+without M19,rule dropped,hybrid,0.6268,1
+without M19,rule dropped,location_type,0.6113,2
+without M19,rule dropped,topology_infomap,0.5516,3
+without M19,rule dropped,topology_leiden,0.5515,4
+without M19,rule dropped,ontology,0.5511,5
+without M19,rule dropped,type_location,0.5383,6
+without M19,rule dropped,cascade,0.4734,7
+without M19,rule dropped,topology_walktrap,0.4608,8
+without M19,rule dropped,baseline,0.2995,9
+without M20,rule dropped,hybrid,0.6146,1
+without M20,rule dropped,location_type,0.6091,2
+without M20,rule dropped,topology_infomap,0.5488,3
+without M20,rule dropped,ontology,0.5473,4
+without M20,rule dropped,topology_leiden,0.5463,5
+without M20,rule dropped,type_location,0.5294,6
+without M20,rule dropped,cascade,0.4691,7
+without M20,rule dropped,topology_walktrap,0.46,8
+without M20,rule dropped,baseline,0.3067,9
+without M21,rule dropped,hybrid,0.6218,1
+without M21,rule dropped,location_type,0.6094,2
+without M21,rule dropped,topology_infomap,0.5593,3
+without M21,rule dropped,topology_leiden,0.5591,4
+without M21,rule dropped,ontology,0.5516,5
+without M21,rule dropped,type_location,0.5299,6
+without M21,rule dropped,cascade,0.4734,7
+without M21,rule dropped,topology_walktrap,0.468,8
+without M21,rule dropped,baseline,0.309,9
+without M22,rule dropped,hybrid,0.6224,1
+without M22,rule dropped,location_type,0.6131,2
+without M22,rule dropped,topology_infomap,0.5543,3
+without M22,rule dropped,topology_leiden,0.5531,4
+without M22,rule dropped,ontology,0.5529,5
+without M22,rule dropped,type_location,0.5373,6
+without M22,rule dropped,cascade,0.4776,7
+without M22,rule dropped,topology_walktrap,0.4642,8
+without M22,rule dropped,baseline,0.3093,9
+without M23,rule dropped,hybrid,0.6274,1
+without M23,rule dropped,location_type,0.6094,2
+without M23,rule dropped,topology_leiden,0.5831,3
+without M23,rule dropped,topology_infomap,0.5794,4
+without M23,rule dropped,ontology,0.5515,5
+without M23,rule dropped,type_location,0.5297,6
+without M23,rule dropped,topology_walktrap,0.4832,7
+without M23,rule dropped,cascade,0.4773,8
+without M23,rule dropped,baseline,0.3106,9
+without M24,rule dropped,hybrid,0.6232,1
+without M24,rule dropped,location_type,0.6138,2
+without M24,rule dropped,ontology,0.5534,3
+without M24,rule dropped,topology_infomap,0.5518,4
+without M24,rule dropped,topology_leiden,0.55,5
+without M24,rule dropped,type_location,0.5348,6
+without M24,rule dropped,cascade,0.4743,7
+without M24,rule dropped,topology_walktrap,0.4622,8
+without M24,rule dropped,baseline,0.2997,9
+without M25,rule dropped,location_type,0.6459,1
+without M25,rule dropped,hybrid,0.6305,2
+without M25,rule dropped,ontology,0.5885,3
+without M25,rule dropped,type_location,0.5732,4
+without M25,rule dropped,topology_leiden,0.5732,5
+without M25,rule dropped,topology_infomap,0.5697,6
+without M25,rule dropped,cascade,0.4816,7
+without M25,rule dropped,topology_walktrap,0.4769,8
+without M25,rule dropped,baseline,0.2932,9
+without M26,rule dropped,hybrid,0.6275,1
+without M26,rule dropped,location_type,0.5865,2
+without M26,rule dropped,topology_leiden,0.575,3
+without M26,rule dropped,topology_infomap,0.5748,4
+without M26,rule dropped,ontology,0.5189,5
+without M26,rule dropped,type_location,0.4995,6
+without M26,rule dropped,cascade,0.4872,7
+without M26,rule dropped,topology_walktrap,0.4808,8
+without M26,rule dropped,baseline,0.3214,9

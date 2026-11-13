@@ -1,0 +1,23 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+loc_c_chl	1		chloroplast	localisation	compartment	c_chl	c_chl
+loc_c_chl/sbo_0000176	2	loc_c_chl	biochemical reaction	reaction_type	sbo	SBO:0000176	
+loc_c_chl/sbo_0000589	2	loc_c_chl	genetic production	reaction_type	sbo	SBO:0000589	
+loc_c_chl@boundary	1		chloroplast boundary	localisation	compartment	c_chl	c_chl@boundary
+loc_c_cyt	1		cytoplasm	localisation	compartment	c_cyt	c_cyt
+loc_c_cyt/sbo_0000176	2	loc_c_cyt	biochemical reaction	reaction_type	sbo	SBO:0000176	
+loc_c_cyt/sbo_0000177	2	loc_c_cyt	non-covalent binding	reaction_type	sbo	SBO:0000177	
+loc_c_cyt/sbo_0000589	2	loc_c_cyt	genetic production	reaction_type	sbo	SBO:0000589	
+loc_c_cyt/sbo_0000656	2	loc_c_cyt	activation	reaction_type	sbo	SBO:0000656	
+loc_c_er	1		endoplasmic reticulum	localisation	compartment	c_er	c_er
+loc_c_nuc	1		nucleus	localisation	compartment	c_nuc	c_nuc
+loc_c_nuc/sbo_0000176	2	loc_c_nuc	biochemical reaction	reaction_type	sbo	SBO:0000176	
+loc_c_nuc/sbo_0000177	2	loc_c_nuc	non-covalent binding	reaction_type	sbo	SBO:0000177	
+loc_c_nuc/sbo_0000589	2	loc_c_nuc	genetic production	reaction_type	sbo	SBO:0000589	
+loc_c_nuc/sbo_0000656	2	loc_c_nuc	activation	reaction_type	sbo	SBO:0000656	
+loc_c_nuc@boundary	1		nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+loc_c_nuc@boundary/sbo_0000177	2	loc_c_nuc@boundary	non-covalent binding	reaction_type	sbo	SBO:0000177	
+loc_c_nuc@boundary/sbo_0000658	2	loc_c_nuc@boundary	passive transport	reaction_type	sbo	SBO:0000658	
+loc_c_per	1		peroxisome	localisation	compartment	c_per	c_per
+loc_c_per@boundary	1		peroxisome boundary	localisation	compartment	c_per	c_per@boundary
+loc_c_vac	1		vacuole	localisation	compartment	c_vac	c_vac
+loc_c_vac@boundary	1		vacuole boundary	localisation	compartment	c_vac	c_vac@boundary

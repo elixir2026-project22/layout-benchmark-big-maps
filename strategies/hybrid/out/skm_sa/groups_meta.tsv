@@ -1,0 +1,54 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+M01	1		External stimuli response	function	notes	mapman:26	
+M01.f1	2	M01	CAT	topology	member	s_CAT_per_p	
+M01.f1.c_cyt	3	M01.f1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M01.f1.c_per	3	M01.f1	peroxisome	localisation	compartment	c_per	c_per
+M01.f2	2	M01	pathogen: defense mechanisms: systemic acquired resistance (SAR)	function	notes	mapman:26.11.3.1	
+M01.f2.c_chl	3	M01.f2	chloroplast	localisation	compartment	c_chl	c_chl
+M01.f2.c_cyt	3	M01.f2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M01.f2.c_nuc	3	M01.f2	nucleus	localisation	compartment	c_nuc	c_nuc
+M01.f3	2	M01	pathogen: effector-triggered immunity (ETI) machinery: TNL-mediated effector-triggered immunity: EDS1-PAD4/SAG101 signalling heterodimers	function	notes	mapman:26.11.2.1.4	
+M01.f3.c_cyt	3	M01.f3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M01.f3.c_nuc	3	M01.f3	nucleus	localisation	compartment	c_nuc	c_nuc
+M02	1		Phytohormone action	function	notes	mapman:10	
+M02.c_chl	2	M02	chloroplast	localisation	compartment	c_chl	c_chl
+M02.c_cyt	2	M02	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M02.c_cyt.sbo0000176	3	M02.c_cyt	biochemical reaction	reaction_type	sbo	SBO:0000176	
+M02.c_cyt.sbo0000177	3	M02.c_cyt	non-covalent binding	reaction_type	sbo	SBO:0000177	
+M02.c_cyt.sbo0000589	3	M02.c_cyt	genetic production	reaction_type	sbo	SBO:0000589	
+M02.c_er	2	M02	endoplasmic reticulum	localisation	compartment	c_er	c_er
+M02.c_nuc	2	M02	nucleus	localisation	compartment	c_nuc	c_nuc
+M02.c_per	2	M02	peroxisome	localisation	compartment	c_per	c_per
+M03	1		RNA biosynthesis	function	notes	mapman:14	
+M03.f1	2	M03	DNA-binding transcriptional regulation: beta-hairpin exposed by alpha/beta-scaffold structure: WRKY transcription factor activity: transcription factor *(WRKY)	function	notes	mapman:14.5.7.5.1	
+M03.f1.c_chl	3	M03.f1	chloroplast	localisation	compartment	c_chl	c_chl
+M03.f1.c_cyt	3	M03.f1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M03.f1.c_nuc	3	M03.f1	nucleus	localisation	compartment	c_nuc	c_nuc
+M03.f1.c_nuc_b	3	M03.f1	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M03.f1.c_vac	3	M03.f1	vacuole	localisation	compartment	c_vac	c_vac
+M03.f2	2	M03	DNA-binding transcriptional regulation	function	notes	mapman:14.5	
+M03.f2.c_cyt	3	M03.f2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M03.f2.c_nuc	3	M03.f2	nucleus	localisation	compartment	c_nuc	c_nuc
+M03.f2.c_nuc_b	3	M03.f2	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M03.f2.c_per	3	M03.f2	peroxisome	localisation	compartment	c_per	c_per
+M04	1		Enzyme classification	function	notes	mapman:50	
+M04.c_chl	2	M04	chloroplast	localisation	compartment	c_chl	c_chl
+M04.c_cyt	2	M04	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M04.c_nuc	2	M04	nucleus	localisation	compartment	c_nuc	c_nuc
+M05	1		EDS5	topology	member	s_EDS5_cyt_pa	
+M05.c_chl	2	M05	chloroplast	localisation	compartment	c_chl	c_chl
+M05.c_chl_b	2	M05	chloroplast (boundary)	localisation	compartment	c_chl	c_chl@boundary
+M05.c_cyt	2	M05	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M06	1		Secondary metabolism: phenolics biosynthesis: p-coumaroyl-CoA biosynthesis	function	notes	mapman:8.2.1	
+M06.c_chl	2	M06	chloroplast	localisation	compartment	c_chl	c_chl
+M06.c_cyt	2	M06	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M06.c_per	2	M06	peroxisome	localisation	compartment	c_per	c_per
+M07	1		3H3PP-CoA	topology	member	s_3H3PPCoA_per_m	
+M07.c_cyt	2	M07	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M07.c_per	2	M07	peroxisome	localisation	compartment	c_per	c_per
+M08	1		Amino acid metabolism	function	notes	mapman:4	
+M08.c_chl	2	M08	chloroplast	localisation	compartment	c_chl	c_chl
+M08.c_cyt	2	M08	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M09	1		AAO	topology	member	s_AAO_cyt_pa	
+M09.c_cyt	2	M09	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M09.c_per	2	M09	peroxisome	localisation	compartment	c_per	c_per

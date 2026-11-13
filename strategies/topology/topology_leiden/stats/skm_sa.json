@@ -1,0 +1,115 @@
+{
+ "algorithm": "leiden",
+ "candidates": [
+  {
+   "currency": false,
+   "degree": 31,
+   "name": "SARD1",
+   "node_id": "s_SARD1_nuc_pa",
+   "stranded_share": 0.71
+  },
+  {
+   "currency": true,
+   "degree": 16,
+   "name": "SA",
+   "node_id": "s_SA_cyt_m",
+   "stranded_share": 0.375
+  },
+  {
+   "currency": true,
+   "degree": 13,
+   "name": "ICS",
+   "node_id": "s_ICS_chl_pa",
+   "stranded_share": 0.154
+  },
+  {
+   "currency": false,
+   "degree": 10,
+   "name": "NPR1",
+   "node_id": "s_NPR1_nuc_pa",
+   "stranded_share": 0.5
+  }
+ ],
+ "degree_bound": 8,
+ "leaf_sizes": [
+  48,
+  41,
+  34,
+  34,
+  32,
+  30,
+  27,
+  25,
+  22,
+  20,
+  20,
+  19
+ ],
+ "modularity_L1": 0.8398,
+ "modularity_leaves": 0.8398,
+ "modularity_raw": 0.8565,
+ "n_clone_species": 2,
+ "n_clones": 9,
+ "n_currency": 2,
+ "n_groups": {
+  "L1": 12,
+  "L2": 0,
+  "L3": 0
+ },
+ "n_links": 401,
+ "n_nodes": 352,
+ "n_raw_modules": 23,
+ "name_sources": {
+  "member": 12
+ },
+ "raw_sizes": [
+  42,
+  25,
+  24,
+  22,
+  22,
+  21,
+  20,
+  20,
+  19,
+  18,
+  18,
+  16,
+  16,
+  16,
+  14,
+  8,
+  6,
+  6,
+  5,
+  4,
+  4,
+  2,
+  2
+ ],
+ "rules": {
+  "R4": 267,
+  "R5b": 12,
+  "R6": 71,
+  "R8": 2
+ },
+ "seed": 1,
+ "sizes": {
+  "L1": [
+   48,
+   41,
+   34,
+   34,
+   32,
+   30,
+   27,
+   25,
+   22,
+   20,
+   20,
+   19
+  ],
+  "L2": [],
+  "L3": []
+ }
+}

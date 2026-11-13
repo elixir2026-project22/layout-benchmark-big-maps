@@ -1,0 +1,99 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+kegg.pathway:map00908	1		KEGG pathway map00908	function	xref	kegg.pathway:map00908	
+mapman:1	1		Photosynthesis	function	notes	mapman:1	
+mapman:1/mapman:1.1	2	mapman:1	photophosphorylation	function	notes	mapman:1.1	
+mapman:1/mapman:1.2.1	2	mapman:1	calvin cycle.ribulose-1,5-bisphosphat carboxylase/oxygenase (RuBisCo) activity	function	notes	mapman:1.2.1	
+mapman:10	1		Phytohormone action	function	notes	mapman:10	
+mapman:10/mapman:10.1	2	mapman:10	abscisic acid	function	notes	mapman:10.1	
+mapman:10/mapman:10.1/c_cyt	3	mapman:10/mapman:10.1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:10/mapman:10.1/c_nuc	3	mapman:10/mapman:10.1	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:10/mapman:10.2	2	mapman:10	auxin	function	notes	mapman:10.2	
+mapman:10/mapman:10.2/c_cyt	3	mapman:10/mapman:10.2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:10/mapman:10.2/c_nuc	3	mapman:10/mapman:10.2	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:10/mapman:10.3.2	2	mapman:10	brassinosteroid.perception and signal transduction	function	notes	mapman:10.3.2	
+mapman:10/mapman:10.3.2/c_cyt	3	mapman:10/mapman:10.3.2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:10/mapman:10.3.2/c_nuc	3	mapman:10/mapman:10.3.2	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:10/mapman:10.4	2	mapman:10	cytokinin	function	notes	mapman:10.4	
+mapman:10/mapman:10.4/c_cyt	3	mapman:10/mapman:10.4	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:10/mapman:10.4/c_er	3	mapman:10/mapman:10.4	endoplasmic reticulum	localisation	compartment	c_er	c_er
+mapman:10/mapman:10.4/c_nuc	3	mapman:10/mapman:10.4	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:10/mapman:10.5	2	mapman:10	ethylene	function	notes	mapman:10.5	
+mapman:10/mapman:10.5/c_cyt	3	mapman:10/mapman:10.5	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:10/mapman:10.5/c_er	3	mapman:10/mapman:10.5	endoplasmic reticulum	localisation	compartment	c_er	c_er
+mapman:10/mapman:10.5/c_er@boundary	3	mapman:10/mapman:10.5	endoplasmic reticulum boundary	localisation	compartment	c_er	c_er@boundary
+mapman:10/mapman:10.5/c_nuc	3	mapman:10/mapman:10.5	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:10/mapman:10.6	2	mapman:10	gibberellin	function	notes	mapman:10.6	
+mapman:10/mapman:10.6/c_cyt	3	mapman:10/mapman:10.6	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:10/mapman:10.6/c_nuc	3	mapman:10/mapman:10.6	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:10/mapman:10.6/c_nuc@boundary	3	mapman:10/mapman:10.6	nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+mapman:10/mapman:10.7	2	mapman:10	jasmonic acid	function	notes	mapman:10.7	
+mapman:10/mapman:10.7/c_chl	3	mapman:10/mapman:10.7	chloroplast	localisation	compartment	c_chl	c_chl
+mapman:10/mapman:10.7/c_cyt	3	mapman:10/mapman:10.7	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:10/mapman:10.7/c_nuc	3	mapman:10/mapman:10.7	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:10/mapman:10.7/c_nuc@boundary	3	mapman:10/mapman:10.7	nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+mapman:10/mapman:10.7/c_per	3	mapman:10/mapman:10.7	peroxisome	localisation	compartment	c_per	c_per
+mapman:10/mapman:10.8	2	mapman:10	salicylic acid	function	notes	mapman:10.8	
+mapman:10/mapman:10.8/c_chl	3	mapman:10/mapman:10.8	chloroplast	localisation	compartment	c_chl	c_chl
+mapman:10/mapman:10.8/c_cyt	3	mapman:10/mapman:10.8	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:10/mapman:10.8/c_nuc	3	mapman:10/mapman:10.8	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:10/mapman:10.9	2	mapman:10	strigolactone	function	notes	mapman:10.9	
+mapman:14	1		RNA biosynthesis	function	notes	mapman:14	
+mapman:14/mapman:14.5	2	mapman:14	DNA-binding transcriptional regulation	function	notes	mapman:14.5	
+mapman:14/mapman:14.5/c_chl	3	mapman:14/mapman:14.5	chloroplast	localisation	compartment	c_chl	c_chl
+mapman:14/mapman:14.5/c_cyt	3	mapman:14/mapman:14.5	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:14/mapman:14.5/c_nuc	3	mapman:14/mapman:14.5	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:14/mapman:14.5/c_nuc@boundary	3	mapman:14/mapman:14.5	nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+mapman:14/mapman:14.6	2	mapman:14	transcriptional co-regulation	function	notes	mapman:14.6	
+mapman:18	1		Protein modification	function	notes	mapman:18	
+mapman:18/mapman:18.4	2	mapman:18	phosphorylation	function	notes	mapman:18.4	
+mapman:18/mapman:18.4/c_cyt	3	mapman:18/mapman:18.4	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:18/mapman:18.4/c_nuc	3	mapman:18/mapman:18.4	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:18/mapman:18.5.1	2	mapman:18	dephosphorylation.protein serine/threonine protein phosphatase activities	function	notes	mapman:18.5.1	
+mapman:19	1		Protein homeostasis	function	notes	mapman:19	
+mapman:19/mapman:19.1	2	mapman:19	protein quality control	function	notes	mapman:19.1	
+mapman:19/mapman:19.2	2	mapman:19	ubiquitin-proteasome system	function	notes	mapman:19.2	
+mapman:19/mapman:19.2/c_cyt	3	mapman:19/mapman:19.2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:19/mapman:19.2/c_nuc	3	mapman:19/mapman:19.2	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:19/mapman:19.3	2	mapman:19	proteolysis	function	notes	mapman:19.3	
+mapman:26	1		External stimuli response	function	notes	mapman:26	
+mapman:26/mapman:26.1	2	mapman:26	light	function	notes	mapman:26.1	
+mapman:26/mapman:26.1/c_cyt	3	mapman:26/mapman:26.1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:26/mapman:26.1/c_nuc	3	mapman:26/mapman:26.1	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:26/mapman:26.1/c_nuc@boundary	3	mapman:26/mapman:26.1	nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+mapman:26/mapman:26.11	2	mapman:26	pathogen	function	notes	mapman:26.11	
+mapman:26/mapman:26.11/c_chl	3	mapman:26/mapman:26.11	chloroplast	localisation	compartment	c_chl	c_chl
+mapman:26/mapman:26.11/c_cyt	3	mapman:26/mapman:26.11	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:26/mapman:26.11/c_nuc	3	mapman:26/mapman:26.11	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:26/mapman:26.11/c_nuc@boundary	3	mapman:26/mapman:26.11	nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+mapman:26/mapman:26.7	2	mapman:26	salinity	function	notes	mapman:26.7	
+mapman:27	1		Multi-process regulation	function	notes	mapman:27	
+mapman:27/mapman:27.1.3.5.2	2	mapman:27	circadian clock system.evening element regulation.Evening Complex (EC).component *(ELF3)	function	notes	mapman:27.1.3.5.2	
+mapman:27/mapman:27.10.1	2	mapman:27	TOR (Target Of Rapamycin) signalling.TORC complex	function	notes	mapman:27.10.1	
+mapman:27/mapman:27.14	2	mapman:27	MAP kinase cascade signalling	function	notes	mapman:27.14	
+mapman:27/mapman:27.14/c_cyt	3	mapman:27/mapman:27.14	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:27/mapman:27.14/c_nuc	3	mapman:27/mapman:27.14	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:27/mapman:27.2	2	mapman:27	Programmed Cell Death (PCD) system	function	notes	mapman:27.2	
+mapman:27/mapman:27.6.1	2	mapman:27	phosphoinositide signalling.inositol phosphate homeostasis	function	notes	mapman:27.6.1	
+mapman:27/mapman:27.8	2	mapman:27	calcium homeostasis	function	notes	mapman:27.8	
+mapman:27/mapman:27.8/c_cyt	3	mapman:27/mapman:27.8	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:27/mapman:27.8/c_nuc	3	mapman:27/mapman:27.8	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:27/mapman:27.8/c_vac	3	mapman:27/mapman:27.8	vacuole	localisation	compartment	c_vac	c_vac
+mapman:4	1		Amino acid metabolism	function	notes	mapman:4	
+mapman:4/mapman:4.2.2.6.2.1	2	mapman:4	aspartate group amino acid biosynthesis.aspartate-derived amino acids.methionine biosynthesis.L-homocysteine S-methyltransferase activities.methyl-tetrahydrofolate-dependent methionine synthase *(MS)	function	notes	mapman:4.2.2.6.2.1	
+mapman:4/mapman:4.5.2	2	mapman:4	shikimate group amino acid biosynthesis.phenylalanine and tyrosine	function	notes	mapman:4.5.2	
+mapman:4/mapman:4.5.2/c_chl	3	mapman:4/mapman:4.5.2	chloroplast	localisation	compartment	c_chl	c_chl
+mapman:4/mapman:4.5.2/c_cyt	3	mapman:4/mapman:4.5.2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:4/mapman:4.6	2	mapman:4	amino acid degradation	function	notes	mapman:4.6	
+mapman:8	1		Secondary metabolism	function	notes	mapman:8	
+mapman:8/mapman:8.1	2	mapman:8	terpenoid biosynthesis	function	notes	mapman:8.1	
+mapman:8/mapman:8.2	2	mapman:8	phenolics biosynthesis	function	notes	mapman:8.2	
+mapman:8/mapman:8.2/c_cyt	3	mapman:8/mapman:8.2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:8/mapman:8.2/c_per	3	mapman:8/mapman:8.2	peroxisome	localisation	compartment	c_per	c_per
+mapman:8/mapman:8.2/c_per@boundary	3	mapman:8/mapman:8.2	peroxisome boundary	localisation	compartment	c_per	c_per@boundary
+mapman:9	1		Redox homeostasis	function	notes	mapman:9	
+mapman:9/mapman:9.1	2	mapman:9	reactive oxygen scavenging	function	notes	mapman:9.1	
+mapman:9/mapman:9.1/c_cyt	3	mapman:9/mapman:9.1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:9/mapman:9.1/c_mit	3	mapman:9/mapman:9.1	mitochondrion	localisation	compartment	c_mit	c_mit
+mapman:9/mapman:9.1/c_per	3	mapman:9/mapman:9.1	peroxisome	localisation	compartment	c_per	c_per
+mapman:9/mapman:9.2.3	2	mapman:9	glutathione-based redox regulation.glutathione S-transferase activities	function	notes	mapman:9.2.3	
+unassigned	1		non-covalent binding	reaction_type	sbo	SBO:0000177	

@@ -1,0 +1,141 @@
+{
+ "algorithm": "walktrap",
+ "candidates": [
+  {
+   "currency": false,
+   "degree": 31,
+   "name": "SARD1",
+   "node_id": "s_SARD1_nuc_pa",
+   "stranded_share": 0.71
+  },
+  {
+   "currency": true,
+   "degree": 16,
+   "name": "SA",
+   "node_id": "s_SA_cyt_m",
+   "stranded_share": 0.375
+  },
+  {
+   "currency": true,
+   "degree": 13,
+   "name": "ICS",
+   "node_id": "s_ICS_chl_pa",
+   "stranded_share": 0.154
+  },
+  {
+   "currency": false,
+   "degree": 10,
+   "name": "NPR1",
+   "node_id": "s_NPR1_nuc_pa",
+   "stranded_share": 0.5
+  }
+ ],
+ "degree_bound": 8,
+ "leaf_sizes": [
+  42,
+  42,
+  37,
+  31,
+  27,
+  22,
+  21,
+  19,
+  15,
+  14,
+  12,
+  11,
+  11,
+  11,
+  11,
+  9,
+  6,
+  6,
+  5
+ ],
+ "modularity_L1": 0.7804,
+ "modularity_leaves": 0.8285,
+ "modularity_raw": 0.7947,
+ "n_clone_species": 2,
+ "n_clones": 12,
+ "n_currency": 2,
+ "n_groups": {
+  "L1": 12,
+  "L2": 8,
+  "L3": 2
+ },
+ "n_links": 401,
+ "n_nodes": 352,
+ "n_raw_modules": 26,
+ "name_sources": {
+  "member": 20,
+  "notes": 1,
+  "sbo": 1
+ },
+ "raw_sizes": [
+  86,
+  61,
+  22,
+  21,
+  21,
+  16,
+  16,
+  14,
+  11,
+  10,
+  8,
+  6,
+  6,
+  6,
+  5,
+  5,
+  5,
+  5,
+  4,
+  4,
+  4,
+  4,
+  3,
+  3,
+  2,
+  2
+ ],
+ "rules": {
+  "R4": 128,
+  "R5a": 92,
+  "R5b": 12,
+  "R6": 49,
+  "R7": 69,
+  "R8": 2
+ },
+ "seed": 1,
+ "sizes": {
+  "L1": [
+   90,
+   80,
+   37,
+   31,
+   27,
+   21,
+   19,
+   14,
+   11,
+   11,
+   6,
+   5
+  ],
+  "L2": [
+   64,
+   42,
+   15,
+   12,
+   11,
+   11,
+   9,
+   6
+  ],
+  "L3": [
+   42,
+   22
+  ]
+ }
+}

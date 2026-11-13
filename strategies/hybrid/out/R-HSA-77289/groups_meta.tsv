@@ -1,0 +1,12 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+M01	1		DEC-CoA [mitochondrial matrix]	topology	member	species_77308	
+M01.compartment_5460	2	M01	mitochondrial matrix	localisation	compartment	compartment_5460	compartment_5460
+M01.compartment_5460.p1	3	M01.compartment_5460	DEC-CoA [mitochondrial matrix]	topology	member	species_77308	
+M01.compartment_5460.p2	3	M01.compartment_5460	3-Oxooctanoyl-CoA [mitochondrial matrix]	topology	member	species_77328	
+M01.compartment_5460_b	2	M01	mitochondrial matrix (boundary)	localisation	compartment	compartment_5460	compartment_5460@boundary
+M02	1		ATP [mitochondrial matrix]	topology	member	species_113593	
+M03	1		MYS-CoA [mitochondrial matrix]	topology	member	species_77272	
+M03.compartment_17957	2	M03	endoplasmic reticulum lumen	localisation	compartment	compartment_17957	compartment_17957
+M03.compartment_5460	2	M03	mitochondrial matrix	localisation	compartment	compartment_5460	compartment_5460
+M03.compartment_70101	2	M03	cytosol	localisation	compartment	compartment_70101	compartment_70101
+M04	1		4-cis-decenoyl-CoA [mitochondrial matrix]	topology	member	species_109986	

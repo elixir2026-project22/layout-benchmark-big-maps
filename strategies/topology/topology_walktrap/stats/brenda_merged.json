@@ -1,0 +1,211 @@
+{
+ "algorithm": "walktrap",
+ "candidates": [
+  {
+   "currency": true,
+   "degree": 65,
+   "name": "H2O",
+   "node_id": "M_mt_1b1223fff4",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 43,
+   "name": "ATP",
+   "node_id": "M_mt_82e3f482bf",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 42,
+   "name": "ADP",
+   "node_id": "M_mt_7133524672",
+   "stranded_share": 0.024
+  },
+  {
+   "currency": true,
+   "degree": 36,
+   "name": "phosphate",
+   "node_id": "M_mt_3577006728",
+   "stranded_share": 0.028
+  },
+  {
+   "currency": true,
+   "degree": 24,
+   "name": "NH3",
+   "node_id": "M_mt_a582428d9f",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 21,
+   "name": "NADH",
+   "node_id": "M_mt_19acfa327b",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 21,
+   "name": "NAD+",
+   "node_id": "M_mt_62968a0d8b",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 20,
+   "name": "H+",
+   "node_id": "M_mt_d78fb7f9bf",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 19,
+   "name": "CO2",
+   "node_id": "M_mt_9cf23c7e50",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 17,
+   "name": "L-glutamate",
+   "node_id": "M_mt_219b3a1a3f",
+   "stranded_share": 0.059
+  },
+  {
+   "currency": true,
+   "degree": 16,
+   "name": "NADP+",
+   "node_id": "M_mt_410bd09215",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 16,
+   "name": "NADPH",
+   "node_id": "M_mt_942f98c2ec",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 14,
+   "name": "AMP",
+   "node_id": "M_mt_7fdd97c6e1",
+   "stranded_share": 0.071
+  },
+  {
+   "currency": true,
+   "degree": 13,
+   "name": "diphosphate",
+   "node_id": "M_mt_bdcc7261de",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 13,
+   "name": "2-oxoglutarate",
+   "node_id": "M_mt_ea23b49b7a",
+   "stranded_share": 0.154
+  }
+ ],
+ "degree_bound": 13,
+ "leaf_sizes": [
+  61,
+  52,
+  44,
+  33,
+  29,
+  28,
+  28,
+  22,
+  22,
+  19,
+  13,
+  12,
+  12,
+  11,
+  10
+ ],
+ "modularity_L1": 0.761,
+ "modularity_leaves": 0.7631,
+ "modularity_raw": 0.7562,
+ "n_clone_species": 15,
+ "n_clones": 108,
+ "n_currency": 15,
+ "n_groups": {
+  "L1": 12,
+  "L2": 4,
+  "L3": 0
+ },
+ "n_links": 914,
+ "n_nodes": 396,
+ "n_raw_modules": 31,
+ "name_sources": {
+  "ec": 2,
+  "member": 14
+ },
+ "raw_sizes": [
+  62,
+  50,
+  40,
+  36,
+  20,
+  19,
+  16,
+  13,
+  12,
+  12,
+  11,
+  10,
+  10,
+  9,
+  8,
+  7,
+  6,
+  6,
+  6,
+  6,
+  5,
+  3,
+  2,
+  2,
+  2,
+  2,
+  2,
+  1,
+  1,
+  1,
+  1
+ ],
+ "rules": {
+  "R4": 231,
+  "R5a": 20,
+  "R5b": 8,
+  "R6": 71,
+  "R7": 51,
+  "R8": 15
+ },
+ "seed": 1,
+ "sizes": {
+  "L1": [
+   62,
+   61,
+   52,
+   44,
+   33,
+   29,
+   28,
+   28,
+   22,
+   13,
+   12,
+   12
+  ],
+  "L2": [
+   22,
+   19,
+   11,
+   10
+  ],
+  "L3": []
+ }
+}

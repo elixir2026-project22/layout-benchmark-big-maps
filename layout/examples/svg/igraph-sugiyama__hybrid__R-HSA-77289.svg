@@ -1,0 +1,658 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2416" height="3491" viewBox="0 0 2416 3491" font-family="Helvetica, Arial, sans-serif">
+<title>igraph-sugiyama — hybrid — R-HSA-77289</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="10" y="18" font-size="14" font-weight="bold" fill="#222">igraph-sugiyama — hybrid — R-HSA-77289</text>
+<rect x="10" y="26" width="12" height="10" fill="#e5dfca" stroke="#666" stroke-width="0.5"/><text x="27" y="35" font-size="10" fill="#333">cytosol</text>
+<rect x="240" y="26" width="12" height="10" fill="#d8cddf" stroke="#666" stroke-width="0.5"/><text x="257" y="35" font-size="10" fill="#333">endoplasmic reticulum lumen</text>
+<rect x="470" y="26" width="12" height="10" fill="#e1cdc6" stroke="#666" stroke-width="0.5"/><text x="487" y="35" font-size="10" fill="#333">mitochondrial matrix</text>
+<g transform="translate(0,46)">
+<rect x="364.1" y="936.3" width="1427.8" height="1913.2" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="370.1" y="951.3" font-size="12" fill="#111" font-weight="bold">DEC-CoA [mitochondrial matrix]<title>DEC-CoA [mitochondrial matrix] [topology]</title></text>
+<rect x="376.1" y="968.3" width="1403.8" height="1869.2" rx="16" fill="#fbe4dd" stroke="#968884" stroke-width="1.8"/>
+<text x="382.1" y="981.3" font-size="10" font-style="italic" fill="#444">mitochondrial matrix<title>mitochondrial matrix [localisation]</title></text>
+<rect x="388.1" y="1000.3" width="1379.8" height="214.8" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#555" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="394.1" y="1013.3" font-size="10" fill="#666">boundary<title>boundary [localisation]</title></text>
+<rect x="388.1" y="1222.1" width="1379.8" height="672.7" rx="3" fill="#efefef" stroke="#333" stroke-width="1.0"/>
+<text x="394.1" y="1235.1" font-size="10" fill="#111" font-weight="bold">DEC-CoA [mitochondrial matrix]<title>DEC-CoA [mitochondrial matrix] [topology]</title></text>
+<rect x="659.2" y="2287.0" width="837.6" height="538.4" rx="3" fill="#efefef" stroke="#333" stroke-width="1.0"/>
+<text x="665.2" y="2300.0" font-size="10" fill="#111" font-weight="bold">3-Oxooctanoyl-CoA [mitochondrial matrix]<title>3-Oxooctanoyl-CoA [mitochondrial matrix] [topology]</title></text>
+<rect x="121.6" y="2865.5" width="1912.9" height="567.4" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="127.6" y="2880.5" font-size="12" fill="#111" font-weight="bold">ATP [mitochondrial matrix]<title>ATP [mitochondrial matrix] [topology]</title></text>
+<rect x="12.0" y="12.0" width="866.2" height="907.3" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="18.0" y="27.0" font-size="12" fill="#111" font-weight="bold">MYS-CoA [mitochondrial matrix]<title>MYS-CoA [mitochondrial matrix] [topology]</title></text>
+<rect x="24.0" y="44.0" width="842.2" height="863.3" rx="16" fill="#fff8e1" stroke="#999487" stroke-width="1.8"/>
+<text x="30.0" y="57.0" font-size="10" font-style="italic" fill="#444">cytosol<title>cytosol [localisation]</title></text>
+<rect x="36.0" y="680.5" width="193.0" height="214.8" rx="16" fill="#f0e4f8" stroke="#908894" stroke-width="1.8"/>
+<text x="42.0" y="693.5" font-size="10" font-style="italic" fill="#444">endoplasmic reticulum lumen<title>endoplasmic reticulum lumen [localisation]</title></text>
+<rect x="36.0" y="76.0" width="818.2" height="588.5" rx="16" fill="#fbe4dd" stroke="#968884" stroke-width="1.8"/>
+<text x="42.0" y="89.0" font-size="10" font-style="italic" fill="#444">mitochondrial matrix<title>mitochondrial matrix [localisation]</title></text>
+<rect x="1018.3" y="223.5" width="1385.2" height="649.7" rx="3" fill="#ffffff" stroke="#333" stroke-width="1.6"/>
+<text x="1024.3" y="238.5" font-size="12" fill="#111" font-weight="bold">4-cis-decenoyl-CoA [mitochondrial matrix]<title>4-cis-decenoyl-CoA [mitochondrial matrix] [topology]</title></text>
+<line x1="1320.7" y1="1384.8" x2="1740.0" y2="1428.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1235.5" y1="1296.6" x2="1740.0" y2="1428.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1673.8" y1="1561.3" x2="1740.0" y2="1428.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1740.0" y1="1428.9" x2="1211.1" y2="1473.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1740.0" y1="1428.9" x2="1386.9" y2="1826.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1222.3" y1="272.5" x2="1740.0" y2="1428.9" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" stroke-dasharray="3 2"/>
+<line x1="1894.5" y1="272.5" x2="1400.7" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1499.5" y1="272.5" x2="1400.7" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1924.8" y1="748.9" x2="1400.7" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2353.6" y1="272.5" x2="1400.7" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1407.5" y1="272.5" x2="1400.7" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1400.7" y1="320.1" x2="1068.3" y2="558.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1400.7" y1="320.1" x2="1758.0" y2="653.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1400.7" y1="320.1" x2="2091.5" y2="653.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1400.7" y1="320.1" x2="1662.7" y2="367.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1400.7" y1="320.1" x2="1161.3" y2="558.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1616.8" y1="272.5" x2="1400.7" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1986.8" y1="272.5" x2="1400.7" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1320.7" y1="1384.8" x2="1144.2" y2="1783.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1188.3" y1="1737.8" x2="1144.2" y2="1783.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1235.5" y1="1296.6" x2="1144.2" y2="1783.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1144.2" y1="1783.6" x2="1144.2" y2="1829.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1144.2" y1="1783.6" x2="1386.9" y2="1826.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1222.3" y1="272.5" x2="1144.2" y2="1783.6" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" stroke-dasharray="3 2"/>
+<line x1="460.2" y1="1471.3" x2="460.2" y2="1517.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="617.0" y1="1296.6" x2="460.2" y2="1517.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="460.2" y1="1517.2" x2="438.1" y2="1563.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="524.0" y1="1296.6" x2="460.2" y2="1517.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="438.1" y1="1049.3" x2="438.1" y2="1117.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="801.2" y1="2796.4" x2="438.1" y2="1117.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="438.1" y1="1117.7" x2="743.5" y2="2746.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="438.1" y1="1117.7" x2="438.1" y2="1186.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="709.2" y1="2796.4" x2="438.1" y2="1117.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1662.7" y1="367.7" x2="1686.6" y2="415.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1686.6" y1="415.4" x2="1686.6" y2="463.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1315.3" y1="272.5" x2="1686.6" y2="415.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1614.9" y1="2914.5" x2="1671.1" y2="3098.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1640.5" y1="3036.9" x2="1671.1" y2="3098.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1671.1" y1="3098.1" x2="1181.6" y2="3159.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1671.1" y1="3098.1" x2="1885.2" y2="3159.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1892.2" y1="2914.5" x2="1671.1" y2="3098.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1320.7" y1="1384.8" x2="1321.4" y2="1517.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1211.1" y1="1473.1" x2="1321.4" y2="1517.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1327.8" y1="1271.1" x2="1321.4" y2="1517.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1321.4" y1="1517.2" x2="1673.8" y2="1561.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1321.4" y1="1517.2" x2="1011.8" y2="1562.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1421.5" y1="1296.6" x2="1321.4" y2="1517.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="86.0" y1="150.5" x2="239.9" y2="589.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="449.9" y1="560.9" x2="239.9" y2="589.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="239.9" y1="589.0" x2="274.1" y2="635.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="313.1" y1="150.5" x2="239.9" y2="589.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1050.1" y1="1294.2" x2="1188.3" y2="1692.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1188.3" y1="1646.4" x2="1188.3" y2="1692.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1188.3" y1="1692.1" x2="1188.3" y2="1737.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1188.3" y1="1692.1" x2="1298.7" y2="1737.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="923.6" y1="1295.4" x2="1188.3" y2="1692.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1050.1" y1="1294.2" x2="1518.7" y2="1517.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1586.2" y1="1473.1" x2="1518.7" y2="1517.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1518.7" y1="1517.2" x2="1673.8" y2="1561.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1518.7" y1="1517.2" x2="1298.7" y2="1737.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="923.6" y1="1295.4" x2="1518.7" y2="1517.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="892.6" y1="2609.6" x2="1085.5" y2="2678.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1354.6" y1="2336.0" x2="1085.5" y2="2678.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1085.5" y1="2678.0" x2="743.5" y2="2746.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1085.5" y1="2678.0" x2="1085.5" y2="2746.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1446.8" y1="2336.0" x2="1085.5" y2="2678.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="581.9" y1="492.5" x2="564.8" y2="327.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="581.9" y1="281.2" x2="564.8" y2="327.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="804.2" y1="176.0" x2="564.8" y2="327.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="564.8" y1="327.7" x2="325.4" y2="344.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="564.8" y1="327.7" x2="542.9" y2="560.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="667.4" y1="176.0" x2="564.8" y2="327.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="325.1" y1="3404.0" x2="600.4" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="400.8" y1="2914.5" x2="600.4" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="600.4" y1="2975.7" x2="508.7" y2="3159.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="600.4" y1="2975.7" x2="1120.5" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="600.4" y1="2975.7" x2="1640.5" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="492.8" y1="2914.5" x2="600.4" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="325.4" y1="344.2" x2="342.5" y2="389.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="86.0" y1="150.5" x2="342.5" y2="389.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="342.5" y1="389.9" x2="291.2" y2="435.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="313.1" y1="150.5" x2="342.5" y2="389.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="438.1" y1="1563.1" x2="1121.5" y2="1340.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1327.8" y1="1322.1" x2="1121.5" y2="1340.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1121.5" y1="1340.2" x2="1320.7" y2="1384.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1121.5" y1="1340.2" x2="1586.2" y2="1473.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1121.5" y1="1340.2" x2="1541.4" y2="1649.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1717.9" y1="1296.6" x2="1121.5" y2="1340.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="400.8" y1="2914.5" x2="539.3" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="998.1" y1="3404.0" x2="539.3" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="539.3" y1="2975.7" x2="508.7" y2="3159.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="539.3" y1="2975.7" x2="1120.5" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="539.3" y1="2975.7" x2="172.2" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="492.8" y1="2914.5" x2="539.3" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1614.9" y1="2914.5" x2="998.1" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1139.9" y1="2914.5" x2="998.1" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="955.6" y1="2914.5" x2="998.1" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="998.1" y1="2975.7" x2="508.7" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="998.1" y1="2975.7" x2="1181.6" y2="3159.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="998.1" y1="2975.7" x2="1977.0" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1047.8" y1="2914.5" x2="998.1" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1144.2" y1="1829.3" x2="901.5" y2="1870.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="617.0" y1="1296.6" x2="901.5" y2="1870.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="901.5" y1="1870.2" x2="1077.5" y2="2336.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="524.0" y1="1296.6" x2="901.5" y2="1870.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1253.9" y1="1561.3" x2="1409.0" y2="1605.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1327.8" y1="1322.1" x2="1409.0" y2="1605.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1409.0" y1="1605.5" x2="1320.7" y2="1384.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1409.0" y1="1605.5" x2="1188.3" y2="1646.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1409.0" y1="1605.5" x2="1541.4" y2="1649.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1717.9" y1="1296.6" x2="1409.0" y2="1605.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="283.0" y1="697.5" x2="421.7" y2="765.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="468.2" y1="697.5" x2="421.7" y2="765.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="421.7" y1="765.9" x2="421.7" y2="834.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="421.7" y1="765.9" x2="514.0" y2="834.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="421.7" y1="765.9" x2="329.5" y2="834.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="560.5" y1="697.5" x2="421.7" y2="765.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="375.2" y1="697.5" x2="421.7" y2="765.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="274.1" y1="635.5" x2="239.9" y2="184.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="552.5" y1="150.5" x2="239.9" y2="184.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="239.9" y1="184.7" x2="581.9" y2="492.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="239.9" y1="184.7" x2="274.1" y2="492.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="239.9" y1="184.7" x2="308.3" y2="218.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="313.1" y1="150.5" x2="239.9" y2="184.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1548.7" y1="3159.3" x2="1548.7" y2="3220.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1548.7" y1="3220.4" x2="1442.3" y2="3281.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1984.5" y1="2914.5" x2="1548.7" y2="3220.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="581.9" y1="492.5" x2="787.1" y2="526.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="804.2" y1="176.0" x2="787.1" y2="526.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="770.0" y1="125.0" x2="787.1" y2="526.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="787.1" y1="526.7" x2="449.9" y2="560.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="787.1" y1="526.7" x2="542.9" y2="560.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="645.5" y1="125.0" x2="787.1" y2="526.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1050.1" y1="1294.2" x2="879.4" y2="1341.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="769.1" y1="1296.6" x2="879.4" y2="1341.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="879.4" y1="1341.9" x2="1100.1" y2="1386.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="879.4" y1="1341.9" x2="1298.7" y2="1737.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="923.6" y1="1295.4" x2="879.4" y2="1341.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1349.3" y1="3281.6" x2="1089.9" y2="3342.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="967.5" y1="3281.6" x2="1089.9" y2="3342.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1089.9" y1="3342.8" x2="998.1" y2="3404.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="585.8" y1="2914.5" x2="1089.9" y2="3342.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1077.5" y1="2336.0" x2="1153.9" y2="2404.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1262.5" y1="2336.0" x2="1153.9" y2="2404.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1153.9" y1="2404.4" x2="1290.7" y2="2472.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1153.9" y1="2404.4" x2="846.1" y2="2472.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1153.9" y1="2404.4" x2="1017.1" y2="2472.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1170.5" y1="2336.0" x2="1153.9" y2="2404.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1591.3" y1="653.6" x2="1758.0" y2="701.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1068.3" y1="558.3" x2="1758.0" y2="701.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1758.0" y1="653.6" x2="1758.0" y2="701.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1758.0" y1="701.3" x2="1758.0" y2="748.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1758.0" y1="701.3" x2="1924.8" y2="748.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1130.1" y1="272.5" x2="1758.0" y2="701.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1805.7" y1="558.3" x2="1805.7" y2="606.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2353.6" y1="272.5" x2="1805.7" y2="606.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1805.7" y1="606.0" x2="1591.3" y2="653.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1805.7" y1="606.0" x2="2091.5" y2="653.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1222.3" y1="272.5" x2="1805.7" y2="606.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="508.7" y1="3159.3" x2="294.5" y2="3220.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="799.6" y1="2609.6" x2="294.5" y2="3220.4" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35"/>
+<line x1="171.6" y1="2914.5" x2="294.5" y2="3220.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="294.5" y1="3220.4" x2="294.5" y2="3281.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="294.5" y1="3220.4" x2="845.2" y2="3281.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="264.6" y1="2914.5" x2="294.5" y2="3220.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="2353.6" y1="272.5" x2="1758.0" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1801.5" y1="272.5" x2="1758.0" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1758.0" y1="320.1" x2="2091.5" y2="653.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1758.0" y1="320.1" x2="1351.9" y2="367.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1709.2" y1="272.5" x2="1758.0" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="745.5" y1="697.5" x2="699.0" y2="765.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="652.5" y1="697.5" x2="699.0" y2="765.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="699.0" y1="765.9" x2="699.0" y2="834.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1320.7" y1="1384.8" x2="1143.6" y2="1432.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1235.5" y1="1296.6" x2="1143.6" y2="1432.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1100.1" y1="1386.1" x2="1143.6" y2="1432.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1143.6" y1="1432.6" x2="460.2" y2="1471.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1143.6" y1="1432.6" x2="1386.9" y2="1826.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1143.1" y1="1294.5" x2="1143.6" y2="1432.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="743.5" y1="2746.4" x2="846.1" y2="2541.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1017.1" y1="2472.8" x2="846.1" y2="2541.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="846.1" y1="2541.2" x2="799.6" y2="2609.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="846.1" y1="2541.2" x2="892.6" y2="2609.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="709.2" y1="2336.0" x2="846.1" y2="2541.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="770.4" y1="2914.5" x2="784.0" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1139.9" y1="2914.5" x2="784.0" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="862.6" y1="2914.5" x2="784.0" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="784.0" y1="2975.7" x2="508.7" y2="3159.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="784.0" y1="2975.7" x2="1425.7" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="784.0" y1="2975.7" x2="294.5" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="784.0" y1="2975.7" x2="1762.8" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="677.8" y1="2914.5" x2="784.0" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="508.7" y1="3159.3" x2="906.3" y2="3220.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1181.6" y1="3159.3" x2="906.3" y2="3220.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="171.6" y1="2914.5" x2="906.3" y2="3220.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="906.3" y1="3220.4" x2="1349.3" y2="3281.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="906.3" y1="3220.4" x2="845.2" y2="3281.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="264.6" y1="2914.5" x2="906.3" y2="3220.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="985.4" y1="2336.0" x2="948.7" y2="2404.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="801.4" y1="2336.0" x2="948.7" y2="2404.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="948.7" y1="2404.4" x2="743.5" y2="2746.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="948.7" y1="2404.4" x2="1290.7" y2="2472.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="948.7" y1="2404.4" x2="1188.1" y2="2472.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="893.4" y1="2336.0" x2="948.7" y2="2404.4" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1758.0" y1="748.9" x2="1186.3" y2="796.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1186.3" y1="796.5" x2="1186.3" y2="844.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1315.3" y1="272.5" x2="1186.3" y2="796.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="967.5" y1="3281.6" x2="508.7" y2="3342.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="294.5" y1="3281.6" x2="508.7" y2="3342.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="508.7" y1="3342.8" x2="325.1" y2="3404.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="585.8" y1="2914.5" x2="508.7" y2="3342.8" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="291.2" y1="435.6" x2="410.9" y2="458.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="552.5" y1="150.5" x2="410.9" y2="458.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="410.9" y1="458.3" x2="769.1" y2="1296.6" stroke="#c0392b" stroke-width="0.7" stroke-opacity="0.35" marker-end="url(#arr)"/>
+<line x1="410.9" y1="458.3" x2="581.9" y2="492.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="410.9" y1="458.3" x2="274.1" y2="492.5" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="313.1" y1="150.5" x2="410.9" y2="458.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="406.1" y1="150.5" x2="410.9" y2="253.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="308.3" y1="218.9" x2="410.9" y2="253.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="410.9" y1="253.1" x2="581.9" y2="281.2" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="410.9" y1="253.1" x2="154.4" y2="287.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="313.1" y1="150.5" x2="410.9" y2="253.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1614.9" y1="2914.5" x2="1640.5" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1139.9" y1="2914.5" x2="1640.5" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1706.9" y1="2914.5" x2="1640.5" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1640.5" y1="2975.7" x2="508.7" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1640.5" y1="2975.7" x2="1977.0" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1640.5" y1="2975.7" x2="1518.7" y2="3036.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1799.2" y1="2914.5" x2="1640.5" y2="2975.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1211.1" y1="1473.1" x2="1033.9" y2="1516.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="617.0" y1="1296.6" x2="1033.9" y2="1516.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1033.9" y1="1516.0" x2="1253.9" y2="1561.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="524.0" y1="1296.6" x2="1033.9" y2="1516.0" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1894.5" y1="272.5" x2="1877.1" y2="510.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1686.6" y1="463.0" x2="1877.1" y2="510.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1499.5" y1="272.5" x2="1877.1" y2="510.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1924.8" y1="748.9" x2="1877.1" y2="510.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2353.6" y1="272.5" x2="1877.1" y2="510.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1877.1" y1="510.7" x2="1068.3" y2="558.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1877.1" y1="510.7" x2="1805.7" y2="558.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1877.1" y1="510.7" x2="1758.0" y2="653.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1877.1" y1="510.7" x2="2091.5" y2="653.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1877.1" y1="510.7" x2="1161.3" y2="558.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1616.8" y1="272.5" x2="1877.1" y2="510.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1986.8" y1="272.5" x2="1877.1" y2="510.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="2353.6" y1="272.5" x2="1877.1" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="2079.1" y1="272.5" x2="1877.1" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1877.1" y1="320.1" x2="2091.5" y2="653.6" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1877.1" y1="320.1" x2="1258.9" y2="367.7" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="2171.3" y1="272.5" x2="1877.1" y2="320.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="1425.7" y1="3036.9" x2="1395.8" y2="3098.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="1395.8" y1="3098.1" x2="1548.7" y2="3159.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<line x1="1365.2" y1="2914.5" x2="1395.8" y2="3098.1" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" stroke-dasharray="3 2"/>
+<line x1="86.0" y1="729.5" x2="132.5" y2="797.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="179.0" y1="729.5" x2="132.5" y2="797.9" stroke="#777" stroke-width="0.7" stroke-opacity="0.7"/>
+<line x1="132.5" y1="797.9" x2="132.5" y2="866.3" stroke="#777" stroke-width="0.7" stroke-opacity="0.7" marker-end="url(#arr)"/>
+<rect x="1681.1" y="409.9" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>Isomerization of cis,cis-3,6-Dodecadienoyl-CoA to form trans,cis-Lauro-2,6-dienoyl-CoA (reaction_109338) </title></rect>
+<rect x="1395.2" y="314.6" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>Linoleoyl-CoA is converted to cis,cis-3,6- dodecadienoyl-CoA by three cycles of beta-oxidation (reaction_109339) </title></rect>
+<rect x="1800.2" y="600.5" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>dehydrogenation of 4-cis-decenoyl-CoA to form 2-trans-4-cis-decadienoyl-CoA (reaction_109341) </title></rect>
+<rect x="1871.6" y="505.2" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>Trans,cis-lauro-2,6-dienoyl-CoA is converted to cis,cis-3,6- 4-cis-decenoyl-CoA by one cycle of beta-oxidation (reaction_109342) </title></rect>
+<rect x="1752.5" y="695.8" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>Reduction of 2-trans-4-cis-decadienoyl-CoA to form 3-trans-decenoyl-CoA (reaction_109343) </title></rect>
+<rect x="1180.8" y="791.0" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>Isomerization of 3-trans-decenoyl-CoA to form trans-dec-2-enoyl-CoA (reaction_109998) </title></rect>
+<rect x="416.2" y="760.4" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>Cytosolic ACOTs hydrolyse MCFA-CoA, LCFA-CoA (reaction_5690043) </title></rect>
+<rect x="943.2" y="2398.9" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>ACOT2,9,THEM4,5 hydrolyse MCFA-CoA, LCFA-CoA (reaction_5690066) </title></rect>
+<rect x="1752.5" y="314.6" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>ACAD10 dehydrogenates S-2MPDA-CoA (reaction_5695980) </title></rect>
+<rect x="1871.6" y="314.6" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>ACAD11 dehydrogenates BH-CoA (reaction_5695989) </title></rect>
+<rect x="1635.0" y="2970.2" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>ACSF2 ligates CoA-SH to MCFA (reaction_5696004) </title></rect>
+<rect x="1543.2" y="3214.9" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>MUT isomerises L-MM-CoA to SUCC-CoA (reaction_71010) </title></rect>
+<rect x="1390.3" y="3092.6" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>D-methylmalonyl-CoA &lt;=&gt; L-methylmalonyl-CoA (reaction_71020) </title></rect>
+<rect x="778.5" y="2970.2" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>propionyl-CoA + CO2 + ATP &lt;=&gt; D-methylmalonyl-CoA + ADP + orthophosphate (reaction_71031) </title></rect>
+<rect x="1116.0" y="1334.7" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>(S)-3-Hydroxydodecanoyl-CoA+NAD =&gt; 3-Oxododecanoyl-CoA+NADH+H (reaction_77254) </title></rect>
+<rect x="454.7" y="1511.7" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>2-trans-Dodecenoyl-CoA+H2O =&gt;( S)-3-Hydroxydodecanoyl-CoA (reaction_77256) </title></rect>
+<rect x="1138.1" y="1427.1" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>lauroyl-CoA+FAD =&gt; 2-trans-Dodecenoyl-CoA+FADH2 (reaction_77263) </title></rect>
+<rect x="873.9" y="1336.4" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>3-Oxotetradecanoyl-CoA+CoA-SH =&gt; Lauroyl-CoA + acetyl-CoA (reaction_77271) </title></rect>
+<rect x="559.3" y="322.2" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>myristoyl-CoA+FAD =&gt; trans-tetradec-2-enoyl-CoA+FADH2 (reaction_77274) </title></rect>
+<rect x="337.0" y="384.4" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>trans-Tetradec-2-enoyl-CoA+H2O =&gt; (S)-3-Hydroxytetradecanoyl-CoA (reaction_77277) </title></rect>
+<rect x="405.4" y="452.8" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>(S)-3-Hydroxytetradecanoyl-CoA+NAD =&gt; 3-Oxotetradecanoyl-CoA+NADH+H (reaction_77283) </title></rect>
+<rect x="781.6" y="521.2" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>palmitoyl-CoA+FAD =&gt; trans-Hexadec-2-enoyl-CoA+FADH2 (reaction_77299) </title></rect>
+<rect x="234.4" y="583.5" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>trans-Hexadec-2-enoyl-CoA+H2O =&gt; (S)-3-Hydroxyhexadecanoyl-CoA (reaction_77301) </title></rect>
+<rect x="234.4" y="179.2" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>(S)-3-Hydroxyhexadecanoyl-CoA+NAD =&gt; 3-Oxopalmitoyl-CoA+NADH+H (reaction_77303) </title></rect>
+<rect x="405.4" y="247.6" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>3-Oxopalmitoyl-CoA+CoA-SH =&gt; myristoyl-CoA+acetyl-CoA (reaction_77304) </title></rect>
+<rect x="1513.2" y="1511.7" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>3-Oxododecanoyl-CoA+CoA-SH =&gt; Decanoyl-CoA + acetyl-CoA (reaction_77309) </title></rect>
+<rect x="533.8" y="2970.2" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>(S)-Hydroxybutanoyl-CoA+NAD =&gt; Acetoacetyl-CoA+NADH+H (reaction_77312) </title></rect>
+<rect x="1084.4" y="3337.3" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>Crotonoyl-CoA+H2O =&gt; (S)-3-Hydroxybutanoyl-CoA (reaction_77314) </title></rect>
+<rect x="900.8" y="3214.9" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>Butanoyl-CoA+FAD =&gt; Crotonoyl-CoA+FADH2 (reaction_77319) </title></rect>
+<rect x="1665.6" y="3092.6" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>3-Oxohexanoyl-CoA+CoA-SH =&gt; Butanoyl-CoA + acetyl-CoA (reaction_77321) </title></rect>
+<rect x="594.9" y="2970.2" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>(S)-Hydroxyhexanoyl-CoA+NAD =&gt; 3-Oxohexanoyl-CoA+NADH+H (reaction_77323) </title></rect>
+<rect x="503.2" y="3337.3" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>trans-Hex-2-enoyl-CoA+H2O&lt;=&gt;(S)-Hydroxyhexanoyl-CoA (reaction_77325) </title></rect>
+<rect x="289.0" y="3214.9" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>Hexanoyl-CoA+FAD =&gt; trans-Hex-2-enoyl-CoA+FADH2 (reaction_77327) </title></rect>
+<rect x="840.6" y="2535.7" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>3-Oxooctanoyl-CoA+CoA-SH =&gt; Hexanoyl-CoA + acetyl-CoA (reaction_77329) </title></rect>
+<rect x="1148.4" y="2398.9" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>(S)-Hydroxyoctanoyl-CoA+NAD =&gt; 3-Oxooctanoyl-CoA+NADH+H (reaction_77331) </title></rect>
+<rect x="896.0" y="1864.7" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>trans-Oct-2-enoyl-CoA+H2O =&gt; (S)-Hydroxyoctanoyl-CoA (reaction_77333) </title></rect>
+<rect x="1138.7" y="1778.1" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>Octanoyl-CoA+FAD =&gt; trans-Oct-2-enoyl-CoA+FADH2 (reaction_77338) </title></rect>
+<rect x="1182.8" y="1686.6" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>3-Oxodecanoyl-CoA+CoA-SH =&gt; Octanoyl-CoA + acetyl-CoA (reaction_77340) </title></rect>
+<rect x="1403.5" y="1600.0" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>(S)-Hydroxydecanoyl-CoA+NAD =&gt; 3-Oxodecanoyl-CoA+NADH+H (reaction_77342) </title></rect>
+<rect x="1028.4" y="1510.5" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>trans-Dec-2-enoyl-CoA+H2O =&gt; (S)-Hydroxydecanoyl-CoA (reaction_77344) </title></rect>
+<rect x="1734.5" y="1423.4" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>Decanoyl-CoA+FAD =&gt; trans-Dec-2-enoyl-CoA+FADH2 (reaction_77345) </title></rect>
+<rect x="127.0" y="792.4" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>DBI, ACBD7 bind MCFA-CoA and LCFA-CoA (reaction_8848246) </title></rect>
+<rect x="693.5" y="760.4" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>ACBD6 binds LCFA-CoA (reaction_8848250) </title></rect>
+<rect x="1080.0" y="2672.5" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>ACAA2 tetramer transfers acyl group from Ac-CoA to acyl-CoA forming 3OA-CoA and CoA-SH (reaction_8874745) </title></rect>
+<rect x="992.6" y="2970.2" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>ACSM3,ACSM6 ligate CoA to BUT (reaction_8875013) </title></rect>
+<rect x="432.6" y="1112.2" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>MCAT transfers Mal from Mal-CoA to NDUFAB1 (reaction_8933547) </title></rect>
+<rect x="1315.9" y="1511.7" width="11.0" height="11.0" fill="#fff" stroke="#222" stroke-width="0.8"><title>MECR dimer reduces tdec2-CoA to DEC-CoA (reaction_8952873) </title></rect>
+<rect x="1774.7" y="548.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>4-cis-decenoyl-CoA [mitochondrial matrix] (species_109986) simple chemical</title></rect>
+<text x="1805.7" y="561.3" font-size="8.5" text-anchor="middle" fill="#111">4-cis-dece…</text>
+<rect x="1560.3" y="643.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>2-trans-4-cis-decadienoyl-CoA [mitochondrial matrix] (species_109990) simple chemical</title></rect>
+<text x="1591.3" y="656.6" font-size="8.5" text-anchor="middle" fill="#111">2-trans-4-…</text>
+<rect x="1727.0" y="738.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>3-trans-decenoyl-CoA [mitochondrial matrix] (species_109994) simple chemical</title></rect>
+<text x="1758.0" y="751.9" font-size="8.5" text-anchor="middle" fill="#111">3-trans-de…</text>
+<rect x="1284.3" y="262.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>DCI dimer [mitochondrial matrix] (species_110060) protein complex</title></rect>
+<text x="1315.3" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">DCI dimer …</text>
+<rect x="1099.1" y="262.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>DECR1 tetramer [mitochondrial matrix] (species_110061) protein complex</title></rect>
+<text x="1130.1" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">DECR1 tetr…</text>
+<rect x="586.0" y="1286.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>H2O [mitochondrial matrix] (species_113521) simple chemical</title></rect>
+<text x="617.0" y="1299.6" font-size="8.5" text-anchor="middle" fill="#111">H2O [mitoc…</text>
+<rect x="770.4" y="2326.0" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>H2O [mitochondrial matrix] (species_113521) simple chemical</title></rect>
+<rect x="772.4" y="2340.0" width="58.0" height="5.2" fill="#555"/>
+<text x="801.4" y="2339.0" font-size="8.5" text-anchor="middle" fill="#111">H2O [mitoc…</text>
+<rect x="936.5" y="3271.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>H2O [mitochondrial matrix] (species_113521) simple chemical</title></rect>
+<rect x="938.5" y="3285.6" width="58.0" height="5.2" fill="#555"/>
+<text x="967.5" y="3284.6" font-size="8.5" text-anchor="middle" fill="#111">H2O [mitoc…</text>
+<rect x="55.0" y="140.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>H2O [mitochondrial matrix] (species_113521) simple chemical</title></rect>
+<rect x="57.0" y="154.5" width="58.0" height="5.2" fill="#555"/>
+<text x="86.0" y="153.5" font-size="8.5" text-anchor="middle" fill="#111">H2O [mitoc…</text>
+<rect x="1468.5" y="262.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>H2O [mitochondrial matrix] (species_113521) simple chemical</title></rect>
+<rect x="1470.5" y="276.5" width="58.0" height="5.2" fill="#555"/>
+<text x="1499.5" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">H2O [mitoc…</text>
+<rect x="1893.8" y="738.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NAD+ [mitochondrial matrix] (species_113526) simple chemical</title></rect>
+<text x="1924.8" y="751.9" font-size="8.5" text-anchor="middle" fill="#111">NAD+ [mito…</text>
+<rect x="1296.8" y="1312.1" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NAD+ [mitochondrial matrix] (species_113526) simple chemical</title></rect>
+<rect x="1298.8" y="1326.1" width="58.0" height="5.2" fill="#555"/>
+<text x="1327.8" y="1325.1" font-size="8.5" text-anchor="middle" fill="#111">NAD+ [mito…</text>
+<rect x="1231.5" y="2326.0" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NAD+ [mitochondrial matrix] (species_113526) simple chemical</title></rect>
+<rect x="1233.5" y="2340.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1262.5" y="2339.0" font-size="8.5" text-anchor="middle" fill="#111">NAD+ [mito…</text>
+<rect x="369.8" y="2904.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NAD+ [mitochondrial matrix] (species_113526) simple chemical</title></rect>
+<rect x="371.8" y="2918.5" width="58.0" height="5.2" fill="#555"/>
+<text x="400.8" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">NAD+ [mito…</text>
+<rect x="521.5" y="140.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NAD+ [mitochondrial matrix] (species_113526) simple chemical</title></rect>
+<rect x="523.5" y="154.5" width="58.0" height="5.2" fill="#555"/>
+<text x="552.5" y="153.5" font-size="8.5" text-anchor="middle" fill="#111">NAD+ [mito…</text>
+<rect x="477.7" y="3149.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>H+ [mitochondrial matrix] (species_113529) simple chemical</title></rect>
+<text x="508.7" y="3162.3" font-size="8.5" text-anchor="middle" fill="#111">H+ [mitoch…</text>
+<rect x="1289.7" y="1374.8" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>H+ [mitochondrial matrix] (species_113529) simple chemical</title></rect>
+<rect x="1291.7" y="1388.8" width="58.0" height="5.2" fill="#555"/>
+<text x="1320.7" y="1387.8" font-size="8.5" text-anchor="middle" fill="#111">H+ [mitoch…</text>
+<rect x="1259.7" y="2462.8" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>H+ [mitochondrial matrix] (species_113529) simple chemical</title></rect>
+<rect x="1261.7" y="2476.8" width="58.0" height="5.2" fill="#555"/>
+<text x="1290.7" y="2475.8" font-size="8.5" text-anchor="middle" fill="#111">H+ [mitoch…</text>
+<rect x="550.9" y="482.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>H+ [mitochondrial matrix] (species_113529) simple chemical</title></rect>
+<rect x="552.9" y="496.5" width="58.0" height="5.2" fill="#555"/>
+<text x="581.9" y="495.5" font-size="8.5" text-anchor="middle" fill="#111">H+ [mitoch…</text>
+<rect x="1037.3" y="548.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>H+ [mitochondrial matrix] (species_113529) simple chemical</title></rect>
+<rect x="1039.3" y="562.3" width="58.0" height="5.2" fill="#555"/>
+<text x="1068.3" y="561.3" font-size="8.5" text-anchor="middle" fill="#111">H+ [mitoch…</text>
+<rect x="1731.8" y="3026.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Pi [mitochondrial matrix] (species_113548) simple chemical</title></rect>
+<text x="1762.8" y="3039.9" font-size="8.5" text-anchor="middle" fill="#111">Pi [mitoch…</text>
+<rect x="861.6" y="2599.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Ac-CoA [mitochondrial matrix] (species_113559) simple chemical</title></rect>
+<text x="892.6" y="2612.6" font-size="8.5" text-anchor="middle" fill="#111">Ac-CoA [mi…</text>
+<rect x="1267.7" y="1727.8" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Ac-CoA [mitochondrial matrix] (species_113559) simple chemical</title></rect>
+<rect x="1269.7" y="1741.8" width="58.0" height="5.2" fill="#555"/>
+<text x="1298.7" y="1740.8" font-size="8.5" text-anchor="middle" fill="#111">Ac-CoA [mi…</text>
+<rect x="1854.2" y="3149.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Ac-CoA [mitochondrial matrix] (species_113559) simple chemical</title></rect>
+<rect x="1856.2" y="3163.3" width="58.0" height="5.2" fill="#555"/>
+<text x="1885.2" y="3162.3" font-size="8.5" text-anchor="middle" fill="#111">Ac-CoA [mi…</text>
+<rect x="123.4" y="277.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Ac-CoA [mitochondrial matrix] (species_113559) simple chemical</title></rect>
+<rect x="125.4" y="291.3" width="58.0" height="5.2" fill="#555"/>
+<text x="154.4" y="290.3" font-size="8.5" text-anchor="middle" fill="#111">Ac-CoA [mi…</text>
+<rect x="1130.3" y="548.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Ac-CoA [mitochondrial matrix] (species_113559) simple chemical</title></rect>
+<rect x="1132.3" y="562.3" width="58.0" height="5.2" fill="#555"/>
+<text x="1161.3" y="561.3" font-size="8.5" text-anchor="middle" fill="#111">Ac-CoA [mi…</text>
+<rect x="980.8" y="1552.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NADP+ [mitochondrial matrix] (species_113563) simple chemical</title></rect>
+<text x="1011.8" y="1565.5" font-size="8.5" text-anchor="middle" fill="#111">NADP+ [mit…</text>
+<rect x="263.5" y="3026.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ADP [mitochondrial matrix] (species_113581) simple chemical</title></rect>
+<text x="294.5" y="3039.9" font-size="8.5" text-anchor="middle" fill="#111">ADP [mitoc…</text>
+<rect x="1108.9" y="2904.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ATP [mitochondrial matrix] (species_113593) simple chemical</title></rect>
+<text x="1139.9" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">ATP [mitoc…</text>
+<rect x="2322.6" y="262.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>FAD [mitochondrial matrix] (species_113596) simple chemical</title></rect>
+<text x="2353.6" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">FAD [mitoc…</text>
+<rect x="1204.5" y="1286.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>FAD [mitochondrial matrix] (species_113596) simple chemical</title></rect>
+<rect x="1206.5" y="1300.6" width="58.0" height="5.2" fill="#555"/>
+<text x="1235.5" y="1299.6" font-size="8.5" text-anchor="middle" fill="#111">FAD [mitoc…</text>
+<rect x="140.6" y="2904.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>FAD [mitochondrial matrix] (species_113596) simple chemical</title></rect>
+<rect x="142.6" y="2918.5" width="58.0" height="5.2" fill="#555"/>
+<text x="171.6" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">FAD [mitoc…</text>
+<rect x="773.2" y="166.0" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>FAD [mitochondrial matrix] (species_113596) simple chemical</title></rect>
+<rect x="775.2" y="180.0" width="58.0" height="5.2" fill="#555"/>
+<text x="804.2" y="179.0" font-size="8.5" text-anchor="middle" fill="#111">FAD [mitoc…</text>
+<rect x="1296.8" y="1261.1" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NADPH [mitochondrial matrix] (species_113600) simple chemical</title></rect>
+<text x="1327.8" y="1274.1" font-size="8.5" text-anchor="middle" fill="#111">NADPH [mit…</text>
+<rect x="1323.6" y="2326.0" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>acyl-CoA [mitochondrial matrix] (species_1524038) simple chemical</title></rect>
+<text x="1354.6" y="2339.0" font-size="8.5" text-anchor="middle" fill="#111">acyl-CoA […</text>
+<rect x="1946.0" y="3026.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>AMP [mitochondrial matrix] (species_159448) simple chemical</title></rect>
+<text x="1977.0" y="3039.9" font-size="8.5" text-anchor="middle" fill="#111">AMP [mitoc…</text>
+<rect x="477.7" y="3026.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>PPi [mitochondrial matrix] (species_159450) simple chemical</title></rect>
+<text x="508.7" y="3039.9" font-size="8.5" text-anchor="middle" fill="#111">PPi [mitoc…</text>
+<rect x="407.1" y="1039.3" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NDUFAB1 [mitochondrial inner membrane] (species_163925) polypeptide chain</title></rect>
+<text x="438.1" y="1052.3" font-size="8.5" text-anchor="middle" fill="#111">NDUFAB1 [m…</text>
+<rect x="621.5" y="687.5" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>LCFA-CoA [cytosol] (species_164991) simple chemical</title></rect>
+<text x="652.5" y="700.5" font-size="8.5" text-anchor="middle" fill="#111">LCFA-CoA […</text>
+<rect x="252.0" y="687.5" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H2O [cytosol] (species_29356) simple chemical</title></rect>
+<text x="283.0" y="700.5" font-size="8.5" text-anchor="middle" fill="#111">H2O [cytos…</text>
+<rect x="1727.0" y="643.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NADH [mitochondrial matrix] (species_29362) simple chemical</title></rect>
+<text x="1758.0" y="656.6" font-size="8.5" text-anchor="middle" fill="#111">NADH [mito…</text>
+<rect x="1510.4" y="1639.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NADH [mitochondrial matrix] (species_29362) simple chemical</title></rect>
+<rect x="1512.4" y="1653.6" width="58.0" height="5.2" fill="#555"/>
+<text x="1541.4" y="1652.6" font-size="8.5" text-anchor="middle" fill="#111">NADH [mito…</text>
+<rect x="815.1" y="2462.8" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NADH [mitochondrial matrix] (species_29362) simple chemical</title></rect>
+<rect x="817.1" y="2476.8" width="58.0" height="5.2" fill="#555"/>
+<text x="846.1" y="2475.8" font-size="8.5" text-anchor="middle" fill="#111">NADH [mito…</text>
+<rect x="1089.5" y="3026.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NADH [mitochondrial matrix] (species_29362) simple chemical</title></rect>
+<rect x="1091.5" y="3040.9" width="58.0" height="5.2" fill="#555"/>
+<text x="1120.5" y="3039.9" font-size="8.5" text-anchor="middle" fill="#111">NADH [mito…</text>
+<rect x="243.1" y="482.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>NADH [mitochondrial matrix] (species_29362) simple chemical</title></rect>
+<rect x="245.1" y="496.5" width="58.0" height="5.2" fill="#555"/>
+<text x="274.1" y="495.5" font-size="8.5" text-anchor="middle" fill="#111">NADH [mito…</text>
+<rect x="712.5" y="2736.4" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>CoA-SH [mitochondrial matrix] (species_29374) simple chemical</title></rect>
+<text x="743.5" y="2749.4" font-size="8.5" text-anchor="middle" fill="#111">CoA-SH [mi…</text>
+<rect x="1019.1" y="1284.2" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>CoA-SH [mitochondrial matrix] (species_29374) simple chemical</title></rect>
+<rect x="1021.1" y="1298.2" width="58.0" height="5.2" fill="#555"/>
+<text x="1050.1" y="1297.2" font-size="8.5" text-anchor="middle" fill="#111">CoA-SH [mi…</text>
+<rect x="1583.9" y="2904.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>CoA-SH [mitochondrial matrix] (species_29374) simple chemical</title></rect>
+<rect x="1585.9" y="2918.5" width="58.0" height="5.2" fill="#555"/>
+<text x="1614.9" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">CoA-SH [mi…</text>
+<rect x="375.1" y="140.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>CoA-SH [mitochondrial matrix] (species_29374) simple chemical</title></rect>
+<rect x="377.1" y="154.5" width="58.0" height="5.2" fill="#555"/>
+<text x="406.1" y="153.5" font-size="8.5" text-anchor="middle" fill="#111">CoA-SH [mi…</text>
+<rect x="1863.5" y="262.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>CoA-SH [mitochondrial matrix] (species_29374) simple chemical</title></rect>
+<rect x="1865.5" y="276.5" width="58.0" height="5.2" fill="#555"/>
+<text x="1894.5" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">CoA-SH [mi…</text>
+<rect x="739.4" y="2904.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>HCO3- [mitochondrial matrix] (species_29896) simple chemical</title></rect>
+<text x="770.4" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">HCO3- [mit…</text>
+<rect x="1953.5" y="2904.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>2xMMAA:2xMUT:AdoCbl [mitochondrial matrix] (species_3159272) protein complex</title></rect>
+<text x="1984.5" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">2xMMAA:2xM…</text>
+<rect x="2060.5" y="643.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>FADH2 [mitochondrial matrix] (species_31649) simple chemical</title></rect>
+<text x="2091.5" y="656.6" font-size="8.5" text-anchor="middle" fill="#111">FADH2 [mit…</text>
+<rect x="1355.9" y="1816.1" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>FADH2 [mitochondrial matrix] (species_31649) simple chemical</title></rect>
+<rect x="1357.9" y="1830.1" width="58.0" height="5.2" fill="#555"/>
+<text x="1386.9" y="1829.1" font-size="8.5" text-anchor="middle" fill="#111">FADH2 [mit…</text>
+<rect x="814.2" y="3271.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>FADH2 [mitochondrial matrix] (species_31649) simple chemical</title></rect>
+<rect x="816.2" y="3285.6" width="58.0" height="5.2" fill="#555"/>
+<text x="845.2" y="3284.6" font-size="8.5" text-anchor="middle" fill="#111">FADH2 [mit…</text>
+<rect x="511.9" y="550.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>FADH2 [mitochondrial matrix] (species_31649) simple chemical</title></rect>
+<rect x="513.9" y="564.9" width="58.0" height="5.2" fill="#555"/>
+<text x="542.9" y="563.9" font-size="8.5" text-anchor="middle" fill="#111">FADH2 [mit…</text>
+<rect x="344.2" y="687.5" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>PCTP [cytosol] (species_5215990) polypeptide chain</title></rect>
+<text x="375.2" y="700.5" font-size="8.5" text-anchor="middle" fill="#111">PCTP [cyto…</text>
+<rect x="437.2" y="687.5" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MCFA-CoA, LCFA-CoA [cytosol] (species_5690044) functional compartment</title></rect>
+<text x="468.2" y="700.5" font-size="8.5" text-anchor="middle" fill="#111">MCFA-CoA, …</text>
+<rect x="862.4" y="2326.0" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACOT2,9, THEM4,5 dimer [mitochondrial matrix] (species_5690051) functional compartment</title></rect>
+<text x="893.4" y="2339.0" font-size="8.5" text-anchor="middle" fill="#111">ACOT2,9, T…</text>
+<rect x="529.5" y="687.5" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>Cytosolic ACOTs, THEM4 [cytosol] (species_5690052) functional compartment</title></rect>
+<text x="560.5" y="700.5" font-size="8.5" text-anchor="middle" fill="#111">Cytosolic …</text>
+<rect x="298.5" y="824.3" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>MCFA, LCFA [cytosol] (species_5690064) functional compartment</title></rect>
+<text x="329.5" y="837.3" font-size="8.5" text-anchor="middle" fill="#111">MCFA, LCFA…</text>
+<rect x="1157.1" y="2462.8" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>MCFA, LCFA [mitochondrial matrix] (species_5690519) functional compartment</title></rect>
+<text x="1188.1" y="2475.8" font-size="8.5" text-anchor="middle" fill="#111">MCFA, LCFA…</text>
+<rect x="1675.9" y="2904.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>MCFA [mitochondrial matrix] (species_5690531) simple chemical</title></rect>
+<text x="1706.9" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">MCFA [mito…</text>
+<rect x="954.4" y="2326.0" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>MCFA-CoA, LCFA-CoA [mitochondrial matrix] (species_5690540) functional compartment</title></rect>
+<text x="985.4" y="2339.0" font-size="8.5" text-anchor="middle" fill="#111">MCFA-CoA, …</text>
+<rect x="1487.7" y="3026.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>MCFA-CoA [mitochondrial matrix] (species_5690542) simple chemical</title></rect>
+<text x="1518.7" y="3039.9" font-size="8.5" text-anchor="middle" fill="#111">MCFA-CoA […</text>
+<rect x="1770.5" y="262.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>S-2MPDA-CoA [mitochondrial matrix] (species_5695946) simple chemical</title></rect>
+<text x="1801.5" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">S-2MPDA-Co…</text>
+<rect x="1320.9" y="357.7" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>S-2MDPDA-CoA [mitochondrial matrix] (species_5695949) simple chemical</title></rect>
+<text x="1351.9" y="370.7" font-size="8.5" text-anchor="middle" fill="#111">S-2MDPDA-C…</text>
+<rect x="1678.2" y="262.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACAD10 [mitochondrial matrix] (species_5695955) polypeptide chain</title></rect>
+<text x="1709.2" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">ACAD10 [mi…</text>
+<rect x="2048.1" y="262.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>BH-CoA [mitochondrial matrix] (species_5695963) simple chemical</title></rect>
+<text x="2079.1" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">BH-CoA [mi…</text>
+<rect x="1227.9" y="357.7" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>DHB-CoA [mitochondrial matrix] (species_5695976) simple chemical</title></rect>
+<text x="1258.9" y="370.7" font-size="8.5" text-anchor="middle" fill="#111">DHB-CoA [m…</text>
+<rect x="2140.3" y="262.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACAD11 [mitochondrial inner membrane] (species_5695987) polypeptide chain</title></rect>
+<text x="2171.3" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">ACAD11 [mi…</text>
+<rect x="1768.2" y="2904.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACSF2 [mitochondrial matrix] (species_5696005) polypeptide chain</title></rect>
+<text x="1799.2" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">ACSF2 [mit…</text>
+<rect x="390.7" y="824.3" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>H+ [cytosol] (species_70106) simple chemical</title></rect>
+<text x="421.7" y="837.3" font-size="8.5" text-anchor="middle" fill="#111">H+ [cytoso…</text>
+<rect x="831.6" y="2904.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>PROP-CoA [mitochondrial matrix] (species_70843) simple chemical</title></rect>
+<text x="862.6" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">PROP-CoA […</text>
+<rect x="1411.3" y="3271.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>SUCC-CoA [mitochondrial matrix] (species_70958) simple chemical</title></rect>
+<text x="1442.3" y="3284.6" font-size="8.5" text-anchor="middle" fill="#111">SUCC-CoA […</text>
+<rect x="1517.7" y="3149.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>L-MM-CoA [mitochondrial matrix] (species_71009) simple chemical</title></rect>
+<text x="1548.7" y="3162.3" font-size="8.5" text-anchor="middle" fill="#111">L-MM-CoA […</text>
+<rect x="1334.2" y="2904.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>MCEE [mitochondrial matrix] (species_71012) polypeptide chain</title></rect>
+<text x="1365.2" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">MCEE [mito…</text>
+<rect x="1394.7" y="3026.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>MEMA-CoA [mitochondrial matrix] (species_71019) simple chemical</title></rect>
+<text x="1425.7" y="3039.9" font-size="8.5" text-anchor="middle" fill="#111">MEMA-CoA […</text>
+<rect x="646.8" y="2904.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>6x(Btn-PCCA:PCCB) [mitochondrial matrix] (species_71026) protein complex</title></rect>
+<text x="677.8" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">6x(Btn-PCC…</text>
+<rect x="493.0" y="1286.6" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ECHS1 hexamer [mitochondrial matrix] (species_71048) protein complex</title></rect>
+<text x="524.0" y="1299.6" font-size="8.5" text-anchor="middle" fill="#111">ECHS1 hexa…</text>
+<rect x="554.8" y="2904.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ECHS1 hexamer [mitochondrial matrix] (species_71048) protein complex</title></rect>
+<rect x="556.8" y="2918.5" width="58.0" height="5.2" fill="#555"/>
+<text x="585.8" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">ECHS1 hexa…</text>
+<rect x="1686.9" y="1286.6" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>HADH dimer [mitochondrial matrix] (species_71052) protein complex</title></rect>
+<text x="1717.9" y="1299.6" font-size="8.5" text-anchor="middle" fill="#111">HADH dimer…</text>
+<rect x="1139.5" y="2326.0" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>HADH dimer [mitochondrial matrix] (species_71052) protein complex</title></rect>
+<rect x="1141.5" y="2340.0" width="58.0" height="5.2" fill="#555"/>
+<text x="1170.5" y="2339.0" font-size="8.5" text-anchor="middle" fill="#111">HADH dimer…</text>
+<rect x="461.8" y="2904.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>HADH dimer [mitochondrial matrix] (species_71052) protein complex</title></rect>
+<rect x="463.8" y="2918.5" width="58.0" height="5.2" fill="#555"/>
+<text x="492.8" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">HADH dimer…</text>
+<rect x="141.2" y="3026.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACA-CoA [mitochondrial matrix] (species_73871) simple chemical</title></rect>
+<text x="172.2" y="3039.9" font-size="8.5" text-anchor="middle" fill="#111">ACA-CoA [m…</text>
+<rect x="483.0" y="824.3" width="62.0" height="20.0" rx="10.0" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>CoA-SH [cytosol] (species_76194) simple chemical</title></rect>
+<text x="514.0" y="837.3" font-size="8.5" text-anchor="middle" fill="#111">CoA-SH [cy…</text>
+<rect x="967.1" y="3394.0" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>3HB-CoA [mitochondrial matrix] (species_77251) simple chemical</title></rect>
+<text x="998.1" y="3407.0" font-size="8.5" text-anchor="middle" fill="#111">3HB-CoA [m…</text>
+<rect x="407.1" y="1553.1" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>(S)-3-Hydroxydodecanoyl-CoA [mitochondrial matrix] (species_77252) simple chemical</title></rect>
+<text x="438.1" y="1566.1" font-size="8.5" text-anchor="middle" fill="#111">(S)-3-Hydr…</text>
+<rect x="1555.2" y="1463.1" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>3-Oxododecanoyl-CoA [mitochondrial matrix] (species_77253) simple chemical</title></rect>
+<text x="1586.2" y="1476.1" font-size="8.5" text-anchor="middle" fill="#111">3-Oxododec…</text>
+<rect x="429.2" y="1461.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>2-trans-Dodecenoyl-CoA [mitochondrial matrix] (species_77255) simple chemical</title></rect>
+<text x="460.2" y="1474.3" font-size="8.5" text-anchor="middle" fill="#111">2-trans-Do…</text>
+<rect x="1585.8" y="262.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACADL tetramer [mitochondrial matrix] (species_77258) protein complex</title></rect>
+<text x="1616.8" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">ACADL tetr…</text>
+<rect x="1112.1" y="1284.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACADL tetramer [mitochondrial matrix] (species_77258) protein complex</title></rect>
+<rect x="1114.1" y="1298.5" width="58.0" height="5.2" fill="#555"/>
+<text x="1143.1" y="1297.5" font-size="8.5" text-anchor="middle" fill="#111">ACADL tetr…</text>
+<rect x="636.4" y="166.0" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACADL tetramer [mitochondrial matrix] (species_77258) protein complex</title></rect>
+<rect x="638.4" y="180.0" width="58.0" height="5.2" fill="#555"/>
+<text x="667.4" y="179.0" font-size="8.5" text-anchor="middle" fill="#111">ACADL tetr…</text>
+<rect x="1069.1" y="1376.1" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>LAU-CoA [mitochondrial matrix] (species_77261) simple chemical</title></rect>
+<text x="1100.1" y="1389.1" font-size="8.5" text-anchor="middle" fill="#111">LAU-CoA [m…</text>
+<rect x="282.1" y="140.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Trifunctional Protein [mitochondrial matrix] (species_77267) protein complex</title></rect>
+<text x="313.1" y="153.5" font-size="8.5" text-anchor="middle" fill="#111">Trifunctio…</text>
+<rect x="892.6" y="1285.4" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Trifunctional Protein [mitochondrial matrix] (species_77267) protein complex</title></rect>
+<rect x="894.6" y="1299.4" width="58.0" height="5.2" fill="#555"/>
+<text x="923.6" y="1298.4" font-size="8.5" text-anchor="middle" fill="#111">Trifunctio…</text>
+<rect x="678.2" y="2326.0" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Trifunctional Protein [mitochondrial matrix] (species_77267) protein complex</title></rect>
+<rect x="680.2" y="2340.0" width="58.0" height="5.2" fill="#555"/>
+<text x="709.2" y="2339.0" font-size="8.5" text-anchor="middle" fill="#111">Trifunctio…</text>
+<rect x="1861.2" y="2904.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Trifunctional Protein [mitochondrial matrix] (species_77267) protein complex</title></rect>
+<rect x="1863.2" y="2918.5" width="58.0" height="5.2" fill="#555"/>
+<text x="1892.2" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">Trifunctio…</text>
+<rect x="1955.8" y="262.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Trifunctional Protein [mitochondrial matrix] (species_77267) protein complex</title></rect>
+<rect x="1957.8" y="276.5" width="58.0" height="5.2" fill="#555"/>
+<text x="1986.8" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">Trifunctio…</text>
+<rect x="738.1" y="1286.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>3-Oxotetradecanoyl-CoA [mitochondrial matrix] (species_77269) simple chemical</title></rect>
+<text x="769.1" y="1299.6" font-size="8.5" text-anchor="middle" fill="#111">3-Oxotetra…</text>
+<rect x="550.9" y="271.2" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>MYS-CoA [mitochondrial matrix] (species_77272) simple chemical</title></rect>
+<text x="581.9" y="284.2" font-size="8.5" text-anchor="middle" fill="#111">MYS-CoA [m…</text>
+<rect x="294.4" y="334.2" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>trans-Tetradec-2-enoyl-CoA [mitochondrial matrix] (species_77273) simple chemical</title></rect>
+<text x="325.4" y="347.2" font-size="8.5" text-anchor="middle" fill="#111">trans-Tetr…</text>
+<rect x="260.2" y="425.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>(S)-3-Hydroxytetradecanoyl-CoA [mitochondrial matrix] (species_77276) simple chemical</title></rect>
+<text x="291.2" y="438.6" font-size="8.5" text-anchor="middle" fill="#111">(S)-3-Hydr…</text>
+<rect x="614.5" y="115.0" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACADVL dimer [mitochondrial matrix] (species_77279) protein complex</title></rect>
+<text x="645.5" y="128.0" font-size="8.5" text-anchor="middle" fill="#111">ACADVL dim…</text>
+<rect x="739.0" y="115.0" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>PalmCoA [mitochondrial matrix] (species_77281) simple chemical</title></rect>
+<text x="770.0" y="128.0" font-size="8.5" text-anchor="middle" fill="#111">PalmCoA [m…</text>
+<rect x="418.9" y="550.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>trans-Hexadec-2-enoyl-CoA [mitochondrial matrix] (species_77284) simple chemical</title></rect>
+<text x="449.9" y="563.9" font-size="8.5" text-anchor="middle" fill="#111">trans-Hexa…</text>
+<rect x="243.1" y="625.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>(S)-3-Hydroxyhexadecanoyl-CoA [mitochondrial matrix] (species_77300) simple chemical</title></rect>
+<text x="274.1" y="638.5" font-size="8.5" text-anchor="middle" fill="#111">(S)-3-Hydr…</text>
+<rect x="277.3" y="208.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>3-Oxopalmitoyl-CoA [mitochondrial matrix] (species_77302) simple chemical</title></rect>
+<text x="308.3" y="221.9" font-size="8.5" text-anchor="middle" fill="#111">3-Oxopalmi…</text>
+<rect x="1642.8" y="1551.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>DEC-CoA [mitochondrial matrix] (species_77308) simple chemical</title></rect>
+<text x="1673.8" y="1564.3" font-size="8.5" text-anchor="middle" fill="#111">DEC-CoA [m…</text>
+<rect x="1318.3" y="3271.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Crotonoyl-CoA [mitochondrial matrix] (species_77313) simple chemical</title></rect>
+<text x="1349.3" y="3284.6" font-size="8.5" text-anchor="middle" fill="#111">Crotonoyl-…</text>
+<rect x="233.6" y="2904.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACADS tetramer [mitochondrial matrix] (species_77316) protein complex</title></rect>
+<text x="264.6" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">ACADS tetr…</text>
+<rect x="1150.6" y="3149.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>BT-CoA [mitochondrial matrix] (species_77318) simple chemical</title></rect>
+<text x="1181.6" y="3162.3" font-size="8.5" text-anchor="middle" fill="#111">BT-CoA [mi…</text>
+<rect x="1609.5" y="3026.9" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>3-Oxohexanoyl-CoA [mitochondrial matrix] (species_77320) simple chemical</title></rect>
+<text x="1640.5" y="3039.9" font-size="8.5" text-anchor="middle" fill="#111">3-Oxohexan…</text>
+<rect x="294.1" y="3394.0" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>(S)-Hydroxyhexanoyl-CoA [mitochondrial matrix] (species_77322) simple chemical</title></rect>
+<text x="325.1" y="3407.0" font-size="8.5" text-anchor="middle" fill="#111">(S)-Hydrox…</text>
+<rect x="263.5" y="3271.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>trans-Hex-2-enoyl-CoA [mitochondrial matrix] (species_77324) simple chemical</title></rect>
+<text x="294.5" y="3284.6" font-size="8.5" text-anchor="middle" fill="#111">trans-Hex-…</text>
+<rect x="768.6" y="2599.6" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>HX-CoA [mitochondrial matrix] (species_77326) simple chemical</title></rect>
+<text x="799.6" y="2612.6" font-size="8.5" text-anchor="middle" fill="#111">HX-CoA [mi…</text>
+<rect x="986.1" y="2462.8" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>3-Oxooctanoyl-CoA [mitochondrial matrix] (species_77328) simple chemical</title></rect>
+<text x="1017.1" y="2475.8" font-size="8.5" text-anchor="middle" fill="#111">3-Oxooctan…</text>
+<rect x="1046.5" y="2326.0" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>(S)-Hydroxyoctanoyl-CoA [mitochondrial matrix] (species_77330) simple chemical</title></rect>
+<text x="1077.5" y="2339.0" font-size="8.5" text-anchor="middle" fill="#111">(S)-Hydrox…</text>
+<rect x="1113.2" y="1819.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>trans-Oct-2-enoyl-CoA [mitochondrial matrix] (species_77332) simple chemical</title></rect>
+<text x="1144.2" y="1832.3" font-size="8.5" text-anchor="middle" fill="#111">trans-Oct-…</text>
+<rect x="1191.3" y="262.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACADM tetramer [mitochondrial matrix] (species_77335) protein complex</title></rect>
+<text x="1222.3" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">ACADM tetr…</text>
+<rect x="1157.3" y="1727.8" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Octanoyl-CoA [mitochondrial matrix] (species_77337) simple chemical</title></rect>
+<text x="1188.3" y="1740.8" font-size="8.5" text-anchor="middle" fill="#111">Octanoyl-C…</text>
+<rect x="1157.3" y="1636.4" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>3-Oxodecanoyl-CoA [mitochondrial matrix] (species_77339) simple chemical</title></rect>
+<text x="1188.3" y="1649.4" font-size="8.5" text-anchor="middle" fill="#111">3-Oxodecan…</text>
+<rect x="1222.9" y="1551.3" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>(S)-Hydroxydecanoyl-CoA [mitochondrial matrix] (species_77341) simple chemical</title></rect>
+<text x="1253.9" y="1564.3" font-size="8.5" text-anchor="middle" fill="#111">(S)-Hydrox…</text>
+<rect x="1180.1" y="1463.1" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>tdec2-CoA [mitochondrial matrix] (species_77343) simple chemical</title></rect>
+<text x="1211.1" y="1476.1" font-size="8.5" text-anchor="middle" fill="#111">tdec2-CoA …</text>
+<rect x="1155.3" y="834.2" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>tdec2-CoA [mitochondrial matrix] (species_77343) simple chemical</title></rect>
+<rect x="1157.3" y="848.2" width="58.0" height="5.2" fill="#555"/>
+<text x="1186.3" y="847.2" font-size="8.5" text-anchor="middle" fill="#111">tdec2-CoA …</text>
+<rect x="1631.7" y="357.7" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>cis,cis-3,6-Dodecadienoyl-CoA [mitochondrial matrix] (species_77358) simple chemical</title></rect>
+<text x="1662.7" y="370.7" font-size="8.5" text-anchor="middle" fill="#111">cis,cis-3,…</text>
+<rect x="1376.5" y="262.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>LIN-CoA [mitochondrial matrix] (species_77359) simple chemical</title></rect>
+<text x="1407.5" y="275.5" font-size="8.5" text-anchor="middle" fill="#111">LIN-CoA [m…</text>
+<rect x="1655.6" y="453.0" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>trans,cis-Lauro-2,6-dienoyl-CoA  [mitochondrial matrix] (species_77360) simple chemical</title></rect>
+<text x="1686.6" y="466.0" font-size="8.5" text-anchor="middle" fill="#111">trans,cis-…</text>
+<rect x="55.0" y="719.5" width="62.0" height="20.0" rx="3" fill="#dfd4e6" stroke="#222" stroke-width="0.8"><title>DBI, (ACBD7) [endoplasmic reticulum lumen] (species_8848239) functional compartment</title></rect>
+<text x="86.0" y="732.5" font-size="8.5" text-anchor="middle" fill="#111">DBI, (ACBD…</text>
+<rect x="714.5" y="687.5" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ACBD6 [cytosol] (species_8848243) polypeptide chain</title></rect>
+<text x="745.5" y="700.5" font-size="8.5" text-anchor="middle" fill="#111">ACBD6 [cyt…</text>
+<rect x="668.0" y="824.3" width="62.0" height="20.0" rx="3" fill="#ede6d1" stroke="#222" stroke-width="0.8"><title>ACBD6:LCFA-CoA [cytosol] (species_8848271) protein complex</title></rect>
+<text x="699.0" y="837.3" font-size="8.5" text-anchor="middle" fill="#111">ACBD6:LCFA…</text>
+<rect x="148.0" y="719.5" width="62.0" height="20.0" rx="3" fill="#dfd4e6" stroke="#222" stroke-width="0.8"><title>MCFA-CoA, LCFA-CoA [endoplasmic reticulum lumen] (species_8848288) functional compartment</title></rect>
+<text x="179.0" y="732.5" font-size="8.5" text-anchor="middle" fill="#111">MCFA-CoA, …</text>
+<rect x="101.5" y="856.3" width="62.0" height="20.0" rx="3" fill="#dfd4e6" stroke="#222" stroke-width="0.8"><title>DBI,ACBD7:MCFA-CoA,LCFA-CoA [endoplasmic reticulum lumen] (species_8848291) protein complex</title></rect>
+<text x="132.5" y="869.3" font-size="8.5" text-anchor="middle" fill="#111">DBI,ACBD7:…</text>
+<rect x="1415.8" y="2326.0" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACAA2 tetramer [mitochondrial matrix] (species_8874746) protein complex</title></rect>
+<text x="1446.8" y="2339.0" font-size="8.5" text-anchor="middle" fill="#111">ACAA2 tetr…</text>
+<rect x="1054.5" y="2736.4" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>3OA-CoA [mitochondrial matrix] (species_8874749) simple chemical</title></rect>
+<text x="1085.5" y="2749.4" font-size="8.5" text-anchor="middle" fill="#111">3OA-CoA [m…</text>
+<rect x="924.6" y="2904.5" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>BUT [mitochondrial matrix] (species_8875042) simple chemical</title></rect>
+<text x="955.6" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">BUT [mitoc…</text>
+<rect x="1016.8" y="2904.5" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>ACSM3,ACSM6 [mitochondrial matrix] (species_8875066) functional compartment</title></rect>
+<text x="1047.8" y="2917.5" font-size="8.5" text-anchor="middle" fill="#111">ACSM3,ACSM…</text>
+<rect x="678.2" y="2786.4" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>MCAT [mitochondrial matrix] (species_8933305) polypeptide chain</title></rect>
+<text x="709.2" y="2799.4" font-size="8.5" text-anchor="middle" fill="#111">MCAT [mito…</text>
+<rect x="407.1" y="1176.1" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Mal-PPANT-S112-NDUFAB1 [mitochondrial inner membrane] (species_8934586) polypeptide chain</title></rect>
+<text x="438.1" y="1189.1" font-size="8.5" text-anchor="middle" fill="#111">Mal-PPANT-…</text>
+<rect x="1390.5" y="1286.6" width="62.0" height="20.0" rx="3" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>MECR dimer [mitochondrial matrix] (species_8952866) protein complex</title></rect>
+<text x="1421.5" y="1299.6" font-size="8.5" text-anchor="middle" fill="#111">MECR dimer…</text>
+<rect x="770.2" y="2786.4" width="62.0" height="20.0" rx="10.0" fill="#e9d4cd" stroke="#222" stroke-width="0.8"><title>Malonyl-CoA [mitochondrial matrix] (species_977314) simple chemical</title></rect>
+<text x="801.2" y="2799.4" font-size="8.5" text-anchor="middle" fill="#111">Malonyl-Co…</text>
+</g>
+</svg>

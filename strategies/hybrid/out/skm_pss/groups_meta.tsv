@@ -1,0 +1,187 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+M01	1		Phytohormone action	function	notes	mapman:10	
+M01.f1	2	M01	ethylene	function	notes	mapman:10.5	
+M01.f1.c_chl	3	M01.f1	chloroplast	localisation	compartment	c_chl	c_chl
+M01.f1.c_cyt	3	M01.f1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M01.f1.c_er	3	M01.f1	endoplasmic reticulum	localisation	compartment	c_er	c_er
+M01.f1.c_er_b	3	M01.f1	endoplasmic reticulum (boundary)	localisation	compartment	c_er	c_er@boundary
+M01.f1.c_ga	3	M01.f1	golgi apparatus	localisation	compartment	c_ga	c_ga
+M01.f1.c_nuc	3	M01.f1	nucleus	localisation	compartment	c_nuc	c_nuc
+M01.f1.c_nuc_b	3	M01.f1	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M01.f10	2	M01	auxin: biosynthesis	function	notes	mapman:10.2.1	
+M01.f2	2	M01	jasmonic acid: perception and signal transduction: receptor activities	function	notes	mapman:10.7.2.1	
+M01.f2.c_cyt.p1	3	M01.f2	cytoplasm [JAM]	localisation	compartment	c_cyt	c_cyt
+M01.f2.c_cyt.p2	3	M01.f2	cytoplasm [COI1]	localisation	compartment	c_cyt	c_cyt
+M01.f2.c_nuc	3	M01.f2	nucleus	localisation	compartment	c_nuc	c_nuc
+M01.f2.c_nuc_b	3	M01.f2	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M01.f3	2	M01	tZ-ribotide	topology	member	s_tZribotide_cyt_m	
+M01.f3.p1	3	M01.f3	cZ-riboside	topology	member	s_cZriboside_cyt_m	
+M01.f3.p2	3	M01.f3	DZ-ribotide	topology	member	s_DZribotide_cyt_m	
+M01.f4	2	M01	auxin	function	notes	mapman:10.2	
+M01.f4.c_chl	3	M01.f4	chloroplast	localisation	compartment	c_chl	c_chl
+M01.f4.c_cyt	3	M01.f4	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M01.f4.c_nuc	3	M01.f4	nucleus	localisation	compartment	c_nuc	c_nuc
+M01.f4.c_nuc_b	3	M01.f4	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M01.f5	2	M01	strigolactone	function	notes	mapman:10.9	
+M01.f6	2	M01	BB	topology	member	s_BB_cyt_m	
+M01.f6.c_cyt	3	M01.f6	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M01.f6.c_er	3	M01.f6	endoplasmic reticulum	localisation	compartment	c_er	c_er
+M01.f6.c_nuc	3	M01.f6	nucleus	localisation	compartment	c_nuc	c_nuc
+M01.f6.c_per	3	M01.f6	peroxisome	localisation	compartment	c_per	c_per
+M01.f7	2	M01	gibberellin: perception and signal transduction	function	notes	mapman:10.6.2	
+M01.f7.c_cyt	3	M01.f7	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M01.f7.c_nuc	3	M01.f7	nucleus	localisation	compartment	c_nuc	c_nuc
+M01.f7.c_nuc_b	3	M01.f7	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M01.f8	2	M01	cytokinin: perception and signal transduction: histidine-aspartate phosphorelay signal transduction	function	notes	mapman:10.4.2.1	
+M01.f8.c_cyt	3	M01.f8	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M01.f8.c_er	3	M01.f8	endoplasmic reticulum	localisation	compartment	c_er	c_er
+M01.f8.c_nuc	3	M01.f8	nucleus	localisation	compartment	c_nuc	c_nuc
+M01.f9	2	M01	BZR2	topology	member	s_BZR2_nuc_pa	
+M01.f9.c_cyt	3	M01.f9	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M01.f9.c_nuc	3	M01.f9	nucleus	localisation	compartment	c_nuc	c_nuc
+M02	1		RNA biosynthesis	function	notes	mapman:14	
+M02.f1	2	M02	DNA-binding transcriptional regulation: beta-hairpin exposed by alpha/beta-scaffold structure: WRKY transcription factor activity	function	notes	mapman:14.5.7.5	
+M02.f1.c_chl	3	M02.f1	chloroplast	localisation	compartment	c_chl	c_chl
+M02.f1.c_cyt	3	M02.f1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M02.f1.c_nuc	3	M02.f1	nucleus	localisation	compartment	c_nuc	c_nuc
+M02.f1.c_nuc_b	3	M02.f1	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M02.f2	2	M02	DNA-binding transcriptional regulation: basic DNA-binding domain: basic leucine zipper (bZIP) domain	function	notes	mapman:14.5.1.1	
+M02.f2.c_cyt	3	M02.f2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M02.f2.c_nuc	3	M02.f2	nucleus	localisation	compartment	c_nuc	c_nuc
+M02.f2.c_nuc_b	3	M02.f2	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M02.f3	2	M02	DNA-binding transcriptional regulation: beta-hairpin exposed by alpha/beta-scaffold structure: ERF transcription factor activity: subgroup ERF-IX transcription factor	function	notes	mapman:14.5.7.10.9	
+M02.f3.c_cyt	3	M02.f3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M02.f3.c_nuc	3	M02.f3	nucleus	localisation	compartment	c_nuc	c_nuc
+M02.f3.c_nuc_b	3	M02.f3	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M02.f4	2	M02	DNA-binding transcriptional regulation: beta-hairpin exposed by alpha/beta-scaffold structure: NAC transcription factor	function	notes	mapman:14.5.7.1	
+M02.f4.c_chl	3	M02.f4	chloroplast	localisation	compartment	c_chl	c_chl
+M02.f4.c_cyt	3	M02.f4	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M02.f4.c_nuc	3	M02.f4	nucleus	localisation	compartment	c_nuc	c_nuc
+M02.f4.c_nuc_b	3	M02.f4	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M02.f4.c_vac	3	M02.f4	vacuole	localisation	compartment	c_vac	c_vac
+M02.f5	2	M02	DNA-binding transcriptional regulation	function	notes	mapman:14.5	
+M02.f5.c_cyt	3	M02.f5	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M02.f5.c_nuc	3	M02.f5	nucleus	localisation	compartment	c_nuc	c_nuc
+M02.f5.c_vac	3	M02.f5	vacuole	localisation	compartment	c_vac	c_vac
+M02.f6	2	M02	WRKY70	topology	member	s_WRKY70_cyt_pa	
+M02.f6.c_chl	3	M02.f6	chloroplast	localisation	compartment	c_chl	c_chl
+M02.f6.c_cyt	3	M02.f6	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M02.f6.c_nuc	3	M02.f6	nucleus	localisation	compartment	c_nuc	c_nuc
+M02.f7	2	M02	DMAPP	topology	member	s_DMAPP_cyt_m	
+M02.f7.c_cyt	3	M02.f7	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M02.f7.c_nuc	3	M02.f7	nucleus	localisation	compartment	c_nuc	c_nuc
+M02.f8	2	M02	HSFA6b	topology	member	s_HSFA6b_cyt_pa	
+M02.f9	2	M02	CAMTA3	topology	member	s_CAMTA3_nuc_pa	
+M02.f9.c_cyt	3	M02.f9	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M02.f9.c_nuc	3	M02.f9	nucleus	localisation	compartment	c_nuc	c_nuc
+M03	1		External stimuli response	function	notes	mapman:26	
+M03.f1	2	M03	pathogen: defense mechanisms: systemic acquired resistance (SAR)	function	notes	mapman:26.11.3.1	
+M03.f1.c_cyt.p1	3	M03.f1	cytoplasm [WRKY40]	localisation	compartment	c_cyt	c_cyt
+M03.f1.c_cyt.p2	3	M03.f1	cytoplasm [PUB13]	localisation	compartment	c_cyt	c_cyt
+M03.f1.c_nuc	3	M03.f1	nucleus	localisation	compartment	c_nuc	c_nuc
+M03.f2	2	M03	light	function	notes	mapman:26.1	
+M03.f2.c_cyt	3	M03.f2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M03.f2.c_nuc	3	M03.f2	nucleus	localisation	compartment	c_nuc	c_nuc
+M03.f2.c_nuc_b	3	M03.f2	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M03.f3	2	M03	MIZ1	topology	member	s_MIZ1_cyt_p	
+M03.f3.c_cyt	3	M03.f3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M03.f3.c_x	3	M03.f3	extracellular	localisation	compartment	c_x	c_x
+M03.f4	2	M03	pathogen: effector-triggered immunity (ETI) machinery	function	notes	mapman:26.11.2	
+M03.f4.c_chl	3	M03.f4	chloroplast	localisation	compartment	c_chl	c_chl
+M03.f4.c_cyt	3	M03.f4	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M03.f4.c_nuc	3	M03.f4	nucleus	localisation	compartment	c_nuc	c_nuc
+M03.f4.c_nuc_b	3	M03.f4	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M03.f5	2	M03	ERF-VII	topology	member	s_ERFVII_cyt_pa	
+M03.f5.c_ap	3	M03.f5	apoplast	localisation	compartment	c_ap	c_ap
+M03.f5.c_cyt	3	M03.f5	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M03.f5.c_nuc	3	M03.f5	nucleus	localisation	compartment	c_nuc	c_nuc
+M04	1		VPg	topology	member	s_VPg_cyt_p	
+M04.sbo0000176	2	M04	biochemical reaction	reaction_type	sbo	SBO:0000176	
+M04.sbo0000176.c_cyt.p1	3	M04.sbo0000176	cytoplasm [FBA8|VPg]	localisation	compartment	c_cyt	c_cyt
+M04.sbo0000176.c_cyt.p2	3	M04.sbo0000176	cytoplasm [ATPC1|VPg]	localisation	compartment	c_cyt	c_cyt
+M04.sbo0000176.c_cyt.p3	3	M04.sbo0000176	cytoplasm [6K2|VPg]	localisation	compartment	c_cyt	c_cyt
+M04.sbo0000176.c_cyt.p4	3	M04.sbo0000176	cytoplasm [AT3G17020|VPg]	localisation	compartment	c_cyt	c_cyt
+M04.sbo0000176.c_cyt.p5	3	M04.sbo0000176	cytoplasm [ABCF1|VPg]	localisation	compartment	c_cyt	c_cyt
+M04.sbo0000176.c_nuc	3	M04.sbo0000176	nucleus	localisation	compartment	c_nuc	c_nuc
+M04.sbo0000589	2	M04	genetic production	reaction_type	sbo	SBO:0000589	
+M05	1		Multi-process regulation	function	notes	mapman:27	
+M05.f1	2	M05	MAP kinase cascade signalling	function	notes	mapman:27.14	
+M05.f1.p1	3	M05.f1	CIPK26	topology	member	s_CIPK26_cyt_p	
+M05.f1.p2	3	M05.f1	CIPK9	topology	member	s_CIPK9_cyt_p	
+M05.f2	2	M05	calcium homeostasis: Ca2+-dependent signalling: CBL-CIPK calcium sensor and kinase pathways	function	notes	mapman:27.8.1.6	
+M05.f3	2	M05	RAPTOR2	topology	member	s_RAPTOR2_cyt_p	
+M05.f3.c_cyt	3	M05.f3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M05.f3.c_nuc	3	M05.f3	nucleus	localisation	compartment	c_nuc	c_nuc
+M05.f4	2	M05	ELF3	topology	member	s_ELF3_cyt_pa	
+M05.f4.c_cyt	3	M05.f4	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M05.f4.c_nuc	3	M05.f4	nucleus	localisation	compartment	c_nuc	c_nuc
+M06	1		Solute transport	function	notes	mapman:24	
+M06.f1	2	M06	channel-mediated transport	function	notes	mapman:24.3	
+M06.f1.c_cyt	3	M06.f1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M06.f1.c_cyt_b	3	M06.f1	cytoplasm (boundary)	localisation	compartment	c_cyt	c_cyt@boundary
+M06.f1.c_nuc	3	M06.f1	nucleus	localisation	compartment	c_nuc	c_nuc
+M06.f1.c_x	3	M06.f1	extracellular	localisation	compartment	c_x	c_x
+M06.f2	2	M06	EDS5	topology	member	s_EDS5_cyt_pa	
+M06.f2.c_chl	3	M06.f2	chloroplast	localisation	compartment	c_chl	c_chl
+M06.f2.c_chl_b	3	M06.f2	chloroplast (boundary)	localisation	compartment	c_chl	c_chl@boundary
+M06.f2.c_cyt	3	M06.f2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M06.f3	2	M06	carrier-mediated transport: CDF-type transporter superfamily: group-CaCA transporter activities: cation antiporter *(CAX)	function	notes	mapman:24.2.8.1.1	
+M06.f3.c_cyt	3	M06.f3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M06.f3.c_vac	3	M06.f3	vacuole	localisation	compartment	c_vac	c_vac
+M06.f4	2	M06	CO2-deficiency	topology	member	s_CO2deficiency_chl_pr	
+M06.f4.c_chl	3	M06.f4	chloroplast	localisation	compartment	c_chl	c_chl
+M06.f4.c_cyt	3	M06.f4	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M07	1		HC-Pro	topology	member	s_HCPro_cyt_pa	
+M07.c_cyt	2	M07	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M07.c_cyt.p1	3	M07.c_cyt	HC-Pro	topology	member	s_HCPro_cyt_pa	
+M07.c_cyt.p2	3	M07.c_cyt	CI	topology	member	s_CI_cyt_p	
+M07.c_cyt.p3	3	M07.c_cyt	HSP90	topology	member	s_HSP90_cyt_p	
+M07.c_er	2	M07	endoplasmic reticulum	localisation	compartment	c_er	c_er
+M07.c_nuc	2	M07	nucleus	localisation	compartment	c_nuc	c_nuc
+M07.c_nuc_b	2	M07	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M08	1		ARF	topology	member	s_ARF_nuc_pa	
+M08.c_chl	2	M08	chloroplast	localisation	compartment	c_chl	c_chl
+M08.c_chl_b	2	M08	chloroplast (boundary)	localisation	compartment	c_chl	c_chl@boundary
+M08.c_cyt	2	M08	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M08.c_nuc	2	M08	nucleus	localisation	compartment	c_nuc	c_nuc
+M08.c_per	2	M08	peroxisome	localisation	compartment	c_per	c_per
+M08.c_per_b	2	M08	peroxisome (boundary)	localisation	compartment	c_per	c_per@boundary
+M09	1		Protein modification	function	notes	mapman:18	
+M09.f1	2	M09	phosphorylation: CAMK protein kinase activities: SnRK2 SNF1-related protein kinase	function	notes	mapman:18.4.4.2	
+M09.f2	2	M09	PP2C	topology	member	s_PP2C_cyt_pa	
+M09.f2.c_chl	3	M09.f2	chloroplast	localisation	compartment	c_chl	c_chl
+M09.f2.c_cyt	3	M09.f2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M09.f2.c_nuc	3	M09.f2	nucleus	localisation	compartment	c_nuc	c_nuc
+M09.f2.c_x	3	M09.f2	extracellular	localisation	compartment	c_x	c_x
+M09.f3	2	M09	phosphorylation: TKL protein kinase activities	function	notes	mapman:18.4.1	
+M09.f3.c_cyt	3	M09.f3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M09.f3.c_nuc	3	M09.f3	nucleus	localisation	compartment	c_nuc	c_nuc
+M10	1		Enzyme classification	function	notes	mapman:50	
+M10.f1	2	M10	EC_2 transferases: EC_2-7 transferase transferring phosphorus-containing group	function	notes	mapman:50.2.7	
+M10.f1.c_ap	3	M10.f1	apoplast	localisation	compartment	c_ap	c_ap
+M10.f1.c_chl	3	M10.f1	chloroplast	localisation	compartment	c_chl	c_chl
+M10.f1.c_cyt	3	M10.f1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M10.f1.c_er	3	M10.f1	endoplasmic reticulum	localisation	compartment	c_er	c_er
+M10.f1.c_nuc	3	M10.f1	nucleus	localisation	compartment	c_nuc	c_nuc
+M10.f2	2	M10	Antheraxanthin	topology	member	s_Antheraxanthin_cyt_m	
+M10.f2.c_cyt	3	M10.f2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M10.f2.c_er	3	M10.f2	endoplasmic reticulum	localisation	compartment	c_er	c_er
+M10.f3	2	M10	EC_1 oxidoreductases	function	notes	mapman:50.1	
+M10.f3.c_cyt	3	M10.f3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M10.f3.c_per	3	M10.f3	peroxisome	localisation	compartment	c_per	c_per
+M11	1		ROS	topology	member	s_ROS_cyt_m	
+M11.c_ap	2	M11	apoplast	localisation	compartment	c_ap	c_ap
+M11.c_chl	2	M11	chloroplast	localisation	compartment	c_chl	c_chl
+M11.c_cyt	2	M11	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M11.c_cyt.sbo0000177	3	M11.c_cyt	non-covalent binding	reaction_type	sbo	SBO:0000177	
+M11.c_cyt.sbo0000179	3	M11.c_cyt	degradation	reaction_type	sbo	SBO:0000179	
+M11.c_cyt.sbo0000182	3	M11.c_cyt	conversion	reaction_type	sbo	SBO:0000182	
+M11.c_cyt.sbo0000375	3	M11.c_cyt	process	reaction_type	sbo	SBO:0000375	
+M11.c_cyt.sbo0000658	3	M11.c_cyt	passive transport	reaction_type	sbo	SBO:0000658	
+M11.c_mit	2	M11	mitochondrion	localisation	compartment	c_mit	c_mit
+M11.c_mit_b	2	M11	mitochondrion (boundary)	localisation	compartment	c_mit	c_mit@boundary
+M11.c_per	2	M11	peroxisome	localisation	compartment	c_per	c_per
+M11.c_x	2	M11	extracellular	localisation	compartment	c_x	c_x
+M12	1		Phytohormone action: gibberellin: biosynthesis	function	notes	mapman:10.6.1	
+M12.sbo0000176	2	M12	biochemical reaction	reaction_type	sbo	SBO:0000176	
+M12.sbo0000179	2	M12	degradation	reaction_type	sbo	SBO:0000179	

@@ -1,0 +1,31 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+ec-code:1	1		EC 1 (oxidoreductases)	function	ec	ec-code:1	
+mapman:10	1		Phytohormone action	function	notes	mapman:10	
+mapman:10/mapman:10.1.1.7	2	mapman:10	abscisic acid.biosynthesis.abscisic aldehyde oxidase *(AAO)	function	notes	mapman:10.1.1.7	
+mapman:10/mapman:10.8	2	mapman:10	salicylic acid	function	notes	mapman:10.8	
+mapman:10/mapman:10.8/c_chl	3	mapman:10/mapman:10.8	chloroplast	localisation	compartment	c_chl	c_chl
+mapman:10/mapman:10.8/c_cyt	3	mapman:10/mapman:10.8	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:10/mapman:10.8/c_nuc	3	mapman:10/mapman:10.8	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:14	1		RNA biosynthesis	function	notes	mapman:14	
+mapman:14/mapman:14.5	2	mapman:14	DNA-binding transcriptional regulation	function	notes	mapman:14.5	
+mapman:14/mapman:14.5/c_chl	3	mapman:14/mapman:14.5	chloroplast	localisation	compartment	c_chl	c_chl
+mapman:14/mapman:14.5/c_cyt	3	mapman:14/mapman:14.5	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:14/mapman:14.5/c_nuc	3	mapman:14/mapman:14.5	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:14/mapman:14.5/c_nuc@boundary	3	mapman:14/mapman:14.5	nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+mapman:26	1		External stimuli response	function	notes	mapman:26	
+mapman:26/mapman:26.11	2	mapman:26	pathogen	function	notes	mapman:26.11	
+mapman:26/mapman:26.11/c_cyt	3	mapman:26/mapman:26.11	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:26/mapman:26.11/c_nuc	3	mapman:26/mapman:26.11	nucleus	localisation	compartment	c_nuc	c_nuc
+mapman:26/mapman:26.11/c_nuc@boundary	3	mapman:26/mapman:26.11	nucleus boundary	localisation	compartment	c_nuc	c_nuc@boundary
+mapman:4	1		Amino acid metabolism	function	notes	mapman:4	
+mapman:4/mapman:4.5.2	2	mapman:4	shikimate group amino acid biosynthesis.phenylalanine and tyrosine	function	notes	mapman:4.5.2	
+mapman:4/mapman:4.5.2/c_chl	3	mapman:4/mapman:4.5.2	chloroplast	localisation	compartment	c_chl	c_chl
+mapman:4/mapman:4.5.2/c_cyt	3	mapman:4/mapman:4.5.2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:7.16.6	1		Coenzyme metabolism.phylloquinone biosynthesis.1,4-dihydroxy-2-naphthoyl-CoA thioesterase *(MenH/DHNAT)	function	notes	mapman:7.16.6	
+mapman:8.2	1		Secondary metabolism.phenolics biosynthesis	function	notes	mapman:8.2	
+mapman:8.2/mapman:8.2.1	2	mapman:8.2	p-coumaroyl-CoA biosynthesis	function	notes	mapman:8.2.1	
+mapman:8.2/mapman:8.2.1/c_cyt	3	mapman:8.2/mapman:8.2.1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:8.2/mapman:8.2.1/c_per	3	mapman:8.2/mapman:8.2.1	peroxisome	localisation	compartment	c_per	c_per
+mapman:9	1		Redox homeostasis	function	notes	mapman:9	
+mapman:9/c_cyt	2	mapman:9	cytoplasm	localisation	compartment	c_cyt	c_cyt
+mapman:9/c_per	2	mapman:9	peroxisome	localisation	compartment	c_per	c_per

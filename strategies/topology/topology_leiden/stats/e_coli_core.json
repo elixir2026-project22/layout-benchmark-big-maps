@@ -1,0 +1,145 @@
+{
+ "algorithm": "leiden",
+ "candidates": [
+  {
+   "currency": true,
+   "degree": 35,
+   "name": "H+",
+   "node_id": "M_h_c",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 18,
+   "name": "H2O H2O",
+   "node_id": "M_h2o_c",
+   "stranded_share": 0.056
+  },
+  {
+   "currency": true,
+   "degree": 17,
+   "name": "H+",
+   "node_id": "M_h_e",
+   "stranded_share": 0.059
+  },
+  {
+   "currency": true,
+   "degree": 13,
+   "name": "ATP C10H12N5O13P3",
+   "node_id": "M_atp_c",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 12,
+   "name": "ADP C10H12N5O10P2",
+   "node_id": "M_adp_c",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 12,
+   "name": "Nicotinamide adenine dinucleotide",
+   "node_id": "M_nad_c",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 12,
+   "name": "Nicotinamide adenine dinucleotide - reduced",
+   "node_id": "M_nadh_c",
+   "stranded_share": 0.0
+  },
+  {
+   "currency": true,
+   "degree": 12,
+   "name": "Phosphate",
+   "node_id": "M_pi_c",
+   "stranded_share": 0.25
+  },
+  {
+   "currency": true,
+   "degree": 11,
+   "name": "Pyruvate",
+   "node_id": "M_pyr_c",
+   "stranded_share": 0.182
+  }
+ ],
+ "degree_bound": 11,
+ "leaf_sizes": [
+  34,
+  30,
+  22,
+  22,
+  18,
+  9,
+  9,
+  7,
+  6,
+  5,
+  5
+ ],
+ "modularity_L1": 0.6922,
+ "modularity_leaves": 0.6922,
+ "modularity_raw": 0.7029,
+ "n_clone_species": 9,
+ "n_clones": 52,
+ "n_currency": 9,
+ "n_groups": {
+  "L1": 11,
+  "L2": 0,
+  "L3": 0
+ },
+ "n_links": 360,
+ "n_nodes": 167,
+ "n_raw_modules": 20,
+ "name_sources": {
+  "member": 11
+ },
+ "raw_sizes": [
+  22,
+  20,
+  18,
+  18,
+  18,
+  9,
+  9,
+  7,
+  6,
+  5,
+  5,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  1,
+  1,
+  1
+ ],
+ "rules": {
+  "R4": 137,
+  "R5a": 9,
+  "R5b": 12,
+  "R8": 9
+ },
+ "seed": 1,
+ "sizes": {
+  "L1": [
+   34,
+   30,
+   22,
+   22,
+   18,
+   9,
+   9,
+   7,
+   6,
+   5,
+   5
+  ],
+  "L2": [],
+  "L3": []
+ }
+}

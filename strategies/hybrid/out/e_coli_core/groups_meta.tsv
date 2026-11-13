@@ -1,0 +1,22 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+M01	1		Ammonium	topology	member	M_nh4_c	
+M01.sbo0000176	2	M01	biochemical reaction	reaction_type	sbo	SBO:0000176	
+M01.sbo0000185	2	M01	translocation reaction	reaction_type	sbo	SBO:0000185	
+M01.sbo0000185.c_b	3	M01.sbo0000185	cytosol (boundary)	localisation	compartment	c	c@boundary
+M01.sbo0000185.e	3	M01.sbo0000185	extracellular space	localisation	compartment	e	e
+M01.sbo0000627	2	M01	exchange reaction	reaction_type	sbo	SBO:0000627	
+M02	1		D-Fructose 6-phosphate	topology	member	M_f6p_c	
+M02.c	2	M02	cytosol	localisation	compartment	c	c
+M02.e	2	M02	extracellular space	localisation	compartment	e	e
+M03	1		Acetaldehyde	topology	member	M_acald_c	
+M03.c	2	M03	cytosol	localisation	compartment	c	c
+M03.c_b	2	M03	cytosol (boundary)	localisation	compartment	c	c@boundary
+M03.e	2	M03	extracellular space	localisation	compartment	e	e
+M04	1		Formate	topology	member	M_for_c	
+M04.c	2	M04	cytosol	localisation	compartment	c	c
+M04.c_b	2	M04	cytosol (boundary)	localisation	compartment	c	c@boundary
+M04.e	2	M04	extracellular space	localisation	compartment	e	e
+M05	1		Fumarate	topology	member	M_fum_c	
+M05.c	2	M05	cytosol	localisation	compartment	c	c
+M05.c_b	2	M05	cytosol (boundary)	localisation	compartment	c	c@boundary
+M05.e	2	M05	extracellular space	localisation	compartment	e	e

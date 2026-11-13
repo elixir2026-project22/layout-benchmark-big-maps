@@ -1,0 +1,21 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+T_EC_1_1	1		EC 1.1 Acting on the CH-OH group of donors	reaction_type	ec	ec-code:1.1	
+T_EC_1_1__compartment_5460	2	T_EC_1_1	mitochondrial matrix	localisation	compartment	compartment_5460	compartment_5460
+T_EC_1_3	1		EC 1.3 Acting on the CH-CH group of donors	reaction_type	ec	ec-code:1.3	
+T_EC_1_3__compartment_5460	2	T_EC_1_3	mitochondrial matrix	localisation	compartment	compartment_5460	compartment_5460
+T_EC_1_3__compartment_5460__boundary	2	T_EC_1_3	mitochondrial inner membrane	localisation	compartment	compartment_70616	compartment_5460@boundary
+T_EC_1_6	1		EC 1.6 Acting on NADH or NADPH	reaction_type	ec	ec-code:1.6	
+T_EC_1_6__compartment_5460	2	T_EC_1_6	mitochondrial matrix	localisation	compartment	compartment_5460	compartment_5460
+T_EC_2_3	1		EC 2.3 Acyltransferases	reaction_type	ec	ec-code:2.3	
+T_EC_2_3__compartment_5460	2	T_EC_2_3	mitochondrial matrix	localisation	compartment	compartment_5460	compartment_5460
+T_EC_2_3__compartment_5460__boundary	2	T_EC_2_3	mitochondrial inner membrane	localisation	compartment	compartment_70616	compartment_5460@boundary
+T_EC_4_2	1		EC 4.2 Carbon-oxygen lyases	reaction_type	ec	ec-code:4.2	
+T_EC_4_2__compartment_5460	2	T_EC_4_2	mitochondrial matrix	localisation	compartment	compartment_5460	compartment_5460
+T_EC_5	1		EC 5 Isomerases	reaction_type	ec	ec-code:5	
+T_EC_5__compartment_5460	2	T_EC_5	mitochondrial matrix	localisation	compartment	compartment_5460	compartment_5460
+T_EC_6	1		EC 6 Ligases	reaction_type	ec	ec-code:6	
+T_EC_6__compartment_5460	2	T_EC_6	mitochondrial matrix	localisation	compartment	compartment_5460	compartment_5460
+T_SBO_0000176_other	1		other biochemical reaction	reaction_type	sbo	SBO:0000176	
+T_SBO_0000176_other__compartment_17957	2	T_SBO_0000176_other	endoplasmic reticulum lumen	localisation	compartment	compartment_17957	compartment_17957
+T_SBO_0000176_other__compartment_5460	2	T_SBO_0000176_other	mitochondrial matrix	localisation	compartment	compartment_5460	compartment_5460
+T_SBO_0000176_other__compartment_70101	2	T_SBO_0000176_other	cytosol	localisation	compartment	compartment_70101	compartment_70101

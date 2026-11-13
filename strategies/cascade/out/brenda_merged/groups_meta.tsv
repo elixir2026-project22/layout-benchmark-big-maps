@@ -1,0 +1,36 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+K01	1		H2O / ATP / ADP	flow	member	M_mt_1b1223fff4	
+P01	1		GDP / succinyl-CoA	flow	member	M_mt_1b84ddb2aa	
+P01.c	2	P01	cycle through succinyl-CoA	topology	member	M_mt_70122f9a7f	
+P02	1		alpha-D-ribose 1-phosphate / adenosine	flow	member	M_mt_8edfd22915	
+P03	1		5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate / 5-aminoimidazole-4-carboxamide ribonucleotide	flow	member	M_mt_1a547d42f7	
+P04	1		D-fructose 6-phosphate / D-fructose 1,6-bisphosphate	flow	member	M_mt_dfef3a54ea	
+P04.c	2	P04	cycle through D-fructose 6-phosphate	topology	member	M_mt_dfef3a54ea	
+P05	1		6-phosphogluconate / D-glucose	flow	member	M_mt_4defa8de25	
+P05.c	2	P05	cycle through D-glucose	topology	member	M_mt_5dbc9a97f4	
+P06	1		dGTP / 2-deoxy-D-ribose 1-phosphate	flow	member	M_mt_00d81ca564	
+P06.c	2	P06	cycle through dGMP	topology	member	M_mt_dd8d7830c5	
+P07	1		(S)-malate / isocitrate	flow	member	M_mt_397e4b29bd	
+P07.b1	2	P07	isocitrate / cis-aconitate	flow	member	M_mt_bccfa7c866	
+P07.c	2	P07	cycle through (S)-malate	topology	member	M_mt_397e4b29bd	
+P08	1		D-glycerate / glutaconyl-CoA	flow	member	M_mt_996ef3e8d7	
+P09	1		5-amino-4-imidazole carboxylate / L-serine	flow	member	M_mt_0a3ae6685b	
+P09.b1	2	P09	5-amino-4-imidazole carboxylate / imidazolinone	flow	member	M_mt_0a3ae6685b	
+P09.c	2	P09	cycle through 5,10-methenyltetrahydrofolate	topology	member	M_mt_2c28813661	
+P10	1		Carbamoyl phosphate / L-citrulline	flow	member	M_mt_73617a0182	
+P10.b1	2	P10	allophanate / HCO3-	flow	member	M_mt_6966c4a71e	
+P10.c	2	P10	cycle through L-citrulline	topology	member	M_mt_75d2d46d2f	
+P11	1		3-phosphoglycerate / 2-phospho-D-glycerate	flow	member	M_mt_1137269b50	
+P11.b1	2	P11	2-phospho-D-glycerate / phosphoenolpyruvate	flow	member	M_mt_2e9e6d89f7	
+P11.c	2	P11	cycle through 3-phospho-D-glyceroyl phosphate	topology	member	M_mt_cbb28d5a93	
+P12	1		succinate semialdehyde / 4-aminobutanoate	flow	member	M_mt_c20619d98d	
+P12.c	2	P12	cycle through L-alanine	topology	member	M_mt_28ca947420	
+P13	1		(R)-4'-phosphopantothenate / 4'-phosphopantetheine	flow	member	M_mt_d7c3ed87a4	
+P14	1		6,8-dihydroxypurine / purine	flow	member	M_mt_e2531b7f6d	
+P15	1		7-methylxanthine / Caffeine	flow	member	M_mt_dbb325baec	
+P16	1		(3S)-citryl-CoA / citrate	flow	member	M_mt_06a6d0a9ed	
+P17	1		(+)-citramalate / mesaconate	flow	member	M_mt_44d08ff649	
+P18	1		D-ribulose 1,5-bisphosphate / alpha-D-ribose 1,5-bisphosphate	flow	member	M_mt_1a819d74e7	
+P19	1		acetyl phosphate / glycine	flow	member	M_mt_c5363dd012	
+P20	1		dATP	flow	member	M_mt_9195e86598	
+U_c	1		default	localisation	compartment	c	c

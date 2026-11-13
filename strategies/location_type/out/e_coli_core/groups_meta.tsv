@@ -1,0 +1,10 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+loc_c	1		cytosol	localisation	compartment	c	c
+loc_c/ec_1	2	loc_c	EC 1 oxidoreductases	reaction_type	ec	ec-code:1	
+loc_c/ec_2	2	loc_c	EC 2 transferases	reaction_type	ec	ec-code:2	
+loc_c/ec_3	2	loc_c	EC 3 hydrolases	reaction_type	ec	ec-code:3	
+loc_c/ec_4	2	loc_c	EC 4 lyases	reaction_type	ec	ec-code:4	
+loc_c/ec_5	2	loc_c	EC 5 isomerases	reaction_type	ec	ec-code:5	
+loc_c/ec_6	2	loc_c	EC 6 ligases	reaction_type	ec	ec-code:6	
+loc_c@boundary	1		cytosol boundary	localisation	compartment	c	c@boundary
+loc_e	1		extracellular space	localisation	compartment	e	e

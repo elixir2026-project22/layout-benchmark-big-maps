@@ -1,0 +1,25 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+loc_c	1		default	localisation	compartment	c	c
+loc_c/ec_1	2	loc_c	EC 1 oxidoreductases	reaction_type	ec	ec-code:1	
+loc_c/ec_1/ec_1.1	3	loc_c/ec_1	EC 1.1	reaction_type	ec	ec-code:1.1	
+loc_c/ec_1/ec_1.14	3	loc_c/ec_1	EC 1.14	reaction_type	ec	ec-code:1.14	
+loc_c/ec_1/ec_1.17	3	loc_c/ec_1	EC 1.17	reaction_type	ec	ec-code:1.17	
+loc_c/ec_1/ec_1.2	3	loc_c/ec_1	EC 1.2	reaction_type	ec	ec-code:1.2	
+loc_c/ec_1/ec_1.3	3	loc_c/ec_1	EC 1.3	reaction_type	ec	ec-code:1.3	
+loc_c/ec_1/ec_1.4	3	loc_c/ec_1	EC 1.4	reaction_type	ec	ec-code:1.4	
+loc_c/ec_2	2	loc_c	EC 2 transferases	reaction_type	ec	ec-code:2	
+loc_c/ec_2/ec_2.1	3	loc_c/ec_2	EC 2.1	reaction_type	ec	ec-code:2.1	
+loc_c/ec_2/ec_2.2	3	loc_c/ec_2	EC 2.2	reaction_type	ec	ec-code:2.2	
+loc_c/ec_2/ec_2.3	3	loc_c/ec_2	EC 2.3	reaction_type	ec	ec-code:2.3	
+loc_c/ec_2/ec_2.4	3	loc_c/ec_2	EC 2.4	reaction_type	ec	ec-code:2.4	
+loc_c/ec_2/ec_2.6	3	loc_c/ec_2	EC 2.6	reaction_type	ec	ec-code:2.6	
+loc_c/ec_2/ec_2.7	3	loc_c/ec_2	EC 2.7	reaction_type	ec	ec-code:2.7	
+loc_c/ec_2/ec_2.8	3	loc_c/ec_2	EC 2.8	reaction_type	ec	ec-code:2.8	
+loc_c/ec_3	2	loc_c	EC 3 hydrolases	reaction_type	ec	ec-code:3	
+loc_c/ec_3/ec_3.1	3	loc_c/ec_3	EC 3.1	reaction_type	ec	ec-code:3.1	
+loc_c/ec_3/ec_3.2	3	loc_c/ec_3	EC 3.2	reaction_type	ec	ec-code:3.2	
+loc_c/ec_3/ec_3.5	3	loc_c/ec_3	EC 3.5	reaction_type	ec	ec-code:3.5	
+loc_c/ec_3/ec_3.6	3	loc_c/ec_3	EC 3.6	reaction_type	ec	ec-code:3.6	
+loc_c/ec_4	2	loc_c	EC 4 lyases	reaction_type	ec	ec-code:4	
+loc_c/ec_5	2	loc_c	EC 5 isomerases	reaction_type	ec	ec-code:5	
+loc_c/ec_6	2	loc_c	EC 6 ligases	reaction_type	ec	ec-code:6	

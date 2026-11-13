@@ -1,0 +1,23 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+M01	1		RNA biosynthesis	function	notes	mapman:14	
+M01.c_cyt	2	M01	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M01.c_nuc	2	M01	nucleus	localisation	compartment	c_nuc	c_nuc
+M01.c_nuc_b	2	M01	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M02	1		Enzyme classification	function	notes	mapman:50	
+M02.c_cyt	2	M02	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M02.c_er	2	M02	endoplasmic reticulum	localisation	compartment	c_er	c_er
+M02.c_per	2	M02	peroxisome	localisation	compartment	c_per	c_per
+M03	1		Phytohormone action	function	notes	mapman:10	
+M03.c_chl	2	M03	chloroplast	localisation	compartment	c_chl	c_chl
+M03.c_cyt	2	M03	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M03.c_nuc	2	M03	nucleus	localisation	compartment	c_nuc	c_nuc
+M03.c_nuc_b	2	M03	nucleus (boundary)	localisation	compartment	c_nuc	c_nuc@boundary
+M04	1		Phytohormone action: jasmonic acid: biosynthesis	function	notes	mapman:10.7.1	
+M04.c_chl	2	M04	chloroplast	localisation	compartment	c_chl	c_chl
+M04.c_cyt	2	M04	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M04.c_nuc	2	M04	nucleus	localisation	compartment	c_nuc	c_nuc
+M04.c_per	2	M04	peroxisome	localisation	compartment	c_per	c_per
+M05	1		Enzyme classification: EC_1 oxidoreductases	function	notes	mapman:50.1	
+M05.c_chl	2	M05	chloroplast	localisation	compartment	c_chl	c_chl
+M05.c_cyt	2	M05	cytoplasm	localisation	compartment	c_cyt	c_cyt
+M05.c_per	2	M05	peroxisome	localisation	compartment	c_per	c_per

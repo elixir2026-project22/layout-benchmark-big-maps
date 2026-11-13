@@ -1,0 +1,120 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+C01	1		Ca2+	flow	member	s_Ca2_cyt_m	
+C01.s1	2	C01	production	flow	sbo	SBO:0000393	
+C01.s2	2	C01	molecular interaction	flow	sbo	SBO:0000344	
+C01.s2.c_cyt	3	C01.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C01.s2.c_nuc	3	C01.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C01.s3	2	C01	genetic production	flow	sbo	SBO:0000589	
+C01.s3.c_cyt	3	C01.s3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C01.s3.c_nuc	3	C01.s3	nucleus	localisation	compartment	c_nuc	c_nuc
+C02	1		SA	flow	member	s_SA_cyt_m	
+C02.s1	2	C02	production	flow	sbo	SBO:0000393	
+C02.s1.c_chl	3	C02.s1	chloroplast	localisation	compartment	c_chl	c_chl
+C02.s1.c_cyt	3	C02.s1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C02.s2	2	C02	molecular interaction	flow	sbo	SBO:0000344	
+C02.s2.c_cyt	3	C02.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C02.s2.c_nuc	3	C02.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C02.s3	2	C02	genetic production	flow	sbo	SBO:0000589	
+C02.s3.c_cyt	3	C02.s3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C02.s3.c_nuc	3	C02.s3	nucleus	localisation	compartment	c_nuc	c_nuc
+C03	1		Heat	flow	member	s_Heat_cyt_ab	
+C03.s2	2	C03	molecular interaction	flow	sbo	SBO:0000344	
+C03.s2.c_cyt	3	C03.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C03.s2.c_nuc	3	C03.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C03.s3	2	C03	genetic production	flow	sbo	SBO:0000589	
+C03.s3.c_cyt	3	C03.s3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C03.s3.c_nuc	3	C03.s3	nucleus	localisation	compartment	c_nuc	c_nuc
+C04	1		potyvirus	flow	member	s_potyvirus_cyt_f	
+C04.s2	2	C04	molecular interaction	flow	sbo	SBO:0000344	
+C04.s3	2	C04	genetic production	flow	sbo	SBO:0000589	
+C04.s3.c_cyt	3	C04.s3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C04.s3.c_nuc	3	C04.s3	nucleus	localisation	compartment	c_nuc	c_nuc
+C05	1		DZ / cZ / iP / +1	flow	member	s_DZ_cyt_m	
+C05.s1	2	C05	production	flow	sbo	SBO:0000393	
+C05.s2	2	C05	molecular interaction	flow	sbo	SBO:0000344	
+C05.s2.c_cyt	3	C05.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C05.s2.c_er	3	C05.s2	endoplasmic reticulum	localisation	compartment	c_er	c_er
+C05.s2.c_nuc	3	C05.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C06	1		ROS	flow	member	s_ROS_cyt_m	
+C06.s1	2	C06	production	flow	sbo	SBO:0000393	
+C06.s1.c_ap	3	C06.s1	apoplast	localisation	compartment	c_ap	c_ap
+C06.s1.c_cyt	3	C06.s1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C06.s1.c_mit	3	C06.s1	mitochondrion	localisation	compartment	c_mit	c_mit
+C06.s2	2	C06	molecular interaction	flow	sbo	SBO:0000344	
+C06.s3	2	C06	genetic production	flow	sbo	SBO:0000589	
+C06.s3.c_cyt	3	C06.s3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C06.s3.c_nuc	3	C06.s3	nucleus	localisation	compartment	c_nuc	c_nuc
+C07	1		Waterlogging	flow	member	s_Waterlogging_cyt_ab	
+C07.c_chl	2	C07	chloroplast	localisation	compartment	c_chl	c_chl
+C07.c_cyt	2	C07	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C08	1		red light	flow	member	s_redlight_cyt_ab	
+C08.s2	2	C08	molecular interaction	flow	sbo	SBO:0000344	
+C08.s2.c_cyt	3	C08.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C08.s2.c_nuc	3	C08.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C08.s3	2	C08	genetic production	flow	sbo	SBO:0000589	
+C09	1		Cu2+ / ET	flow	member	s_Cu2_er_m	
+C09.s1	2	C09	production	flow	sbo	SBO:0000393	
+C09.s1.c_cyt	3	C09.s1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C09.s1.c_er	3	C09.s1	endoplasmic reticulum	localisation	compartment	c_er	c_er
+C09.s2	2	C09	molecular interaction	flow	sbo	SBO:0000344	
+C09.s2.c_cyt	3	C09.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C09.s2.c_er	3	C09.s2	endoplasmic reticulum	localisation	compartment	c_er	c_er
+C09.s2.c_nuc	3	C09.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C10	1		GA	flow	member	s_GA_cyt_m	
+C10.s1	2	C10	production	flow	sbo	SBO:0000393	
+C10.s2	2	C10	molecular interaction	flow	sbo	SBO:0000344	
+C10.s2.c_cyt	3	C10.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C10.s2.c_nuc	3	C10.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C10.s3	2	C10	genetic production	flow	sbo	SBO:0000589	
+C11	1		MeCLA / SL	flow	member	s_MeCLA_cyt_m	
+C12	1		cholesterol	flow	member	s_cholesterol_cyt_m	
+C13	1		ABA	flow	member	s_ABA_cyt_m	
+C13.s1	2	C13	production	flow	sbo	SBO:0000393	
+C13.s2	2	C13	molecular interaction	flow	sbo	SBO:0000344	
+C13.s2.c_cyt	3	C13.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C13.s2.c_nuc	3	C13.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C13.s3	2	C13	genetic production	flow	sbo	SBO:0000589	
+C13.s3.c_cyt	3	C13.s3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C13.s3.c_nuc	3	C13.s3	nucleus	localisation	compartment	c_nuc	c_nuc
+C14	1		Brassinolide	flow	member	s_Brassinolide_cyt_m	
+C14.s2	2	C14	molecular interaction	flow	sbo	SBO:0000344	
+C14.s2.c_cyt	3	C14.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C14.s2.c_nuc	3	C14.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C14.s3	2	C14	genetic production	flow	sbo	SBO:0000589	
+C14.s3.c_cyt	3	C14.s3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C14.s3.c_nuc	3	C14.s3	nucleus	localisation	compartment	c_nuc	c_nuc
+C15	1		IAA	flow	member	s_IAA_cyt_m	
+C15.s1	2	C15	production	flow	sbo	SBO:0000393	
+C15.s1.c_chl	3	C15.s1	chloroplast	localisation	compartment	c_chl	c_chl
+C15.s1.c_cyt	3	C15.s1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C15.s2	2	C15	molecular interaction	flow	sbo	SBO:0000344	
+C15.s3	2	C15	genetic production	flow	sbo	SBO:0000589	
+C15.s3.c_cyt	3	C15.s3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C15.s3.c_nuc	3	C15.s3	nucleus	localisation	compartment	c_nuc	c_nuc
+C16	1		JA-Ile	flow	member	s_JAIle_cyt_m	
+C16.s1	2	C16	production	flow	sbo	SBO:0000393	
+C16.s1.c_chl	3	C16.s1	chloroplast	localisation	compartment	c_chl	c_chl
+C16.s1.c_cyt	3	C16.s1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C16.s1.c_per	3	C16.s1	peroxisome	localisation	compartment	c_per	c_per
+C16.s2	2	C16	molecular interaction	flow	sbo	SBO:0000344	
+C16.s2.c_cyt	3	C16.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C16.s2.c_nuc	3	C16.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C16.s3	2	C16	genetic production	flow	sbo	SBO:0000589	
+C16.s3.c_cyt	3	C16.s3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C16.s3.c_nuc	3	C16.s3	nucleus	localisation	compartment	c_nuc	c_nuc
+C17	1		OG	flow	member	s_OG_cyt_m	
+C17.s2	2	C17	molecular interaction	flow	sbo	SBO:0000344	
+C17.s2.c_cyt	3	C17.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C17.s2.c_nuc	3	C17.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C17.s3	2	C17	genetic production	flow	sbo	SBO:0000589	
+C18	1		UDP-Glc	flow	member	s_UDPGlc_cyt_m	
+C19	1		eATP	flow	member	s_eATP_x_m	
+C20	1		p-Coumaric acid	flow	member	s_pCoumaricacid_cyt_m	
+C20.c_chl	2	C20	chloroplast	localisation	compartment	c_chl	c_chl
+C20.c_cyt	2	C20	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C21	1		trichous-bacteria	flow	member	s_trichousbacteria_cyt_f	
+P01	1		CA-CoA / BA-CoA	flow	member	s_CACoA_per_m	
+P01.c_cyt	2	P01	cytoplasm	localisation	compartment	c_cyt	c_cyt
+P01.c_per	2	P01	peroxisome	localisation	compartment	c_per	c_per
+P02	1		InsP5 / InsP6	flow	member	s_InsP5_cyt_m	
+U_c_cyt	1		cytoplasm	localisation	compartment	c_cyt	c_cyt

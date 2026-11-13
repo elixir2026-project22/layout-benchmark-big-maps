@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Tests (Linux)
+    # Linux only for now: the layout options call the Graphviz binaries
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v7
+
+    - name: Install Graphviz
+      # dot, neato, sfdp, twopi, circo: called as subprocesses with -Tplain (no pygraphviz)
+      run: sudo apt-get update && sudo apt-get install -y graphviz
+
+    - name: Set up uv
+      uses: astral-sh/setup-uv@v7
+
+    - name: Run tests
+      # tests/ (the layout stage, on a model the tests build themselves), rules/ and scoring/.
+      # The tests that need panel/features/ skip: the models are not in this repository,
+      # see README, "Not in this repository".
+      run: uv run --extra tests pytest -q
+
+    - name: Check the committed gallery page against its table
+      run: |
+        uv run python layout/build_gallery.py --no-render
+        git diff --exit-code layout/examples/index.html

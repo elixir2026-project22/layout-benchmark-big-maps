@@ -1,0 +1,14 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+C01.s1	1		JA-Ile: production	flow	sbo	SBO:0000393	
+C01.s1.c_chl	2	C01.s1	chloroplast	localisation	compartment	c_chl	c_chl
+C01.s1.c_cyt	2	C01.s1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C01.s1.c_per	2	C01.s1	peroxisome	localisation	compartment	c_per	c_per
+C01.s2	1		JA-Ile: molecular interaction	flow	sbo	SBO:0000344	
+C01.s2.c_cyt	2	C01.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C01.s2.c_nuc	2	C01.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C01.s3	1		JA-Ile: genetic production	flow	sbo	SBO:0000589	
+C01.s3.c_cyt	2	C01.s3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C01.s3.c_nuc	2	C01.s3	nucleus	localisation	compartment	c_nuc	c_nuc
+P01	1		SAHH / L-homo-cys	flow	member	s_SAHH_er_pa	
+P01.c_cyt	2	P01	cytoplasm	localisation	compartment	c_cyt	c_cyt
+P01.c_er	2	P01	endoplasmic reticulum	localisation	compartment	c_er	c_er

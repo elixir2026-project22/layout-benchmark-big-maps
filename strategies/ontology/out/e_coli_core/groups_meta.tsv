@@ -1,0 +1,22 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+SBO:0000176	1		biochemical reaction	reaction_type	sbo	SBO:0000176	
+SBO:0000185	1		translocation reaction	reaction_type	sbo	SBO:0000185	
+SBO:0000185/c	2	SBO:0000185	cytosol	localisation	compartment	c	c
+SBO:0000185/c@boundary	2	SBO:0000185	cytosol boundary	localisation	compartment	c	c@boundary
+SBO:0000627	1		exchange reaction	reaction_type	sbo	SBO:0000627	
+ec-code:1	1		EC 1 (oxidoreductases)	function	ec	ec-code:1	
+ec-code:1/ec-code:1.1.1	2	ec-code:1	EC 1.1.1	function	ec	ec-code:1.1.1	
+ec-code:1/ec-code:1.2	2	ec-code:1	EC 1.2	function	ec	ec-code:1.2	
+ec-code:1/ec-code:1.4	2	ec-code:1	EC 1.4	function	ec	ec-code:1.4	
+ec-code:1/ec-code:1.6	2	ec-code:1	EC 1.6	function	ec	ec-code:1.6	
+ec-code:2	1		EC 2 (transferases)	function	ec	ec-code:2	
+ec-code:2/ec-code:2.2.1	2	ec-code:2	EC 2.2.1	function	ec	ec-code:2.2.1	
+ec-code:2/ec-code:2.3	2	ec-code:2	EC 2.3	function	ec	ec-code:2.3	
+ec-code:2/ec-code:2.7	2	ec-code:2	EC 2.7	function	ec	ec-code:2.7	
+ec-code:3	1		EC 3 (hydrolases)	function	ec	ec-code:3	
+ec-code:3/ec-code:3.6	2	ec-code:3	EC 3.6	function	ec	ec-code:3.6	
+ec-code:4	1		EC 4 (lyases)	function	ec	ec-code:4	
+ec-code:4/ec-code:4.1	2	ec-code:4	EC 4.1	function	ec	ec-code:4.1	
+ec-code:4/ec-code:4.2.1	2	ec-code:4	EC 4.2.1	function	ec	ec-code:4.2.1	
+ec-code:5	1		EC 5 (isomerases)	function	ec	ec-code:5	
+ec-code:5/ec-code:5.3.1	2	ec-code:5	EC 5.3.1	function	ec	ec-code:5.3.1	

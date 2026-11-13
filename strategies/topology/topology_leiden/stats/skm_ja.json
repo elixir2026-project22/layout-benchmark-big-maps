@@ -1,0 +1,103 @@
+{
+ "algorithm": "leiden",
+ "candidates": [
+  {
+   "currency": false,
+   "degree": 21,
+   "name": "MYC2",
+   "node_id": "s_MYC2_nuc_pa",
+   "stranded_share": 0.667
+  },
+  {
+   "currency": true,
+   "degree": 9,
+   "name": "JAZ",
+   "node_id": "s_JAZ_nuc_pa",
+   "stranded_share": 0.333
+  },
+  {
+   "currency": false,
+   "degree": 8,
+   "name": "JAM",
+   "node_id": "s_JAM_cyt_pa",
+   "stranded_share": 0.5
+  }
+ ],
+ "degree_bound": 7,
+ "leaf_sizes": [
+  48,
+  22,
+  16,
+  16,
+  15,
+  14,
+  14,
+  13,
+  11,
+  10,
+  10,
+  10
+ ],
+ "modularity_L1": 0.8282,
+ "modularity_leaves": 0.8282,
+ "modularity_raw": 0.8441,
+ "n_clone_species": 1,
+ "n_clones": 4,
+ "n_currency": 1,
+ "n_groups": {
+  "L1": 12,
+  "L2": 0,
+  "L3": 0
+ },
+ "n_links": 218,
+ "n_nodes": 199,
+ "n_raw_modules": 16,
+ "name_sources": {
+  "member": 8,
+  "notes": 2,
+  "sbo": 2
+ },
+ "raw_sizes": [
+  37,
+  16,
+  16,
+  15,
+  14,
+  14,
+  13,
+  12,
+  11,
+  10,
+  10,
+  10,
+  10,
+  4,
+  3,
+  3
+ ],
+ "rules": {
+  "R4": 178,
+  "R5b": 10,
+  "R6": 10,
+  "R8": 1
+ },
+ "seed": 1,
+ "sizes": {
+  "L1": [
+   48,
+   22,
+   16,
+   16,
+   15,
+   14,
+   14,
+   13,
+   11,
+   10,
+   10,
+   10
+  ],
+  "L2": [],
+  "L3": []
+ }
+}

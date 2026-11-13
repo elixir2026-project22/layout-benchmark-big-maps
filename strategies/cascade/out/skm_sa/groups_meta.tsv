@@ -1,0 +1,19 @@
+group_id	level	parent	label	basis	name_source	name_xref	compartment_id
+C01.s1	1		SA: production	flow	sbo	SBO:0000393	
+C01.s1.c_chl	2	C01.s1	chloroplast	localisation	compartment	c_chl	c_chl
+C01.s1.c_cyt	2	C01.s1	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C01.s1.c_nuc	2	C01.s1	nucleus	localisation	compartment	c_nuc	c_nuc
+C01.s2	1		SA: molecular interaction	flow	sbo	SBO:0000344	
+C01.s2.c_cyt	2	C01.s2	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C01.s2.c_nuc	2	C01.s2	nucleus	localisation	compartment	c_nuc	c_nuc
+C01.s3	1		SA: genetic production	flow	sbo	SBO:0000589	
+C01.s3.c_cyt	2	C01.s3	cytoplasm	localisation	compartment	c_cyt	c_cyt
+C01.s3.c_nuc	2	C01.s3	nucleus	localisation	compartment	c_nuc	c_nuc
+C02	1		ROS	flow	member	s_ROS_cyt_m	
+C03	1		cholesterol	flow	member	s_cholesterol_cyt_m	
+C04	1		p-Coumaric acid	flow	member	s_pCoumaricacid_cyt_m	
+C04.c_chl	2	C04	chloroplast	localisation	compartment	c_chl	c_chl
+C04.c_cyt	2	C04	cytoplasm	localisation	compartment	c_cyt	c_cyt
+P01	1		CA-CoA / BA-CoA	flow	member	s_CACoA_per_m	
+P01.c_cyt	2	P01	cytoplasm	localisation	compartment	c_cyt	c_cyt
+P01.c_per	2	P01	peroxisome	localisation	compartment	c_per	c_per

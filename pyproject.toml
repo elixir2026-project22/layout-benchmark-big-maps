@@ -1,0 +1,57 @@
+# Build/installation requirements of the package itself.
+[build-system]
+requires = [
+    "setuptools >=61",
+]
+build-backend = "setuptools.build_meta"
+
+# General project metadata. The version here is the single source of truth.
+[project]
+name = "layout-benchmark-big-maps"
+description = "Grouping and recursive layout of big pathway maps in SBML"
+readme = "README.md"
+version = "0.1.0"
+requires-python = ">=3.11"
+license-files = ["LICEN[CS]E*"]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+# The layout stage additionally needs the Graphviz binaries (dot, neato, sfdp,
+# twopi, circo) on PATH; they are called as subprocesses with -Tplain, so
+# pygraphviz is not a dependency.
+dependencies = [
+    "python-libsbml>=5.20",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "igraph>=0.11",
+    "leidenalg>=0.10",
+    "networkx>=3.2",
+    "pandas>=2.1",
+]
+
+[project.optional-dependencies]
+tests = [
+    "pytest",
+    "pytest-cov",
+]
+
+# Command line scripts installed as part of the installation
+[project.scripts]
+big-maps = "big_maps.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# The test suite is the package's own tests plus the rulebook and scoring
+# tests, which live next to the code they test.
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+    "rules",
+    "scoring",
+]
+
+[tool.ruff]
+line-length = 120
